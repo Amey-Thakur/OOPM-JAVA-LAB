@@ -8,7 +8,7 @@
 
 ---
 
-## Mini Project
+## Project
  
  >_It is a simple Hangman Word Game using Applet in Java._
  

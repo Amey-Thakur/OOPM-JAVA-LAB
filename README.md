@@ -4,7 +4,7 @@
  ---
  
  - [X] **[Syllabus](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/SE-Comps_CBCGS_Syllabus.pdf)**
- - [x] **OOPM (JAVA) - [Reference Books](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/tree/main/Reference%20Books)**
+ - [X] **OOPM (JAVA) - [Reference Books](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/tree/main/Reference%20Books)**
 
 ---
 

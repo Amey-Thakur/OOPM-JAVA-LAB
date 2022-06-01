@@ -66,3 +66,4 @@
  - [Practice Test of Java Basics 3](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/Quizzes/Practice%20Test%20of%20Java%20Basics%203.pdf)
  
  - [Practice Test of Java Basics Strings](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/Quizzes/Practice%20Test%20of%20Java%20Basic%20Strings.pdf)
+

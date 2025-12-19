@@ -17,7 +17,7 @@
 
 <div align="center">
 
-  **[📚 Quick Navigation](#-quick-navigation)** · **[🚀 How to Use](#-how-to-use)** · **[📖 Learning Path](#-learning-path)**
+  **[📊 Arrays](#-arrays-3-programs)** · **[🔄 Looping](#-looping--branching-8-programs)** · **[🏗️ Classes](#-classes-methods--objects-1-program)** · **[⚡ Overloading](#-method-overloading-1-program)** · **[🔧 Constructors](#-constructor--constructor-overloading-3-programs)** · **[🧬 Inheritance](#-single--multilevel-inheritance-2-programs)** · **[🎨 Abstract](#-abstract-class-1-program)** · **[📦 Packages](#-user-defined-package-3-programs)** · **[⚠️ Exceptions](#-user-defined-exception-1-program)** · **[🔤 Strings](#-string-operations-2-programs)** · **[🧵 Multithreading](#-multithreading-1-program)** · **[📋 Vector](#-vector-1-program)** · **[⌨️ Input](#-accept-input-from-user-3-programs)** · **[🖼️ Applets](#-applets-5-programs)** · **[🚀 How to Use](#-how-to-use)** · **[📖 Learning Path](#-learning-path)**
 
 </div>
 
@@ -254,7 +254,7 @@ appletviewer Fill_Color_Applet.html
 
   ### Quick Navigation
 
-  **[⬆ Back to Top](#object-oriented-programming-methodology-oopm-lab)** · **[📚 Quick Navigation](#-quick-navigation)** · **[🚀 How to Use](#-how-to-use)** · **[📖 Learning Path](#-learning-path)**
+  **[⬆ Back to Top](#object-oriented-programming-methodology-oopm-lab)** · **[📊 Arrays](#-arrays-3-programs)** · **[🔄 Looping](#-looping--branching-8-programs)** · **[🏗️ Classes](#-classes-methods--objects-1-program)** · **[⚡ Overloading](#-method-overloading-1-program)** · **[🔧 Constructors](#-constructor--constructor-overloading-3-programs)** · **[🧬 Inheritance](#-single--multilevel-inheritance-2-programs)** · **[🎨 Abstract](#-abstract-class-1-program)** · **[📦 Packages](#-user-defined-package-3-programs)** · **[⚠️ Exceptions](#-user-defined-exception-1-program)** · **[🔤 Strings](#-string-operations-2-programs)** · **[🧵 Multithreading](#-multithreading-1-program)** · **[📋 Vector](#-vector-1-program)** · **[⌨️ Input](#-accept-input-from-user-3-programs)** · **[🖼️ Applets](#-applets-5-programs)** · **[🚀 How to Use](#-how-to-use)** · **[📖 Learning Path](#-learning-path)**
 
   <br>
 

@@ -201,7 +201,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 | Program | Description | Code |
 |---------|-------------|------|
-| `abstraction.java` | Abstract class and method implementation | [View](OOPM%20Lab/Abstract%20Class/abstraction.java) |
+| `AbstractClassDemo.java` | Abstract class and method implementation | [View](OOPM%20Lab/Abstract-Class/AbstractClassDemo.java) |
 
 </details>
 

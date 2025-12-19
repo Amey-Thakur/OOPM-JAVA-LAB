@@ -156,7 +156,7 @@ Since Java Applets are deprecated in newer JDK versions, you may need to use `ap
 <!-- FOOTER -->
 <div align="center">
 
-  **[⬆ Back to Top](#hangman-word-game-oopm-mini-project)**
+  **[⬆ Back to Top](#hangman-word-game-oopm-mini-project)** · **[👥 Authors](#-authors)** · **[📖 Overview](#-overview)** · **[🔗 Resources](#-resources)** · **[✨ Features](#-features)** · **[🚀 How to Run](#-how-to-run)** · **[📸 Result](#-result)**
 
   <br>
 

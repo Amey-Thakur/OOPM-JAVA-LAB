@@ -15,6 +15,14 @@
 
 ---
 
+<div align="center">
+
+  **[📚 Quick Navigation](#-quick-navigation)** · **[🚀 How to Use](#-how-to-use)** · **[📖 Learning Path](#-learning-path)**
+
+</div>
+
+---
+
 <!-- NAVIGATION -->
 ## 📚 Quick Navigation
 
@@ -246,7 +254,7 @@ appletviewer Fill_Color_Applet.html
 
   ### Quick Navigation
 
-  **[⬆ Back to Top](#object-oriented-programming-methodology-oopm-lab)** · **[📊 Arrays](#-arrays-3-programs)** · **[🔄 Looping](#-looping--branching-8-programs)** · **[🏗️ Classes](#-classes-methods--objects-1-program)** · **[🧬 Inheritance](#-single--multilevel-inheritance-2-programs)** · **[🧵 Multithreading](#-multithreading-1-program)** · **[🖼️ Applets](#-applets-5-programs)**
+  **[⬆ Back to Top](#object-oriented-programming-methodology-oopm-lab)** · **[📚 Quick Navigation](#-quick-navigation)** · **[🚀 How to Use](#-how-to-use)** · **[📖 Learning Path](#-learning-path)**
 
   <br>
 

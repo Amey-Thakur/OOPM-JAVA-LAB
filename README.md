@@ -284,7 +284,6 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 | `Applet_Parameters_Demo.html` | HTML file with applet parameters | [View](OOPM%20Lab/Passing-Parameters-To-Applets/Applet_Parameters_Demo.html) |
 
 </details>
-<br>
 
 ---
 

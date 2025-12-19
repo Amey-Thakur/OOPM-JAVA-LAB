@@ -174,8 +174,8 @@
 
 | # | Program | Description |
 |---|---------|-------------|
-| 3 | [UseParam.java](Passing%20Parameters%20to%20Applets/UseParam.java) | Applet receiving parameters |
-| 4 | [myapplet.html](Passing%20Parameters%20to%20Applets/myapplet.html) | HTML file with applet parameters |
+| 1 | [Applet_Parameters_Demo.java](Passing-Parameters-To-Applets/Applet_Parameters_Demo.java) | Applet receiving parameters |
+| 2 | [Applet_Parameters_Demo.html](Passing-Parameters-To-Applets/Applet_Parameters_Demo.html) | HTML file with applet parameters |
 
 ---
 

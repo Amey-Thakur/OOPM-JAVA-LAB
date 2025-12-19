@@ -1,6 +1,6 @@
 <div align="center">
 
-# OOPM Lab
+# Object-Oriented Programming Methodology (OOPM) Lab
 
 ### CSL304 · Semester III · Computer Engineering
 

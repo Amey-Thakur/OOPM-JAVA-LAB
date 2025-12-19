@@ -249,7 +249,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 | Program | Description | Code |
 |---------|-------------|------|
-| `exp_vector.java` | Vector class operations and dynamic arrays | [View](OOPM%20Lab/Vector/exp_vector.java) |
+| `Vector_Operations_Demo.java` | Vector class operations and dynamic arrays | [View](OOPM%20Lab/Vector-Operations/Vector_Operations_Demo.java) |
 
 </details>
 

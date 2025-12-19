@@ -147,7 +147,7 @@
 
 | # | Program | Description |
 |---|---------|-------------|
-| 1 | [exp_vector.java](Vector/exp_vector.java) | Vector class operations and dynamic arrays |
+| 1 | [Vector_Operations_Demo.java](Vector-Operations/Vector_Operations_Demo.java) | Vector class operations and dynamic arrays |
 
 ---
 

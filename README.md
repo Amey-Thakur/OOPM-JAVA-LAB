@@ -301,7 +301,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 [![Code](https://img.shields.io/badge/💻-Source%20Code-green.svg)](http://dx.doi.org/10.13140/RG.2.2.20095.33446)
 [![Repository](https://img.shields.io/badge/🎮-Game%20Repository-orange.svg)](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)
 
-<br>
+
 
 ### 👥 Authors
 
@@ -309,7 +309,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 | :---: | :---: | :---: |
 | [**Amey Thakur**](https://github.com/Amey-Thakur) | [**Mega Satish**](https://github.com/msatmod) | [**Saakshi Deokar**](https://www.linkedin.com/in/saakshideokar/) |
 
-<br>
+
 
 *Special thanks to [Mega Satish](https://github.com/msatmod) and [Saakshi Deokar](https://www.linkedin.com/in/saakshideokar/) for their meaningful contributions, guidance, and support that helped shape this work.*
 

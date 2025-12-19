@@ -188,16 +188,16 @@
 
 Example:
 ```bash
-cd "1-D Array"
-javac arrays.java
-java arrays
+cd "One-Dimensional-Array"
+javac Student_Marks_Report.java
+java Student_Marks_Report
 ```
 
 For Applets:
 ```bash
-cd "Basic Applets"
-javac fillcolor.java
-appletviewer a.html
+cd "Basic-Applets"
+javac Fill_Color_Applet.java
+appletviewer Fill_Color_Applet.html
 ```
 
 ---

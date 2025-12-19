@@ -191,8 +191,8 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 | Program | Description | Code |
 |---------|-------------|------|
-| `single_inherit.java` | Single inheritance demonstration | [View](OOPM%20Lab/Single%20and%20Multilevel%20Inheritance/single_inherit.java) |
-| `mulitlevel_inherit.java` | Multilevel inheritance demonstration | [View](OOPM%20Lab/Single%20and%20Multilevel%20Inheritance/mulitlevel_inherit.java) |
+| `Single_Inheritance_Demo.java` | Single inheritance demonstration | [View](OOPM%20Lab/Single-And-Multilevel-Inheritance/Single_Inheritance_Demo.java) |
+| `Multilevel_Inheritance_Demo.java` | Multilevel inheritance demonstration | [View](OOPM%20Lab/Single-And-Multilevel-Inheritance/Multilevel_Inheritance_Demo.java) |
 
 </details>
 

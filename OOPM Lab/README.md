@@ -95,8 +95,8 @@
 
 | # | Program | Description |
 |---|---------|-------------|
-| 1 | [single_inherit.java](Single%20and%20Multilevel%20Inheritance/single_inherit.java) | Single inheritance demonstration |
-| 2 | [mulitlevel_inherit.java](Single%20and%20Multilevel%20Inheritance/mulitlevel_inherit.java) | Multilevel inheritance demonstration |
+| 1 | [Single_Inheritance_Demo.java](Single-And-Multilevel-Inheritance/Single_Inheritance_Demo.java) | Single inheritance demonstration |
+| 2 | [Multilevel_Inheritance_Demo.java](Single-And-Multilevel-Inheritance/Multilevel_Inheritance_Demo.java) | Multilevel inheritance demonstration |
 
 ---
 

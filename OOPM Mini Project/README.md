@@ -28,26 +28,23 @@ The objective of the game is to guess the hidden word letter by letter. For ever
 
 ## 📸 Screenshots
 
-| Welcome Screen | Input Player Name |
-|:---:|:---:|
-| <img src="Outputs/Welcome_Message.png" width="400"> | <img src="Outputs/Player_Name_Input.png" width="400"> |
+### Welcome Screen
+<img src="Outputs/Welcome_Message.png" width="100%">
 
-| Game Play | Win Condition |
-|:---:|:---:|
-| <img src="Outputs/Game_Screen.png" width="400"> | <img src="Outputs/Win.png" width="400"> |
+### Input Player Name
+<img src="Outputs/Player_Name_Input.png" width="100%">
 
-<details>
-<summary><strong>View More Screenshots</strong></summary>
+### Game Play
+<img src="Outputs/Game_Screen.png" width="100%">
 
-<div align="center">
+### Win Condition
+<img src="Outputs/Win.png" width="100%">
 
-| Lose Condition | Hint Message |
-|:---:|:---:|
-| <img src="Outputs/Lose.png" width="400"> | <img src="Outputs/Hint_Message.png" width="400"> |
+### Lose Condition
+<img src="Outputs/Lose.png" width="100%">
 
-</div>
-
-</details>
+### Hint Message
+<img src="Outputs/Hint_Message.png" width="100%">
 
 ---
 

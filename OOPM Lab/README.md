@@ -112,9 +112,9 @@
 
 | # | Program | Description |
 |---|---------|-------------|
-| 1 | [ar.java](User%20Defined%20Package/ar.java) | Main program using custom package |
-| 2 | [area.java](User%20Defined%20Package/area.java) | Area calculation in package |
-| 3 | [perimeter.java](User%20Defined%20Package/perimeter.java) | Perimeter calculation in package |
+| 1 | [Package_Demo.java](User-Defined-Package/Package_Demo.java) | Main program using custom package |
+| 2 | [Area_Calc.java](User-Defined-Package/geometry/Area_Calc.java) | Area calculation in package |
+| 3 | [Perimeter_Calc.java](User-Defined-Package/geometry/Perimeter_Calc.java) | Perimeter calculation in package |
 
 ---
 

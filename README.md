@@ -358,20 +358,10 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
 
 ### Quick Navigation
 
-**[⬆ Back to Top](#object-oriented-programming-methodology-oopm-lab)** · **[🧪 OOPM Laboratory](OOPM%20Lab/)** · **[🎮 Mini Project](OOPM%20Mini%20Project/)** · **[📖 Overview](#overview)** · **[📚 Reference Books](#reference-books)** · **[📝 Quizzes](#quizzes)** · **[📋 Syllabus](#syllabus)**
+**[⬆ Back to Top](#object-oriented-programming-methodology-oopm-lab)** · **[📖 Overview](#overview)** · **[📚 Reference Books](#reference-books)** · **[📝 Quizzes](#quizzes)** · **[📋 Syllabus](#syllabus)**
 
 </div>
 
 ---
 
-<div align="center">
 
-<img src="https://raw.githubusercontent.com/Amey-Thakur/COMPUTER-ENGINEERING/main/university-of-mumbai-logo.png" alt="University of Mumbai" width="100"/>
-
-### 🎓 [Computer Engineering Repository](https://github.com/Amey-Thakur/COMPUTER-ENGINEERING)
-
-**Computer Engineering (B.E.) - University of Mumbai**
-
-*Semester-wise curriculum, laboratories, projects, and academic notes.*
-
-</div>

@@ -180,9 +180,9 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 | Program | Description | Code |
 |---------|-------------|------|
-| `def_cons.java` | Default constructor demonstration | [View](OOPM%20Lab/Constructor%20and%20Constructor%20Overloading/def_cons.java) |
-| `cons_types.java` | Different types of constructors | [View](OOPM%20Lab/Constructor%20and%20Constructor%20Overloading/cons_types.java) |
-| `cons_overload.java` | Constructor overloading examples | [View](OOPM%20Lab/Constructor%20and%20Constructor%20Overloading/cons_overload.java) |
+| `Default_Constructor_Demo.java` | Default constructor demonstration | [View](OOPM%20Lab/Constructor-And-Constructor-Overloading/Default_Constructor_Demo.java) |
+| `Constructor_Types_Demo.java` | Different types of constructors | [View](OOPM%20Lab/Constructor-And-Constructor-Overloading/Constructor_Types_Demo.java) |
+| `Constructor_Overloading_Demo.java` | Constructor overloading examples | [View](OOPM%20Lab/Constructor-And-Constructor-Overloading/Constructor_Overloading_Demo.java) |
 
 </details>
 

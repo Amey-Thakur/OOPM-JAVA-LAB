@@ -313,13 +313,14 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 *Special thanks to [Mega Satish](https://github.com/msatmod) and [Saakshi Deokar](https://www.linkedin.com/in/saakshideokar/) for their meaningful contributions, guidance, and support that helped shape this work.*
 
-</div>
 
 | Resource | Link |
 |----------|------|
 | 📊 Presentation | [ResearchGate DOI](http://dx.doi.org/10.13140/RG.2.2.26806.22082) |
 | 💻 Source Code | [ResearchGate DOI](http://dx.doi.org/10.13140/RG.2.2.20095.33446) |
 | 🎮 Game Repository | [Hangman Word Game](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME) |
+
+</div>
 
 ---
 

@@ -39,7 +39,7 @@
 |---|---------|-------------|
 | 1 | [StudentMarksReport.java](One-Dimensional-Array/StudentMarksReport.java) | Basic 1-D array operations and traversal (Student Marks Report) |
 | 2 | [ArrayParameterPassing.java](One-Dimensional-Array/ArrayParameterPassing.java) | Passing arrays as method parameters demo |
-| 3 | [twodarray.java](2-D%20Array/twodarray.java) | 2-D array operations and matrix handling |
+| 3 | [MatrixAddition.java](Two-Dimensional-Array/MatrixAddition.java) | 2-D array operations and matrix handling |
 
 ---
 

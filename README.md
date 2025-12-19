@@ -132,7 +132,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 |---------|-------------|------|
 | `StudentMarksReport.java` | Basic 1-D array operations (Student Marks) | [View](OOPM%20Lab/One-Dimensional-Array/StudentMarksReport.java) |
 | `ArrayParameterPassing.java` | Passing arrays as method parameters | [View](OOPM%20Lab/One-Dimensional-Array/ArrayParameterPassing.java) |
-| `twodarray.java` | 2-D array operations and matrix handling | [View](OOPM%20Lab/2-D%20Array/twodarray.java) |
+| `MatrixAddition.java` | 2-D array operations and matrix handling | [View](OOPM%20Lab/Two-Dimensional-Array/MatrixAddition.java) |
 
 </details>
 

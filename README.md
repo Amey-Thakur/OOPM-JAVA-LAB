@@ -110,22 +110,22 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 ### Program Categories
 
-| Category | Programs | Topics Covered | Repository |
-|:---|:-:|:---|:---|
-| 📊 **Arrays** | 3 | 1-D arrays, 2-D arrays, array parameters | [View Programs](OOPM%20Lab/) |
-| 🔄 **Looping & Branching** | 8 | for, while, do-while, break, continue, return | [View Programs](OOPM%20Lab/Looping%20and%20Branching/) |
-| 🏗️ **Classes & Objects** | 1 | Class creation, methods, object instantiation | [View Programs](OOPM%20Lab/Creating%20Classes%2C%20Methods%20and%20Objects/) |
-| ⚡ **Method Overloading** | 1 | Method signature variations, compile-time polymorphism | [View Programs](OOPM%20Lab/Method%20Overloading/) |
-| 🔧 **Constructors** | 3 | Default, parameterized, constructor overloading | [View Programs](OOPM%20Lab/Constructor%20and%20Constructor%20Overloading/) |
-| 🧬 **Inheritance** | 2 | Single inheritance, multilevel inheritance | [View Programs](OOPM%20Lab/Single%20and%20Multilevel%20Inheritance/) |
-| 🎨 **Abstract Class** | 1 | Abstraction, abstract methods | [View Programs](OOPM%20Lab/Abstract%20Class/) |
-| 📦 **User Defined Package** | 3 | Package creation, import statements | [View Programs](OOPM%20Lab/User%20Defined%20Package/) |
-| ⚠️ **Exception Handling** | 1 | Custom exceptions, try-catch | [View Programs](OOPM%20Lab/User%20Defined%20Exception/) |
-| 🔤 **String Operations** | 2 | String class, StringBuffer operations | [View Programs](OOPM%20Lab/) |
-| 🧵 **Multithreading** | 1 | Thread creation, concurrent execution | [View Programs](OOPM%20Lab/Multithreading/) |
-| 📋 **Vector** | 1 | Dynamic arrays, Vector class operations | [View Programs](OOPM%20Lab/Vector/) |
-| ⌨️ **Input Methods** | 3 | Scanner, BufferedReader, Console | [View Programs](OOPM%20Lab/Accept%20Input%20from%20User/) |
-| 🖼️ **Applets** | 5 | Basic applets, parameter passing, graphics | [View Programs](OOPM%20Lab/) |
+| Category | Programs | Topics Covered |
+|:---|:-:|:---|
+| 📊 **Arrays** | 3 | 1-D arrays, 2-D arrays, array parameters |
+| 🔄 **Looping & Branching** | 8 | for, while, do-while, break, continue, return |
+| 🏗️ **Classes & Objects** | 1 | Class creation, methods, object instantiation |
+| ⚡ **Method Overloading** | 1 | Method signature variations, compile-time polymorphism |
+| 🔧 **Constructors** | 3 | Default, parameterized, constructor overloading |
+| 🧬 **Inheritance** | 2 | Single inheritance, multilevel inheritance |
+| 🎨 **Abstract Class** | 1 | Abstraction, abstract methods |
+| 📦 **User Defined Package** | 3 | Package creation, import statements |
+| ⚠️ **Exception Handling** | 1 | Custom exceptions, try-catch |
+| 🔤 **String Operations** | 2 | String class, StringBuffer operations |
+| 🧵 **Multithreading** | 1 | Thread creation, concurrent execution |
+| 📋 **Vector** | 1 | Dynamic arrays, Vector class operations |
+| ⌨️ **Input Methods** | 3 | Scanner, BufferedReader, Console |
+| 🖼️ **Applets** | 5 | Basic applets, parameter passing, graphics |
 
 ### Program Details
 

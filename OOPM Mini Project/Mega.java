@@ -21,7 +21,6 @@ import javax.swing.*;
 
 /**
  * The main Applet class for the Hangman game.
- * Class name 'Mega' preserved as per project requirements.
  *
  * @author Amey Thakur
  */

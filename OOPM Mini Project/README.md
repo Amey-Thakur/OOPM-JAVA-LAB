@@ -12,7 +12,7 @@
 
 ---
 
-[📖 Overview](#overview) · [📸 Screenshots](#screenshots) · [✨ Features](#features) · [🚀 How to Run](#how-to-run) · [👥 Authors](#authors)
+[📖 Overview](#overview) · [🔗 Resources](#-resources) · [📸 Screenshots](#screenshots) · [✨ Features](#features) · [🚀 How to Run](#how-to-run) · [👥 Authors](#authors)
 
 </div>
 
@@ -40,7 +40,15 @@ The objective of the game is to guess the hidden word letter by letter. For ever
 
 ---
 
-## 📸 Screenshots
+## � Resources
+
+- [**Project Presentation**](http://dx.doi.org/10.13140/RG.2.2.26806.22082)
+- [**Source Code**](http://dx.doi.org/10.13140/RG.2.2.20095.33446)
+- [**Project Demo**](https://youtu.be/JsT9KYKPUgs)
+
+---
+
+## �📸 Screenshots
 
 <div align="center">
 

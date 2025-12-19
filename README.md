@@ -358,7 +358,7 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
 
 ### Quick Navigation
 
-**[⬆ Back to Top](#object-oriented-programming-methodology-java-lab)** · **[📖 Overview](#overview)** · **[📚 Reference Books](#reference-books)** · **[📝 Quizzes](#quizzes)** · **[🧪 Laboratory](#oopm-laboratory)** · **[🎮 Mini Project](#oopm-mini-project)** · **[📋 Syllabus](#syllabus)**
+**[⬆ Back to Top](#object-oriented-programming-methodology-oopm-lab)** · **[🧪 OOPM Laboratory](OOPM%20Lab/)** · **[🎮 Mini Project](OOPM%20Mini%20Project/)** · **[📖 Overview](#overview)** · **[📚 Reference Books](#reference-books)** · **[📝 Quizzes](#quizzes)** · **[📋 Syllabus](#syllabus)**
 
 </div>
 

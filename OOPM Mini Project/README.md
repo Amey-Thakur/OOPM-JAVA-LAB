@@ -160,7 +160,7 @@ Since Java Applets are deprecated in newer JDK versions, you may need to use `ap
 
   <br>
 
-  **[🏠 Back to Main Repository](../)** · **[🧪 Back to OOPM Lab](../OOPM%20Lab)**
+  **[🏠 Back to Main Repository](../)** · **[🧪 Back to OOPM Lab](../OOPM%20Lab)** · **[🔗 Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
 
 </div>
 

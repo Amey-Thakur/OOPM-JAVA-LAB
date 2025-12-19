@@ -250,7 +250,7 @@ appletviewer Fill_Color_Applet.html
 
   <br>
 
-  **[🏠 Back to Main Repository](../)** · **[🎮 Hangman Word Game (Mini Project)](../OOPM%20Mini%20Project/)**
+  **[🏠 Back to Main Repository](../)** · **[🎮 Hangman Word Game (Mini Project)](../OOPM%20Mini%20Project/)** · **[🔗 Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
 
 </div>
 

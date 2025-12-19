@@ -229,6 +229,10 @@ appletviewer Fill_Color_Applet.html
 
 **[⬆ Back to Top](#oopm-lab)** · **[📊 Arrays](#-arrays-3-programs)** · **[🔄 Looping](#-looping--branching-8-programs)** · **[🏗️ Classes](#-classes-methods--objects-1-program)** · **[🧬 Inheritance](#-single--multilevel-inheritance-2-programs)** · **[🧵 Multithreading](#-multithreading-1-program)** · **[🖼️ Applets](#-applets-5-programs)**
 
+<br>
+
+**[🏠 Back to Main Repository](../)** · **[🎮 OOPM Mini Project](../OOPM%20Mini%20Project)**
+
 </div>
 
 ---

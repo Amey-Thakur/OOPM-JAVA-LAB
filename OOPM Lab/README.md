@@ -122,7 +122,7 @@
 
 | # | Program | Description |
 |---|---------|-------------|
-| 1 | [MyException.java](User%20Defined%20Exception/MyException.java) | Custom exception class implementation |
+| 1 | [User_Defined_Exception_Demo.java](User-Defined-Exception/User_Defined_Exception_Demo.java) | Custom exception class implementation |
 
 ---
 

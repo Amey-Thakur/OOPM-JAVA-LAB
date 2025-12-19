@@ -221,7 +221,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 | Program | Description | Code |
 |---------|-------------|------|
-| `MyException.java` | Custom exception class implementation | [View](OOPM%20Lab/User%20Defined%20Exception/MyException.java) |
+| `User_Defined_Exception_Demo.java` | Custom exception class implementation | [View](OOPM%20Lab/User-Defined-Exception/User_Defined_Exception_Demo.java) |
 
 </details>
 

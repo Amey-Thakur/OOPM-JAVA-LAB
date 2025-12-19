@@ -18,6 +18,20 @@
 
 ---
 
+## 👥 Authors
+
+<div align="center">
+
+**Terna Engineering College | Computer Engineering | Batch of 2022**
+
+| <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"> | <img src="Outputs/Mega.jpg" width="150" alt="Mega Satish"> | <img src="https://ui-avatars.com/api/?name=Saakshi+Deokar&background=random&size=150" width="150" alt="Saakshi Deokar"> |
+| :---: | :---: | :---: |
+| [**Amey Thakur**](https://github.com/Amey-Thakur) | [**Mega Satish**](https://github.com/msatmod) | [**Saakshi Deokar**](https://www.linkedin.com/in/saakshideokar/) |
+
+</div>
+
+---
+
 ## Overview
 
 The **Hangman Word Game** is a Java-based mini project developed for the Object-Oriented Programming Methodology (OOPM) laboratory. It demonstrates the application of core Java concepts, including Applets, Graphics programming (AWT), Event Handling, and String manipulation.
@@ -113,17 +127,7 @@ Since Java Applets are deprecated in newer JDK versions, you may need to use `ap
 
 ---
 
-## 👥 Authors
 
-<div align="center">
-
-**Terna Engineering College | Computer Engineering | Batch of 2022**
-
-| <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"> | <img src="https://github.com/msatmod.png" width="150" alt="Mega Satish"> | <img src="https://ui-avatars.com/api/?name=Saakshi+Deokar&background=random&size=150" width="150" alt="Saakshi Deokar"> |
-| :---: | :---: | :---: |
-| [**Amey Thakur**](https://github.com/Amey-Thakur) | [**Mega Satish**](https://github.com/msatmod) | [**Saakshi Deokar**](https://www.linkedin.com/in/saakshideokar/) |
-
-</div>
 
 ---
 

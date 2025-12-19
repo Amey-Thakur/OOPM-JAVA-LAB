@@ -276,8 +276,8 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 **Passing Parameters to Applets:**
 | Program | Description | Code |
 |---------|-------------|------|
-| `UseParam.java` | Applet receiving parameters | [View](OOPM%20Lab/Passing%20Parameters%20to%20Applets/UseParam.java) |
-| `myapplet.html` | HTML file with applet parameters | [View](OOPM%20Lab/Passing%20Parameters%20to%20Applets/myapplet.html) |
+| `Applet_Parameters_Demo.java` | Applet receiving parameters | [View](OOPM%20Lab/Passing-Parameters-To-Applets/Applet_Parameters_Demo.java) |
+| `Applet_Parameters_Demo.html` | HTML file with applet parameters | [View](OOPM%20Lab/Passing-Parameters-To-Applets/Applet_Parameters_Demo.html) |
 
 </details>
 

@@ -12,7 +12,7 @@
 
 ---
 
-[👥 Authors](#authors) · [📖 Overview](#overview) · [🔗 Resources](#resources) · [📸 Screenshots](#screenshots) · [✨ Features](#features) · [🚀 How to Run](#how-to-run)
+[👥 Authors](#authors) · [📖 Overview](#overview) · [🔗 Resources](#resources) · [✨ Features](#features) · [🚀 How to Run](#how-to-run) · [📸 Result](#result)
 
 </div>
 
@@ -54,7 +54,45 @@ The objective of the game is to guess the hidden word letter by letter. For ever
 
 ---
 
-## 📸 Screenshots
+## ✨ Features
+
+- **Graphical User Interface (GUI)**: Built using Java Applet and AWT Graphics.
+- **Interactive Gameplay**: Mouse and Keyboard event handling for user interaction.
+- **Dynamic Graphics**: visual representation of the hangman drawing progress.
+- **Word Bank**: Random selection of words from a predefined list (e.g., Programming Languages).
+- **Game State Management**: Tracks misses, correct guesses, and win/lose conditions.
+- **User Feedback**: Pop-up dialogs for welcome messages, hints, and game results.
+
+---
+
+## 🚀 How to Run
+
+Since Java Applets are deprecated in newer JDK versions, you may need to use `appletviewer` or an older JDK (like JDK 8) to run this project.
+
+### Method 1: Using AppletViewer (Recommended for JDK 8)
+
+1. **Compile** the code:
+   ```bash
+   javac Mega.java
+   ```
+
+2. **Create** an HTML file (e.g., `game.html`) to host the applet:
+   ```html
+   <html>
+   <body>
+       <applet code="Mega.class" width="1000" height="625"></applet>
+   </body>
+   </html>
+   ```
+
+3. **Run** using appletviewer:
+   ```bash
+   appletviewer game.html
+   ```
+
+---
+
+## 📸 Result
 
 <div align="center">
 
@@ -100,48 +138,6 @@ The objective of the game is to guess the hidden word letter by letter. For ever
 <img src="Outputs/Hint_Message.png" width="100%">
 
 </div>
-
----
-
-## ✨ Features
-
-- **Graphical User Interface (GUI)**: Built using Java Applet and AWT Graphics.
-- **Interactive Gameplay**: Mouse and Keyboard event handling for user interaction.
-- **Dynamic Graphics**: visual representation of the hangman drawing progress.
-- **Word Bank**: Random selection of words from a predefined list (e.g., Programming Languages).
-- **Game State Management**: Tracks misses, correct guesses, and win/lose conditions.
-- **User Feedback**: Pop-up dialogs for welcome messages, hints, and game results.
-
----
-
-## 🚀 How to Run
-
-Since Java Applets are deprecated in newer JDK versions, you may need to use `appletviewer` or an older JDK (like JDK 8) to run this project.
-
-### Method 1: Using AppletViewer (Recommended for JDK 8)
-
-1. **Compile** the code:
-   ```bash
-   javac Mega.java
-   ```
-
-2. **Create** an HTML file (e.g., `game.html`) to host the applet:
-   ```html
-   <html>
-   <body>
-       <applet code="Mega.class" width="1000" height="625"></applet>
-   </body>
-   </html>
-   ```
-
-3. **Run** using appletviewer:
-   ```bash
-   appletviewer game.html
-   ```
-
----
-
-
 
 ---
 

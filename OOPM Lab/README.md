@@ -104,7 +104,7 @@
 
 | # | Program | Description |
 |---|---------|-------------|
-| 1 | [abstraction.java](Abstract%20Class/abstraction.java) | Abstract class and method implementation |
+| 1 | [AbstractClassDemo.java](Abstract-Class/AbstractClassDemo.java) | Abstract class and method implementation (Shape/Square) |
 
 ---
 

@@ -40,15 +40,19 @@ The objective of the game is to guess the hidden word letter by letter. For ever
 
 ---
 
-## � Resources
+## 🔗 Resources
 
-- [**Project Presentation**](http://dx.doi.org/10.13140/RG.2.2.26806.22082)
-- [**Source Code**](http://dx.doi.org/10.13140/RG.2.2.20095.33446)
-- [**Project Demo**](https://youtu.be/JsT9KYKPUgs)
+<div align="center">
+
+[**Project Presentation**](http://dx.doi.org/10.13140/RG.2.2.26806.22082) · [**Source Code**](http://dx.doi.org/10.13140/RG.2.2.20095.33446) · [**Project Demo**](https://youtu.be/JsT9KYKPUgs)
+
+[![Hangman Game Demo](https://img.youtube.com/vi/JsT9KYKPUgs/maxresdefault.jpg)](https://youtu.be/JsT9KYKPUgs)
+
+</div>
 
 ---
 
-## �📸 Screenshots
+## 📸 Screenshots
 
 <div align="center">
 

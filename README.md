@@ -311,7 +311,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 <br>
 
-*Special thanks to Mega Satish and Saakshi Deokar for their meaningful contributions, guidance, and support that helped shape this work.*
+*Special thanks to [Mega Satish](https://github.com/msatmod) and [Saakshi Deokar](https://www.linkedin.com/in/saakshideokar/) for their meaningful contributions, guidance, and support that helped shape this work.*
 
 </div>
 
@@ -369,6 +369,8 @@ This repository represents a comprehensive collection of study materials, refere
 Grateful acknowledgment to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance and instruction in Object-Oriented Programming Methodology (Java) Lab. Their clear teaching and continued support helped me develop a strong understanding of OOP principles and Java programming.
 
 Special thanks to the mentors and peers whose encouragement, discussions, and support contributed meaningfully to this learning experience.
+
+I would also like to extend my gratitude to **[Mega Satish](https://github.com/msatmod)** and **[Saakshi Deokar](https://www.linkedin.com/in/saakshideokar/)** for their collaboration on the Mini Project and their valuable insights throughout the course.
 
 ---
 

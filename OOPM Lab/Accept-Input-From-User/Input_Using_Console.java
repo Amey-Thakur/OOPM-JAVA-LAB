@@ -9,7 +9,7 @@
 
 import java.io.Console;
 
-public class InputUsingConsole {
+public class Input_Using_Console {
     public static void main(String args[]) {
         // Creating object of the Console class
         Console console = System.console();

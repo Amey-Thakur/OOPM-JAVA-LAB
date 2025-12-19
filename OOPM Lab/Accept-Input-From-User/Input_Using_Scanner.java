@@ -8,7 +8,7 @@
 
 import java.util.Scanner;
 
-public class InputUsingScanner {
+public class Input_Using_Scanner {
     public static void main(String args[]) {
         // Initializing Scanner object for keyboard input
         Scanner scanner = new Scanner(System.in);

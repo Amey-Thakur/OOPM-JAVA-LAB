@@ -10,7 +10,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class InputUsingBufferedReader {
+public class Input_Using_Buffered_Reader {
     public static void main(String[] args) throws IOException {
         // Creating an object of BufferedReader class wrapped around InputStreamReader
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));

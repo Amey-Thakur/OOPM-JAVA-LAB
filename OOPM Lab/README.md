@@ -37,9 +37,9 @@
 
 | # | Program | Description |
 |---|---------|-------------|
-| 1 | [StudentMarksReport.java](One-Dimensional-Array/StudentMarksReport.java) | Basic 1-D array operations and traversal (Student Marks Report) |
-| 2 | [ArrayParameterPassing.java](One-Dimensional-Array/ArrayParameterPassing.java) | Passing arrays as method parameters demo |
-| 3 | [MatrixAddition.java](Two-Dimensional-Array/MatrixAddition.java) | 2-D array operations and matrix handling |
+| 1 | [Student_Marks_Report.java](One-Dimensional-Array/Student_Marks_Report.java) | Basic 1-D array operations and traversal (Student Marks Report) |
+| 2 | [Array_Parameter_Passing.java](One-Dimensional-Array/Array_Parameter_Passing.java) | Passing arrays as method parameters demo |
+| 3 | [Matrix_Addition.java](Two-Dimensional-Array/Matrix_Addition.java) | 2-D array operations and matrix handling |
 
 ---
 
@@ -104,7 +104,7 @@
 
 | # | Program | Description |
 |---|---------|-------------|
-| 1 | [AbstractClassDemo.java](Abstract-Class/AbstractClassDemo.java) | Abstract class and method implementation (Shape/Square) |
+| 1 | [Abstract_Class_Demo.java](Abstract-Class/Abstract_Class_Demo.java) | Abstract class and method implementation (Shape/Square) |
 
 ---
 
@@ -155,9 +155,9 @@
 
 | # | Program | Description |
 |---|---------|-------------|
-| 1 | [InputUsingScanner.java](Accept-Input-From-User/InputUsingScanner.java) | Input using Scanner class |
-| 2 | [InputUsingBufferedReader.java](Accept-Input-From-User/InputUsingBufferedReader.java) | Input using BufferedReader |
-| 3 | [InputUsingConsole.java](Accept-Input-From-User/InputUsingConsole.java) | Input using Console class |
+| 1 | [Input_Using_Scanner.java](Accept-Input-From-User/Input_Using_Scanner.java) | Input using Scanner class |
+| 2 | [Input_Using_Buffered_Reader.java](Accept-Input-From-User/Input_Using_Buffered_Reader.java) | Input using BufferedReader |
+| 3 | [Input_Using_Console.java](Accept-Input-From-User/Input_Using_Console.java) | Input using Console class |
 
 ---
 

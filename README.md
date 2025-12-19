@@ -130,9 +130,9 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 | Program | Description | Code |
 |---------|-------------|------|
-| `StudentMarksReport.java` | Basic 1-D array operations (Student Marks) | [View](OOPM%20Lab/One-Dimensional-Array/StudentMarksReport.java) |
-| `ArrayParameterPassing.java` | Passing arrays as method parameters | [View](OOPM%20Lab/One-Dimensional-Array/ArrayParameterPassing.java) |
-| `MatrixAddition.java` | 2-D array operations and matrix handling | [View](OOPM%20Lab/Two-Dimensional-Array/MatrixAddition.java) |
+| `Student_Marks_Report.java` | Basic 1-D array operations (Student Marks) | [View](OOPM%20Lab/One-Dimensional-Array/Student_Marks_Report.java) |
+| `Array_Parameter_Passing.java` | Passing arrays as method parameters | [View](OOPM%20Lab/One-Dimensional-Array/Array_Parameter_Passing.java) |
+| `Matrix_Addition.java` | 2-D array operations and matrix handling | [View](OOPM%20Lab/Two-Dimensional-Array/Matrix_Addition.java) |
 
 </details>
 
@@ -201,7 +201,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 | Program | Description | Code |
 |---------|-------------|------|
-| `AbstractClassDemo.java` | Abstract class and method implementation | [View](OOPM%20Lab/Abstract-Class/AbstractClassDemo.java) |
+| `Abstract_Class_Demo.java` | Abstract class and method implementation | [View](OOPM%20Lab/Abstract-Class/Abstract_Class_Demo.java) |
 
 </details>
 
@@ -258,9 +258,9 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 | Program | Description | Code |
 |---------|-------------|------|
-| `InputUsingScanner.java` | Input using Scanner class | [View](OOPM%20Lab/Accept-Input-From-User/InputUsingScanner.java) |
-| `InputUsingBufferedReader.java` | Input using BufferedReader | [View](OOPM%20Lab/Accept-Input-From-User/InputUsingBufferedReader.java) |
-| `InputUsingConsole.java` | Input using Console class | [View](OOPM%20Lab/Accept-Input-From-User/InputUsingConsole.java) |
+| `Input_Using_Scanner.java` | Input using Scanner class | [View](OOPM%20Lab/Accept-Input-From-User/Input_Using_Scanner.java) |
+| `Input_Using_Buffered_Reader.java` | Input using BufferedReader | [View](OOPM%20Lab/Accept-Input-From-User/Input_Using_Buffered_Reader.java) |
+| `Input_Using_Console.java` | Input using Console class | [View](OOPM%20Lab/Accept-Input-From-User/Input_Using_Console.java) |
 
 </details>
 

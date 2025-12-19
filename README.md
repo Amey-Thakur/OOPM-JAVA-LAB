@@ -388,7 +388,11 @@ Special thanks to the faculty members of the Department of Computer Engineering 
 <!-- FOOTER -->
 <div align="center">
 
-  **[⬆ Back to Top](#object-oriented-programming-methodology-oopm-lab)** &nbsp;·&nbsp; **[📖 Overview](#overview)** &nbsp;·&nbsp; **[📂 Contents](#repository-contents)** &nbsp;·&nbsp; **[📚 Reference Books](#reference-books)** &nbsp;·&nbsp; **[📝 Quizzes](#quizzes)** &nbsp;·&nbsp; **[🧪 Laboratory](#oopm-laboratory)** &nbsp;·&nbsp; **[🎮 Mini Project](#oopm-mini-project)** &nbsp;·&nbsp; **[👥 Authors](#-authors)** &nbsp;·&nbsp; **[📋 Syllabus](#syllabus)** &nbsp;·&nbsp; **[📘 Usage Guidelines](#usage-guidelines)** &nbsp;·&nbsp; **[📜 License](#license)** &nbsp;·&nbsp; **[ℹ️ About](#about-this-repository)** &nbsp;·&nbsp; **[🙏 Acknowledgments](#acknowledgments)** &nbsp;·&nbsp; **[🔗 Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
+  **[⬆ Back to Top](#object-oriented-programming-methodology-oopm-lab)** &nbsp;·&nbsp; **[📖 Overview](#overview)** &nbsp;·&nbsp; **[📂 Contents](#repository-contents)** &nbsp;·&nbsp; **[📚 Reference Books](#reference-books)** &nbsp;·&nbsp; **[📝 Quizzes](#quizzes)** &nbsp;·&nbsp; **[🧪 Laboratory](#oopm-laboratory)** &nbsp;·&nbsp; **[🎮 Mini Project](#oopm-mini-project)** &nbsp;·&nbsp; **[👥 Authors](#-authors)** &nbsp;·&nbsp; **[📋 Syllabus](#syllabus)** &nbsp;·&nbsp; **[📘 Usage Guidelines](#usage-guidelines)** &nbsp;·&nbsp; **[📜 License](#license)** &nbsp;·&nbsp; **[ℹ️ About](#about-this-repository)** &nbsp;·&nbsp; **[🙏 Acknowledgments](#acknowledgments)**
+
+  <br>
+
+  **[🧪 OOPM Laboratory](OOPM%20Lab/)** &nbsp;·&nbsp; **[🎮 Hangman Word Game (Mini Project)](OOPM%20Mini%20Project/)** &nbsp;·&nbsp; **[🔗 Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
 
 </div>
 

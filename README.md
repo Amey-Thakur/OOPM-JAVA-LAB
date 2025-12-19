@@ -171,7 +171,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 | Program | Description | Code |
 |---------|-------------|------|
-| `methodoverload.java` | Method overloading with different parameters | [View](OOPM%20Lab/Method%20Overloading/methodoverload.java) |
+| `Method_Overloading_Demo.java` | Method overloading with different parameters | [View](OOPM%20Lab/Method-Overloading/Method_Overloading_Demo.java) |
 
 </details>
 

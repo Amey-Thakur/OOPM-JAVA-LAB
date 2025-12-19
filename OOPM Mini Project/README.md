@@ -121,6 +121,20 @@ Developed by **Amey, Mega, and Saakshi** as part of the Second Year Computer Eng
 
 <div align="center">
 
-**[⬆ Back to Top](#hangman-word-game-oopm-mini-project)**
+**[⬆ Back to Top](#hangman-word-game-oopm-mini-project)** · **[🏠 Back to Main Repository](../)**
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Amey-Thakur/COMPUTER-ENGINEERING/main/university-of-mumbai-logo.png" alt="University of Mumbai" width="100"/>
+
+### 🎓 [Computer Engineering Repository](https://github.com/Amey-Thakur/COMPUTER-ENGINEERING)
+
+**Computer Engineering (B.E.) - University of Mumbai**
+
+*Semester-wise curriculum, laboratories, projects, and academic notes.*
 
 </div>

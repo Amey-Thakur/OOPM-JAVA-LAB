@@ -24,7 +24,7 @@
 
 **Terna Engineering College | Computer Engineering | Batch of 2022**
 
-| <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"> | <img src="Outputs/Mega.jpg" width="150" alt="Mega Satish"> | <img src="Outputs/Saakshi.png" width="150" alt="Saakshi Deokar"> |
+| <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"> | <img src="Outputs/Mega.png" width="150" alt="Mega Satish"> | <img src="Outputs/Saakshi.png" width="150" alt="Saakshi Deokar"> |
 | :---: | :---: | :---: |
 | [**Amey Thakur**](https://github.com/Amey-Thakur) | [**Mega Satish**](https://github.com/msatmod) | [**Saakshi Deokar**](https://www.linkedin.com/in/saakshideokar/) |
 

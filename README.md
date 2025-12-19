@@ -2,16 +2,16 @@
 
 <img src="https://raw.githubusercontent.com/Amey-Thakur/COMPUTER-ENGINEERING/main/university-of-mumbai-logo.png" alt="University of Mumbai" width="200"/>
 
-# Object-Oriented Programming Methodology and OOPM Lab
+# OOPM (Java) Lab
 
-### CSC304 & CSL304 · Semester III · Computer Engineering
+### CSL304 · Semester III · Computer Engineering
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 [![University](https://img.shields.io/badge/University-Mumbai-orange.svg)](https://mu.ac.in/)
 [![Institution](https://img.shields.io/badge/Institution-Terna%20Engineering%20College-green.svg)](https://ternaengg.ac.in/)
 [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
 
-**A comprehensive academic resource for Object-Oriented Programming Methodology (OOPM) and OOPM Laboratory, covering Java fundamentals, object-oriented concepts, inheritance, polymorphism, exception handling, multithreading, and GUI development essential for computer engineering foundations.**
+**A comprehensive academic resource for OOPM (Java) Lab, covering Java fundamentals, object-oriented concepts, inheritance, polymorphism, exception handling, multithreading, and GUI development essential for computer engineering foundations.**
 
 ---
 
@@ -23,7 +23,7 @@
 
 ## Overview
 
-Object-Oriented Programming Methodology (CSC304) and OOPM Lab (CSL304) are core subjects in the Second Year (Semester III) of the Computer Engineering curriculum at the University of Mumbai. These courses establish the foundational understanding of object-oriented programming principles using Java, which is crucial for developing robust, maintainable, and scalable software systems.
+OOPM (Java) Lab (CSL304) is a core subject in the Second Year (Semester III) of the Computer Engineering curriculum at the University of Mumbai. This course establishes the foundational understanding of object-oriented programming principles using Java, which is crucial for developing robust, maintainable, and scalable software systems.
 
 ### Course Topics
 
@@ -342,13 +342,13 @@ This repository and all linked academic content are made available under the **C
 **Institution**: [Terna Engineering College](https://ternaengg.ac.in/), Navi Mumbai  
 **University**: [University of Mumbai](https://mu.ac.in/)
 
-This repository represents a comprehensive collection of study materials, reference books, practice quizzes, and laboratory programs curated during my academic journey. All content has been carefully organized and documented to serve as a valuable resource for students pursuing Object-Oriented Programming Methodology & OOPM Lab.
+This repository represents a comprehensive collection of study materials, reference books, practice quizzes, and laboratory programs curated during my academic journey. All content has been carefully organized and documented to serve as a valuable resource for students pursuing OOPM (Java) Lab.
 
 **Connect**: [GitHub](https://github.com/Amey-Thakur) · [LinkedIn](https://www.linkedin.com/in/amey-thakur)
 
 ### Acknowledgments
 
-Grateful acknowledgment to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance and instruction in Object-Oriented Programming Methodology. Their clear teaching and continued support helped me develop a strong understanding of OOP principles and Java programming.
+Grateful acknowledgment to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance and instruction in OOPM (Java) Lab. Their clear teaching and continued support helped me develop a strong understanding of OOP principles and Java programming.
 
 Special thanks to the mentors and peers whose encouragement, discussions, and support contributed meaningfully to this learning experience.
 
@@ -358,7 +358,7 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
 
 ### Quick Navigation
 
-**[⬆ Back to Top](#object-oriented-programming-methodology-and-oopm-lab)** · **[📖 Overview](#overview)** · **[📚 Reference Books](#reference-books)** · **[📝 Quizzes](#quizzes)** · **[🧪 Laboratory](#oopm-laboratory)** · **[🎮 Mini Project](#oopm-mini-project)** · **[📋 Syllabus](#syllabus)**
+**[⬆ Back to Top](#oopm-java-lab)** · **[📖 Overview](#overview)** · **[📚 Reference Books](#reference-books)** · **[📝 Quizzes](#quizzes)** · **[🧪 Laboratory](#oopm-laboratory)** · **[🎮 Mini Project](#oopm-mini-project)** · **[📋 Syllabus](#syllabus)**
 
 </div>
 

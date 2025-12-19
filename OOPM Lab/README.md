@@ -37,8 +37,8 @@
 
 | # | Program | Description |
 |---|---------|-------------|
-| 1 | [arrays.java](1-D%20Array/arrays.java) | Basic 1-D array operations and traversal |
-| 2 | [array_param.java](1-D%20Array/array_param.java) | Passing arrays as method parameters |
+| 1 | [StudentMarksReport.java](One-Dimensional-Array/StudentMarksReport.java) | Basic 1-D array operations and traversal (Student Marks Report) |
+| 2 | [ArrayParameterPassing.java](One-Dimensional-Array/ArrayParameterPassing.java) | Passing arrays as method parameters demo |
 | 3 | [twodarray.java](2-D%20Array/twodarray.java) | 2-D array operations and matrix handling |
 
 ---

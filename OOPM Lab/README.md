@@ -49,19 +49,19 @@
 
 | # | Program | Description |
 |---|---------|-------------|
-| 1 | [forloop.java](Looping%20and%20Branching/Looping/forloop.java) | For loop demonstration with counter |
-| 2 | [whileloop.java](Looping%20and%20Branching/Looping/whileloop.java) | While loop demonstration |
-| 3 | [dowhile.java](Looping%20and%20Branching/Looping/dowhile.java) | Do-while loop demonstration |
+| 1 | [For_Loop.java](Looping-And-Branching/Looping/For_Loop.java) | For loop demonstration with counter |
+| 2 | [While_Loop.java](Looping-And-Branching/Looping/While_Loop.java) | While loop demonstration |
+| 3 | [Do_While_Loop.java](Looping-And-Branching/Looping/Do_While_Loop.java) | Do-while loop demonstration |
 
 ### Branching Statements
 
 | # | Program | Description |
 |---|---------|-------------|
-| 4 | [exp_break.java](Looping%20and%20Branching/Branching/exp_break.java) | Break statement for loop termination |
-| 5 | [exp_cont.java](Looping%20and%20Branching/Branching/exp_cont.java) | Continue statement for iteration skip |
-| 6 | [exp_return.java](Looping%20and%20Branching/Branching/exp_return.java) | Return statement for method exit |
-| 7 | [labelled_break.java](Looping%20and%20Branching/Branching/labelled_break.java) | Labelled break for nested loops |
-| 8 | [labelled_continue.java](Looping%20and%20Branching/Branching/labelled_continue.java) | Labelled continue for nested loops |
+| 4 | [Break_Statement.java](Looping-And-Branching/Branching/Break_Statement.java) | Break statement for loop termination |
+| 5 | [Continue_Statement.java](Looping-And-Branching/Branching/Continue_Statement.java) | Continue statement for iteration skip |
+| 6 | [Return_Statement.java](Looping-And-Branching/Branching/Return_Statement.java) | Return statement for method exit |
+| 7 | [Labelled_Break.java](Looping-And-Branching/Branching/Labelled_Break.java) | Labelled break for nested loops |
+| 8 | [Labelled_Continue.java](Looping-And-Branching/Branching/Labelled_Continue.java) | Labelled continue for nested loops |
 
 ---
 

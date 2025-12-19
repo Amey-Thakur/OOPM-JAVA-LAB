@@ -139,7 +139,7 @@
 
 | # | Program | Description |
 |---|---------|-------------|
-| 1 | [multithreading.java](Multithreading/multithreading.java) | Thread creation and concurrent execution |
+| 1 | [Multithreading_Demo.java](Multithreading/Multithreading_Demo.java) | Thread creation and concurrent execution |
 
 ---
 

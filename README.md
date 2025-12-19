@@ -240,7 +240,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 | Program | Description | Code |
 |---------|-------------|------|
-| `multithreading.java` | Thread creation and concurrent execution | [View](OOPM%20Lab/Multithreading/multithreading.java) |
+| `Multithreading_Demo.java` | Thread creation and concurrent execution | [View](OOPM%20Lab/Multithreading/Multithreading_Demo.java) |
 
 </details>
 

@@ -231,7 +231,7 @@ appletviewer Fill_Color_Applet.html
 
 <br>
 
-**[🏠 Back to Main Repository](../)** · **[🎮 OOPM Mini Project](../OOPM%20Mini%20Project)**
+**[🏠 Back to Main Repository](../)**
 
 </div>
 

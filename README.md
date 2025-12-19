@@ -210,9 +210,9 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 | Program | Description | Code |
 |---------|-------------|------|
-| `ar.java` | Main program using custom package | [View](OOPM%20Lab/User%20Defined%20Package/ar.java) |
-| `area.java` | Area calculation package | [View](OOPM%20Lab/User%20Defined%20Package/area.java) |
-| `perimeter.java` | Perimeter calculation package | [View](OOPM%20Lab/User%20Defined%20Package/perimeter.java) |
+| `Package_Demo.java` | Main program using custom package | [View](OOPM%20Lab/User-Defined-Package/Package_Demo.java) |
+| `Area_Calc.java` | Area calculation package | [View](OOPM%20Lab/User-Defined-Package/geometry/Area_Calc.java) |
+| `Perimeter_Calc.java` | Perimeter calculation package | [View](OOPM%20Lab/User-Defined-Package/geometry/Perimeter_Calc.java) |
 
 </details>
 

@@ -12,7 +12,7 @@
 
 ---
 
-[📖 Overview](#overview) · [📸 Screenshots](#screenshots) · [✨ Features](#features) · [🚀 How to Run](#how-to-run) · [👥 Team](#team)
+[📖 Overview](#overview) · [📸 Screenshots](#screenshots) · [✨ Features](#features) · [🚀 How to Run](#how-to-run) · [👥 Authors](#authors)
 
 </div>
 

@@ -25,9 +25,9 @@
 ---
 
 <!-- AUTHORS -->
-## 👥 Authors
-
 <div align="center">
+
+  ## 👥 Authors
 
   **Terna Engineering College | Computer Engineering | Batch of 2022**
 

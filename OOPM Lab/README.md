@@ -131,7 +131,7 @@
 | # | Program | Description |
 |---|---------|-------------|
 | 1 | [String_Operations_Demo.java](String-Operations/String_Operations_Demo.java) | String class operations and methods |
-| 2 | [sbuf.java](String%20Buffer/sbuf.java) | StringBuffer operations and manipulation |
+| 2 | [String_Buffer_Demo.java](String-Buffer/String_Buffer_Demo.java) | StringBuffer operations and manipulation |
 
 ---
 

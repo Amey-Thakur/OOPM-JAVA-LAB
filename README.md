@@ -142,18 +142,18 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 **Looping Constructs:**
 | Program | Description | Code |
 |---------|-------------|------|
-| `forloop.java` | For loop demonstration | [View](OOPM%20Lab/Looping%20and%20Branching/Looping/forloop.java) |
-| `whileloop.java` | While loop demonstration | [View](OOPM%20Lab/Looping%20and%20Branching/Looping/whileloop.java) |
-| `dowhile.java` | Do-while loop demonstration | [View](OOPM%20Lab/Looping%20and%20Branching/Looping/dowhile.java) |
+| `For_Loop.java` | For loop demonstration | [View](OOPM%20Lab/Looping-And-Branching/Looping/For_Loop.java) |
+| `While_Loop.java` | While loop demonstration | [View](OOPM%20Lab/Looping-And-Branching/Looping/While_Loop.java) |
+| `Do_While_Loop.java` | Do-while loop demonstration | [View](OOPM%20Lab/Looping-And-Branching/Looping/Do_While_Loop.java) |
 
 **Branching Statements:**
 | Program | Description | Code |
 |---------|-------------|------|
-| `exp_break.java` | Break statement usage | [View](OOPM%20Lab/Looping%20and%20Branching/Branching/exp_break.java) |
-| `exp_cont.java` | Continue statement usage | [View](OOPM%20Lab/Looping%20and%20Branching/Branching/exp_cont.java) |
-| `exp_return.java` | Return statement usage | [View](OOPM%20Lab/Looping%20and%20Branching/Branching/exp_return.java) |
-| `labelled_break.java` | Labelled break for nested loops | [View](OOPM%20Lab/Looping%20and%20Branching/Branching/labelled_break.java) |
-| `labelled_continue.java` | Labelled continue for nested loops | [View](OOPM%20Lab/Looping%20and%20Branching/Branching/labelled_continue.java) |
+| `Break_Statement.java` | Break statement usage | [View](OOPM%20Lab/Looping-And-Branching/Branching/Break_Statement.java) |
+| `Continue_Statement.java` | Continue statement usage | [View](OOPM%20Lab/Looping-And-Branching/Branching/Continue_Statement.java) |
+| `Return_Statement.java` | Return statement usage | [View](OOPM%20Lab/Looping-And-Branching/Branching/Return_Statement.java) |
+| `Labelled_Break.java` | Labelled break for nested loops | [View](OOPM%20Lab/Looping-And-Branching/Branching/Labelled_Break.java) |
+| `Labelled_Continue.java` | Labelled continue for nested loops | [View](OOPM%20Lab/Looping-And-Branching/Branching/Labelled_Continue.java) |
 
 </details>
 

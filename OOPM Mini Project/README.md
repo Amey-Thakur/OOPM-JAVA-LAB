@@ -32,7 +32,7 @@
 
 ---
 
-## Overview
+## 📖 Overview
 
 The **Hangman Word Game** is a Java-based mini project developed for the Object-Oriented Programming Methodology (OOPM) laboratory. It demonstrates the application of core Java concepts, including Applets, Graphics programming (AWT), Event Handling, and String manipulation.
 

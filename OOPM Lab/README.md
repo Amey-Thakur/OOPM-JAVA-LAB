@@ -23,10 +23,6 @@
 
 ---
 
-
-
----
-
 <!-- ARRAYS -->
 ## 📊 Arrays (3 Programs)
 

@@ -10,9 +10,13 @@
 
 **A classic graphical Hangman game implemented using Java Applets and AWT/Swing components.**
 
+</div>
+
 ---
 
-[👥 Authors](#authors) · [📖 Overview](#overview) · [🔗 Resources](#resources) · [✨ Features](#features) · [🚀 How to Run](#how-to-run) · [📸 Result](#result)
+<div align="center">
+
+**[👥 Authors](#authors)** · **[📖 Overview](#overview)** · **[🔗 Resources](#resources)** · **[✨ Features](#features)** · **[🚀 How to Run](#how-to-run)** · **[📸 Result](#result)**
 
 </div>
 

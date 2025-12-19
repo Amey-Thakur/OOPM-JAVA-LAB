@@ -130,7 +130,7 @@
 
 | # | Program | Description |
 |---|---------|-------------|
-| 1 | [exp_string.java](String/exp_string.java) | String class operations and methods |
+| 1 | [String_Operations_Demo.java](String-Operations/String_Operations_Demo.java) | String class operations and methods |
 | 2 | [sbuf.java](String%20Buffer/sbuf.java) | StringBuffer operations and manipulation |
 
 ---

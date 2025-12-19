@@ -230,7 +230,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 | Program | Description | Code |
 |---------|-------------|------|
-| `exp_string.java` | String class operations and methods | [View](OOPM%20Lab/String/exp_string.java) |
+| `String_Operations_Demo.java` | String class operations and methods | [View](OOPM%20Lab/String-Operations/String_Operations_Demo.java) |
 | `sbuf.java` | StringBuffer operations | [View](OOPM%20Lab/String%20Buffer/sbuf.java) |
 
 </details>

@@ -28,8 +28,13 @@ The objective of the game is to guess the hidden word letter by letter. For ever
 
 ## 📸 Screenshots
 
+<div align="center">
+
 ### Welcome Screen
 <img src="Outputs/Welcome_Message.png" width="100%">
+
+### Instructions
+<img src="Outputs/Instructions_Message.png" width="100%">
 
 ### Input Player Name
 <img src="Outputs/Player_Name_Input.png" width="100%">
@@ -37,14 +42,36 @@ The objective of the game is to guess the hidden word letter by letter. For ever
 ### Game Play
 <img src="Outputs/Game_Screen.png" width="100%">
 
-### Win Condition
-<img src="Outputs/Win.png" width="100%">
+### Input Window
+<img src="Outputs/Input_Window.png" width="100%">
+
+### Input Answer
+<img src="Outputs/Input_Answer.png" width="100%">
+
+### Game Progression (Missed Attempts)
+<img src="Outputs/Missed_1.png" width="100%">
+<img src="Outputs/Missed_2.png" width="100%">
+<img src="Outputs/Missed_3.png" width="100%">
+<img src="Outputs/Missed_4.png" width="100%">
+<img src="Outputs/Missed_5.png" width="100%">
+<img src="Outputs/Missed_6.png" width="100%">
+<img src="Outputs/Missed_7.1.png" width="100%">
+<img src="Outputs/Missed_7.2.png" width="100%">
+<img src="Outputs/Missed_7.3.png" width="100%">
 
 ### Lose Condition
 <img src="Outputs/Lose.png" width="100%">
 
+### Win Condition
+<img src="Outputs/Win.png" width="100%">
+
+### Input Win
+<img src="Outputs/Input_Win.png" width="100%">
+
 ### Hint Message
 <img src="Outputs/Hint_Message.png" width="100%">
+
+</div>
 
 ---
 

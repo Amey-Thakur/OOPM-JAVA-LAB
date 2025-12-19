@@ -155,9 +155,9 @@
 
 | # | Program | Description |
 |---|---------|-------------|
-| 1 | [exp_scanner.java](Accept%20Input%20from%20User/exp_scanner.java) | Input using Scanner class |
-| 2 | [exp_BuffRead.java](Accept%20Input%20from%20User/exp_BuffRead.java) | Input using BufferedReader |
-| 3 | [exp_console.java](Accept%20Input%20from%20User/exp_console.java) | Input using Console class |
+| 1 | [InputUsingScanner.java](Accept-Input-From-User/InputUsingScanner.java) | Input using Scanner class |
+| 2 | [InputUsingBufferedReader.java](Accept-Input-From-User/InputUsingBufferedReader.java) | Input using BufferedReader |
+| 3 | [InputUsingConsole.java](Accept-Input-From-User/InputUsingConsole.java) | Input using Console class |
 
 ---
 

@@ -270,8 +270,8 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 **Basic Applets:**
 | Program | Description | Code |
 |---------|-------------|------|
-| `fillcolor.java` | Basic applet with color filling | [View](OOPM%20Lab/Basic%20Applets/fillcolor.java) |
-| `a.html` | HTML file for applet embedding | [View](OOPM%20Lab/Basic%20Applets/a.html) |
+| `Fill_Color_Applet.java` | Basic applet with color filling | [View](OOPM%20Lab/Basic-Applets/Fill_Color_Applet.java) |
+| `Fill_Color_Applet.html` | HTML file for applet embedding | [View](OOPM%20Lab/Basic-Applets/Fill_Color_Applet.html) |
 
 **Passing Parameters to Applets:**
 | Program | Description | Code |

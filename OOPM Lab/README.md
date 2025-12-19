@@ -235,7 +235,7 @@ appletviewer a.html
 
 <div align="center">
 
-### [OOPM (Java) Lab](https://github.com/Amey-Thakur/OOPM-JAVA-LAB)
+### [Object-Oriented Programming Methodology (Java) Lab](https://github.com/Amey-Thakur/OOPM-JAVA-LAB)
 
 **CSL304 · Semester III · Computer Engineering**
 

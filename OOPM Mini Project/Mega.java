@@ -51,7 +51,7 @@ public class Mega extends Applet {
         setBackground(bgColor);
 
         // Welcome Dialogs (Preserving credits as requested)
-        JOptionPane.showMessageDialog(this, "\n \t \t \t Welcome to WORDGAME \n \n - Developed by Amey Thakur, Mega, Saakshi");
+        JOptionPane.showMessageDialog(this, "\n \t \t \t Welcome to WORDGAME \n \n - Developed by Amey, Mega, Saakshi");
         JOptionPane.showMessageDialog(this, "\t Guess the letters to SAVE a MAN \n \n  Hit the spacebar to guess the word");
         JOptionPane.showMessageDialog(this, "\t \n Hint: PROGRAMMING LANGUAGES \n \n \t Lets Play. Have fun!!!");	
         JOptionPane.showInputDialog("Player name");

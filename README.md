@@ -162,7 +162,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 | Program | Description | Code |
 |---------|-------------|------|
-| `methods.java` | Class creation with methods and object instantiation | [View](OOPM%20Lab/Creating%20Classes%2C%20Methods%20and%20Objects/methods.java) |
+| `Class_Method_Demo.java` | Class creation with methods and object instantiation | [View](OOPM%20Lab/Classes-Methods-And-Objects/Class_Method_Demo.java) |
 
 </details>
 

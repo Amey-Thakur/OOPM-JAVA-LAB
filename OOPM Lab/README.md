@@ -69,7 +69,7 @@
 
 | # | Program | Description |
 |---|---------|-------------|
-| 1 | [methods.java](Creating%20Classes%2C%20Methods%20and%20Objects/methods.java) | Class creation with methods and object instantiation |
+| 1 | [Class_Method_Demo.java](Classes-Methods-And-Objects/Class_Method_Demo.java) | Class creation with methods and object instantiation |
 
 ---
 

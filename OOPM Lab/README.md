@@ -167,8 +167,8 @@
 
 | # | Program | Description |
 |---|---------|-------------|
-| 1 | [fillcolor.java](Basic%20Applets/fillcolor.java) | Basic applet with color filling |
-| 2 | [a.html](Basic%20Applets/a.html) | HTML file for applet embedding |
+| 1 | [Fill_Color_Applet.java](Basic-Applets/Fill_Color_Applet.java) | Basic applet with color filling |
+| 2 | [Fill_Color_Applet.html](Basic-Applets/Fill_Color_Applet.html) | HTML file for applet embedding |
 
 ### Passing Parameters to Applets
 

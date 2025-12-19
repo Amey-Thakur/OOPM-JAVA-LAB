@@ -312,9 +312,9 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 </div>
 
-### 👥 Authors
-
 <div align="center">
+
+### 👥 Authors
 
 | <img src="https://github.com/Amey-Thakur.png" width="100" alt="Amey Thakur"> | <img src="OOPM%20Mini%20Project/Mega/Mega.png" width="100" alt="Mega Satish"> | <img src="OOPM%20Mini%20Project/Mega/Saakshi.png" width="100" alt="Saakshi Deokar"> |
 | :---: | :---: | :---: |

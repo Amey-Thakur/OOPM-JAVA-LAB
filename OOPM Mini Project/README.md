@@ -8,6 +8,7 @@
   [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
   [![Language](https://img.shields.io/badge/Language-Java%20Applet-orange.svg)](Mega.java)
   [![Status](https://img.shields.io/badge/Status-Completed-green.svg)](./)
+  [![Game Repository](https://img.shields.io/badge/🎮-Game%20Repository-orange.svg)](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)
 
   **A classic graphical Hangman game implemented using Java Applets and AWT/Swing components.**
 

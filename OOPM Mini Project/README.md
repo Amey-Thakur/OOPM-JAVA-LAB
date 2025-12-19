@@ -18,7 +18,7 @@
 <!-- NAVIGATION -->
 <div align="center">
 
-  **[👥 Authors](#-authors)** · **[📖 Overview](#-overview)** · **[🔗 Resources](#-resources)** · **[✨ Features](#-features)** · **[🚀 How to Run](#-how-to-run)** · **[📸 Result](#-result)**
+  **[👥 Authors](#-authors)** &nbsp;·&nbsp; **[📖 Overview](#-overview)** &nbsp;·&nbsp; **[🔗 Resources](#-resources)** &nbsp;·&nbsp; **[✨ Features](#-features)** &nbsp;·&nbsp; **[🚀 How to Run](#-how-to-run)** &nbsp;·&nbsp; **[📸 Result](#-result)**
 
 </div>
 
@@ -156,11 +156,11 @@ Since Java Applets are deprecated in newer JDK versions, you may need to use `ap
 <!-- FOOTER -->
 <div align="center">
 
-  **[⬆ Back to Top](#hangman-word-game-oopm-mini-project)** · **[👥 Authors](#-authors)** · **[📖 Overview](#-overview)** · **[🔗 Resources](#-resources)** · **[✨ Features](#-features)** · **[🚀 How to Run](#-how-to-run)** · **[📸 Result](#-result)**
+  **[⬆ Back to Top](#hangman-word-game-oopm-mini-project)** &nbsp;·&nbsp; **[👥 Authors](#-authors)** &nbsp;·&nbsp; **[📖 Overview](#-overview)** &nbsp;·&nbsp; **[🔗 Resources](#-resources)** &nbsp;·&nbsp; **[✨ Features](#-features)** &nbsp;·&nbsp; **[🚀 How to Run](#-how-to-run)** &nbsp;·&nbsp; **[📸 Result](#-result)**
 
   <br>
 
-  **[🏠 Back to Main Repository](../)** · **[🧪 Back to OOPM Lab](../OOPM%20Lab)** · **[🔗 Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
+  **[🏠 Back to Main Repository](../)** &nbsp;·&nbsp; **[🧪 Back to OOPM Lab](../OOPM%20Lab)** &nbsp;·&nbsp; **[🔗 Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
 
 </div>
 

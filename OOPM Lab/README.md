@@ -17,29 +17,13 @@
 
 <div align="center">
 
-  **[📊 Arrays](#-arrays-3-programs)** · **[🔄 Looping](#-looping--branching-8-programs)** · **[🏗️ Classes](#-classes-methods--objects-1-program)** · **[⚡ Overloading](#-method-overloading-1-program)** · **[🔧 Constructors](#-constructor--constructor-overloading-3-programs)** · **[🧬 Inheritance](#-single--multilevel-inheritance-2-programs)** · **[🎨 Abstract](#-abstract-class-1-program)** · **[📦 Packages](#-user-defined-package-3-programs)** · **[⚠️ Exceptions](#-user-defined-exception-1-program)** · **[🔤 Strings](#-string-operations-2-programs)** · **[🧵 Multithreading](#-multithreading-1-program)** · **[📋 Vector](#-vector-1-program)** · **[⌨️ Input](#-accept-input-from-user-3-programs)** · **[🖼️ Applets](#-applets-5-programs)** · **[🚀 How to Use](#-how-to-use)** · **[📖 Learning Path](#-learning-path)**
+  **[📊 Arrays](#-arrays-3-programs)** &nbsp;·&nbsp; **[🔄 Looping](#-looping--branching-8-programs)** &nbsp;·&nbsp; **[🏗️ Classes](#-classes-methods--objects-1-program)** &nbsp;·&nbsp; **[⚡ Overloading](#-method-overloading-1-program)** &nbsp;·&nbsp; **[🔧 Constructors](#-constructor--constructor-overloading-3-programs)** &nbsp;·&nbsp; **[🧬 Inheritance](#-single--multilevel-inheritance-2-programs)** &nbsp;·&nbsp; **[🎨 Abstract](#-abstract-class-1-program)** &nbsp;·&nbsp; **[📦 Packages](#-user-defined-package-3-programs)** &nbsp;·&nbsp; **[⚠️ Exceptions](#-user-defined-exception-1-program)** &nbsp;·&nbsp; **[🔤 Strings](#-string-operations-2-programs)** &nbsp;·&nbsp; **[🧵 Multithreading](#-multithreading-1-program)** &nbsp;·&nbsp; **[📋 Vector](#-vector-1-program)** &nbsp;·&nbsp; **[⌨️ Input](#-accept-input-from-user-3-programs)** &nbsp;·&nbsp; **[🖼️ Applets](#-applets-5-programs)** &nbsp;·&nbsp; **[🚀 How to Use](#-how-to-use)** &nbsp;·&nbsp; **[📖 Learning Path](#-learning-path)**
 
 </div>
 
 ---
 
-<!-- NAVIGATION -->
-## 📚 Quick Navigation
 
-- [Arrays](#-arrays-3-programs)
-- [Looping & Branching](#-looping--branching-8-programs)
-- [Classes, Methods & Objects](#-classes-methods--objects-1-program)
-- [Method Overloading](#-method-overloading-1-program)
-- [Constructor & Overloading](#-constructor--constructor-overloading-3-programs)
-- [Inheritance](#-single--multilevel-inheritance-2-programs)
-- [Abstract Class](#-abstract-class-1-program)
-- [User Defined Package](#-user-defined-package-3-programs)
-- [Exception Handling](#-user-defined-exception-1-program)
-- [String Operations](#-string-operations-2-programs)
-- [Multithreading](#-multithreading-1-program)
-- [Vector](#-vector-1-program)
-- [Input Methods](#-accept-input-from-user-3-programs)
-- [Applets](#-applets-5-programs)
 
 ---
 
@@ -252,13 +236,11 @@ appletviewer Fill_Color_Applet.html
 <!-- FOOTER -->
 <div align="center">
 
-  ### Quick Navigation
-
-  **[⬆ Back to Top](#object-oriented-programming-methodology-oopm-lab)** · **[📊 Arrays](#-arrays-3-programs)** · **[🔄 Looping](#-looping--branching-8-programs)** · **[🏗️ Classes](#-classes-methods--objects-1-program)** · **[⚡ Overloading](#-method-overloading-1-program)** · **[🔧 Constructors](#-constructor--constructor-overloading-3-programs)** · **[🧬 Inheritance](#-single--multilevel-inheritance-2-programs)** · **[🎨 Abstract](#-abstract-class-1-program)** · **[📦 Packages](#-user-defined-package-3-programs)** · **[⚠️ Exceptions](#-user-defined-exception-1-program)** · **[🔤 Strings](#-string-operations-2-programs)** · **[🧵 Multithreading](#-multithreading-1-program)** · **[📋 Vector](#-vector-1-program)** · **[⌨️ Input](#-accept-input-from-user-3-programs)** · **[🖼️ Applets](#-applets-5-programs)** · **[🚀 How to Use](#-how-to-use)** · **[📖 Learning Path](#-learning-path)**
+  **[⬆ Back to Top](#object-oriented-programming-methodology-oopm-lab)** &nbsp;·&nbsp; **[📊 Arrays](#-arrays-3-programs)** &nbsp;·&nbsp; **[🔄 Looping](#-looping--branching-8-programs)** &nbsp;·&nbsp; **[🏗️ Classes](#-classes-methods--objects-1-program)** &nbsp;·&nbsp; **[⚡ Overloading](#-method-overloading-1-program)** &nbsp;·&nbsp; **[🔧 Constructors](#-constructor--constructor-overloading-3-programs)** &nbsp;·&nbsp; **[🧬 Inheritance](#-single--multilevel-inheritance-2-programs)** &nbsp;·&nbsp; **[🎨 Abstract](#-abstract-class-1-program)** &nbsp;·&nbsp; **[📦 Packages](#-user-defined-package-3-programs)** &nbsp;·&nbsp; **[⚠️ Exceptions](#-user-defined-exception-1-program)** &nbsp;·&nbsp; **[🔤 Strings](#-string-operations-2-programs)** &nbsp;·&nbsp; **[🧵 Multithreading](#-multithreading-1-program)** &nbsp;·&nbsp; **[📋 Vector](#-vector-1-program)** &nbsp;·&nbsp; **[⌨️ Input](#-accept-input-from-user-3-programs)** &nbsp;·&nbsp; **[🖼️ Applets](#-applets-5-programs)** &nbsp;·&nbsp; **[🚀 How to Use](#-how-to-use)** &nbsp;·&nbsp; **[📖 Learning Path](#-learning-path)**
 
   <br>
 
-  **[🏠 Back to Main Repository](../)** · **[🎮 Hangman Word Game (Mini Project)](../OOPM%20Mini%20Project/)** · **[🔗 Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
+  **[🏠 Back to Main Repository](../)** &nbsp;·&nbsp; **[🎮 Hangman Word Game (Mini Project)](../OOPM%20Mini%20Project/)** &nbsp;·&nbsp; **[🔗 Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
 
 </div>
 

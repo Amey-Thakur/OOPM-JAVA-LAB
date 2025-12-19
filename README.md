@@ -289,11 +289,22 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 ### 🎮 Hangman Word Game
 
-**A simple Hangman Word Game using Applet in Java**
+**A classic graphical Hangman game implemented using Java Applets and AWT/Swing components.**
+
+<a href="https://youtu.be/JsT9KYKPUgs">
+  <img src="https://img.youtube.com/vi/JsT9KYKPUgs/maxresdefault.jpg" width="60%" alt="Hangman Game Demo">
+</a>
+
+<br>
 
 [![Presentation](https://img.shields.io/badge/📊-Presentation-blue.svg)](http://dx.doi.org/10.13140/RG.2.2.26806.22082)
 [![Code](https://img.shields.io/badge/💻-Source%20Code-green.svg)](http://dx.doi.org/10.13140/RG.2.2.20095.33446)
 [![Repository](https://img.shields.io/badge/🎮-Game%20Repository-orange.svg)](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)
+
+<br>
+
+| <img src="https://github.com/Amey-Thakur.png" width="30" alt="Amey Thakur"> | **Curated by [Amey Thakur](https://github.com/Amey-Thakur)** |
+| :---: | :--- |
 
 </div>
 

@@ -258,9 +258,9 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 | Program | Description | Code |
 |---------|-------------|------|
-| `exp_scanner.java` | Input using Scanner class | [View](OOPM%20Lab/Accept%20Input%20from%20User/exp_scanner.java) |
-| `exp_BuffRead.java` | Input using BufferedReader | [View](OOPM%20Lab/Accept%20Input%20from%20User/exp_BuffRead.java) |
-| `exp_console.java` | Input using Console class | [View](OOPM%20Lab/Accept%20Input%20from%20User/exp_console.java) |
+| `InputUsingScanner.java` | Input using Scanner class | [View](OOPM%20Lab/Accept-Input-From-User/InputUsingScanner.java) |
+| `InputUsingBufferedReader.java` | Input using BufferedReader | [View](OOPM%20Lab/Accept-Input-From-User/InputUsingBufferedReader.java) |
+| `InputUsingConsole.java` | Input using Console class | [View](OOPM%20Lab/Accept-Input-From-User/InputUsingConsole.java) |
 
 </details>
 

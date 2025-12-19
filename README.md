@@ -16,7 +16,7 @@
 
   ---
 
-  [📖 Overview](#overview) · [📂 Contents](#repository-contents) · [📚 Reference Books](#reference-books) · [📝 Quizzes](#quizzes) · [🧪 Laboratory](#oopm-laboratory) · [🎮 Mini Project](#oopm-mini-project) · [📋 Syllabus](#syllabus) · [📘 Usage Guidelines](#usage-guidelines) · [📜 License](#license) · [👥 Authors](#-authors)
+  [📖 Overview](#overview) · [📂 Contents](#repository-contents) · [📚 Reference Books](#reference-books) · [📝 Quizzes](#quizzes) · [🧪 Laboratory](#oopm-laboratory) · [🎮 Mini Project](#oopm-mini-project) · [👥 Authors](#-authors) · [📋 Syllabus](#syllabus) · [📘 Usage Guidelines](#usage-guidelines) · [📜 License](#license) · [ℹ️ About](#about-this-repository) · [🙏 Acknowledgments](#acknowledgments)
 
 </div>
 
@@ -390,7 +390,7 @@ Special thanks to the faculty members of the Department of Computer Engineering 
 
   ### Quick Navigation
 
-  **[⬆ Back to Top](#object-oriented-programming-methodology-oopm-lab)** · **[📖 Overview](#overview)** · **[📂 Contents](#repository-contents)** · **[📝 Quizzes](#quizzes)** · **[📋 Syllabus](#syllabus)** · **[👥 Authors](#-authors)**
+  **[⬆ Back to Top](#object-oriented-programming-methodology-oopm-lab)** · **[📖 Overview](#overview)** · **[📂 Contents](#repository-contents)** · **[📚 Reference Books](#reference-books)** · **[📝 Quizzes](#quizzes)** · **[🧪 Laboratory](#oopm-laboratory)** · **[🎮 Mini Project](#oopm-mini-project)** · **[👥 Authors](#-authors)** · **[📋 Syllabus](#syllabus)** · **[📘 Usage Guidelines](#usage-guidelines)** · **[📜 License](#license)** · **[ℹ️ About](#about-this-repository)** · **[🙏 Acknowledgments](#acknowledgments)**
 
   <br>
 

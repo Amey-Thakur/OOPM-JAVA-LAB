@@ -8,11 +8,11 @@
 
 import java.util.Scanner;
 
-public class ArrayParameterPassing {
+public class Array_Parameter_Passing {
 
     public static void main(String[] args) {
         // Create an instance of the class to call instance methods
-        ArrayParameterPassing demoArgs = new ArrayParameterPassing();
+        Array_Parameter_Passing demoArgs = new Array_Parameter_Passing();
         Scanner scanner = new Scanner(System.in);
 
         // Declare and instantiate an array of size 10

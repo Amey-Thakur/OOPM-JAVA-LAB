@@ -35,7 +35,7 @@ class Square extends Shape {
 }
 
 // Main class to test the implementation
-public class AbstractClassDemo {
+public class Abstract_Class_Demo {
     public static void main(String[] args) {
         System.out.println("---------------------------------------------");
         System.out.println("       Abstract Class Demo");

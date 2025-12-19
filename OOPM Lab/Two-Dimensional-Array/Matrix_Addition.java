@@ -6,7 +6,7 @@
  * Reference: https://github.com/Amey-Thakur/OOPM-JAVA-LAB
  */
 
-public class MatrixAddition {
+public class Matrix_Addition {
 
     public static void main(String[] args) {
         // Initialization of 2D arrays (matrices) with static values

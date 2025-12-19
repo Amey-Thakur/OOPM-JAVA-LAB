@@ -13,6 +13,10 @@
  * - Event Handling (keyDown, mouseMove)
  * - String Manipulation
  * - Logic Building (Game states: Win/Lose)
+ *
+ * Repositories:
+ * 1. OOPM Java Lab: https://github.com/Amey-Thakur/OOPM-JAVA-LAB
+ * 2. Game Repository: https://github.com/Amey-Thakur/HANGMAN-WORD-GAME
  */
 
 import java.awt.*; 

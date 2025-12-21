@@ -173,9 +173,14 @@ Since Java Applets are deprecated in newer JDK versions, you may need to use `ap
 
   <br>
 
-  ### 🎓 [Computer Engineering Repository](https://github.com/Amey-Thakur/COMPUTER-ENGINEERING)
+  ---
 
-  **Computer Engineering (B.E.) - University of Mumbai**
+  ### [Hangman Word Game (Mini Project)](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/tree/main/OOPM%20Mini%20Project)
+
+  **CSL304 · Semester III · Computer Engineering (Batch of 2022)**
+
+  *University of Mumbai · Curated by [Amey Thakur](https://github.com/Amey-Thakur)*
 
 </div>
+
 

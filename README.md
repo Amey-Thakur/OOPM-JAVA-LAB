@@ -113,6 +113,9 @@ Practice tests for Java fundamentals and concept reinforcement:
 
 The laboratory component (CSL304) focuses on hands-on implementation of object-oriented programming concepts using Java, providing practical experience in developing robust applications.
 
+> [!TIP]
+> **Logic Before Code**: Before diving into Java syntax, always finalize your logic using flowcharts or pseudo-code. Understanding how objects interact and how data flows through your methods is key to mastering Object-Oriented Programming.
+
 <div align="center">
 
   [![Total Programs](https://img.shields.io/badge/Total%20Programs-35-yellowgreen.svg)](OOPM%20Lab/)

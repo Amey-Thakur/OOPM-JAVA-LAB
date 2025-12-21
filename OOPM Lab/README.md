@@ -241,6 +241,9 @@ appletviewer Fill_Color_Applet.html
 > [!TIP]
 > **Visualization is Key**: Always draw the flow of your object-oriented logic (classes, methods, relationships) on paper before and during code implementation. Dry running your logic with small test cases is the most effective way to debug complex inheritance and multithreading scenarios.
 
+> [!WARNING]
+> **Java Runtime & Naming**: Java is strictly **case-sensitive**. Ensure your **filename** matches the **public class name** exactly (including capitalization) to avoid compilation errors. Additionally, always initialize your objects before use to prevent the common `NullPointerException` during runtime.
+
 ---
 
 <!-- =========================================================================================

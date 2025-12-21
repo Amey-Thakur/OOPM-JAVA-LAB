@@ -37,7 +37,6 @@
 | :---: | :---: | :---: |
 </div>
 
-<br>
 
 > [!IMPORTANT]
 > ### 🤝🏻 Special Acknowledgement

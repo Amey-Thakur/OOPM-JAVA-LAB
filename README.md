@@ -353,11 +353,11 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
      ========================================================================================= -->
 ## Syllabus
 
-> [!IMPORTANT]
-> Always verify the latest syllabus details with the official University of Mumbai website, as curriculum updates may occur after this repository's archival date.
-
 > 📋 **[Official CBCGS Syllabus](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/SE-Comps_CBCGS_Syllabus.pdf)**  
 > Complete Second Year Computer Engineering syllabus document from the University of Mumbai, including detailed course outcomes, assessment criteria, and module specifications for OOPM and OOPM Lab.
+
+> [!IMPORTANT]
+> Always verify the latest syllabus details with the official University of Mumbai website, as curriculum updates may occur after this repository's archival date.
 
 ---
 

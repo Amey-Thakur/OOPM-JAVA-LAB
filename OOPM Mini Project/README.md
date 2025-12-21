@@ -171,8 +171,6 @@ Since Java Applets are deprecated in newer JDK versions, you may need to use `ap
 
   **[🏠 Back to Main Repository](../)** &nbsp;·&nbsp; **[🧪 Back to OOPM Lab](../OOPM%20Lab)** &nbsp;·&nbsp; **[🔗 Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
 
-  <br>
-
   ---
 
   ### [Hangman Word Game (Mini Project)](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/tree/main/OOPM%20Mini%20Project)

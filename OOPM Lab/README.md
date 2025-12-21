@@ -284,8 +284,6 @@ appletviewer Fill_Color_Applet.html
 
   **[🏠 Back to Main Repository](../)** &nbsp;·&nbsp; **[🎮 Hangman Word Game (Mini Project)](../OOPM%20Mini%20Project/)** &nbsp;·&nbsp; **[🔗 Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
 
-  <br>
-
   ---
 
   ### [Object-Oriented Programming Methodology (Java) Lab](https://github.com/Amey-Thakur/OOPM-JAVA-LAB)

@@ -332,7 +332,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
   [![Repository](https://img.shields.io/badge/🎮-Game%20Repository-orange.svg)](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)
 
 
-  **[📂 Browse Mini Project](OOPM%20Mini%20Project/)**
+
 
 </div>
 
@@ -354,6 +354,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 | 📊 Presentation | [ResearchGate DOI](http://dx.doi.org/10.13140/RG.2.2.26806.22082) |
 | 💻 Source Code | [ResearchGate DOI](http://dx.doi.org/10.13140/RG.2.2.20095.33446) |
 | 🎮 Game Repository | [Hangman Word Game](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME) |
+| 📖 Project README | [Detailed Documentation](OOPM%20Mini%20Project/) |
 
 ---
 

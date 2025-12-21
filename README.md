@@ -429,8 +429,6 @@ Special thanks to the faculty members of the Department of Computer Engineering 
 
   **[🧪 OOPM Laboratory](OOPM%20Lab/)** &nbsp;·&nbsp; **[🎮 Hangman Word Game (Mini Project)](OOPM%20Mini%20Project/)** &nbsp;·&nbsp; **[🔗 Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
 
-  <br>
-
   ---
 
   ### 🎓 [Computer Engineering Repository](https://github.com/Amey-Thakur/COMPUTER-ENGINEERING)

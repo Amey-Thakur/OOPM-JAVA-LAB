@@ -1,29 +1,34 @@
-<!-- HEADER -->
+<!-- =========================================================================================
+                                     HEADER SECTION
+     ========================================================================================= -->
 <div align="center">
 
+  <!-- Title -->
   # Object-Oriented Programming Methodology (OOPM) Lab
 
+  <!-- Subtitle -->
   ### CSL304 · Semester III · Computer Engineering
 
+  <!-- Badges -->
   [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
-  [![Programs](https://img.shields.io/badge/Programs-35-green.svg)](#quick-navigation)
-  [![Language](https://img.shields.io/badge/Language-Java-orange.svg)](./)
+  [![Programs](https://img.shields.io/badge/Programs-35-yellowgreen.svg)](#quick-navigation)
+  [![Language](https://img.shields.io/badge/Language-Java-blueviolet.svg)](./)
 
+  <!-- Short Description -->
   **A comprehensive collection of 35 Java programs covering fundamental object-oriented programming concepts with detailed comments, proper documentation, and industry-standard coding practices.**
 
-</div>
+  ---
 
----
-
-<div align="center">
-
-  **[📊 Arrays](#-arrays-3-programs)** &nbsp;·&nbsp; **[🔄 Looping](#-looping--branching-8-programs)** &nbsp;·&nbsp; **[🏗️ Classes](#-classes-methods--objects-1-program)** &nbsp;·&nbsp; **[⚡ Overloading](#-method-overloading-1-program)** &nbsp;·&nbsp; **[🔧 Constructors](#-constructor--constructor-overloading-3-programs)** &nbsp;·&nbsp; **[🧬 Inheritance](#-single--multilevel-inheritance-2-programs)** &nbsp;·&nbsp; **[🎨 Abstract](#-abstract-class-1-program)** &nbsp;·&nbsp; **[📦 Packages](#-user-defined-package-3-programs)** &nbsp;·&nbsp; **[⚠️ Exceptions](#-user-defined-exception-1-program)** &nbsp;·&nbsp; **[🔤 Strings](#-string-operations-2-programs)** &nbsp;·&nbsp; **[🧵 Multithreading](#-multithreading-1-program)** &nbsp;·&nbsp; **[📋 Vector](#-vector-1-program)** &nbsp;·&nbsp; **[⌨️ Input](#-accept-input-from-user-3-programs)** &nbsp;·&nbsp; **[🖼️ Applets](#-applets-5-programs)** &nbsp;·&nbsp; **[🚀 How to Use](#-how-to-use)** &nbsp;·&nbsp; **[📖 Learning Path](#-learning-path)**
+  <!-- Navigation Links -->
+  [📊 Arrays](#-arrays-3-programs) &nbsp;·&nbsp; [🔄 Looping](#-looping--branching-8-programs) &nbsp;·&nbsp; [🏗️ Classes](#-classes-methods--objects-1-program) &nbsp;·&nbsp; [⚡ Overloading](#-method-overloading-1-program) &nbsp;·&nbsp; [🔧 Constructors](#-constructor--constructor-overloading-3-programs) &nbsp;·&nbsp; [🧬 Inheritance](#-single--multilevel-inheritance-2-programs) &nbsp;·&nbsp; [🎨 Abstract](#-abstract-class-1-program) &nbsp;·&nbsp; [📦 Packages](#-user-defined-package-3-programs) &nbsp;·&nbsp; [⚠️ Exceptions](#-user-defined-exception-1-program) &nbsp;·&nbsp; [🔤 Strings](#-string-operations-2-programs) &nbsp;·&nbsp; [🧵 Multithreading](#-multithreading-1-program) &nbsp;·&nbsp; [📋 Vector](#-vector-1-program) &nbsp;·&nbsp; [⌨️ Input](#-accept-input-from-user-3-programs) &nbsp;·&nbsp; [🖼️ Applets](#-applets-5-programs) &nbsp;·&nbsp; [🚀 How to Use](#-how-to-use) &nbsp;·&nbsp; [📖 Learning Path](#-learning-path)
 
 </div>
 
 ---
 
-<!-- ARRAYS -->
+<!-- =========================================================================================
+                                     ARRAYS SECTION
+     ========================================================================================= -->
 ## 📊 Arrays (3 Programs)
 
 | # | Program | Description |
@@ -34,7 +39,9 @@
 
 ---
 
-<!-- LOOPING & BRANCHING -->
+<!-- =========================================================================================
+                               LOOPING & BRANCHING SECTION
+     ========================================================================================= -->
 ## 🔄 Looping & Branching (8 Programs)
 
 ### Looping Constructs
@@ -57,7 +64,9 @@
 
 ---
 
-<!-- CLASSES & OBJECTS -->
+<!-- =========================================================================================
+                                CLASSES & OBJECTS SECTION
+     ========================================================================================= -->
 ## 🏗️ Classes, Methods & Objects (1 Program)
 
 | # | Program | Description |
@@ -66,7 +75,9 @@
 
 ---
 
-<!-- METHOD OVERLOADING -->
+<!-- =========================================================================================
+                               METHOD OVERLOADING SECTION
+     ========================================================================================= -->
 ## ⚡ Method Overloading (1 Program)
 
 | # | Program | Description |
@@ -75,7 +86,9 @@
 
 ---
 
-<!-- CONSTRUCTOR & OVERLOADING -->
+<!-- =========================================================================================
+                               CONSTRUCTOR & OVERLOADING SECTION
+     ========================================================================================= -->
 ## 🔧 Constructor & Constructor Overloading (3 Programs)
 
 | # | Program | Description |
@@ -86,7 +99,9 @@
 
 ---
 
-<!-- INHERITANCE -->
+<!-- =========================================================================================
+                                  INHERITANCE SECTION
+     ========================================================================================= -->
 ## 🧬 Single & Multilevel Inheritance (2 Programs)
 
 | # | Program | Description |
@@ -96,7 +111,9 @@
 
 ---
 
-<!-- ABSTRACT CLASS -->
+<!-- =========================================================================================
+                                 ABSTRACT CLASS SECTION
+     ========================================================================================= -->
 ## 🎨 Abstract Class (1 Program)
 
 | # | Program | Description |
@@ -105,7 +122,9 @@
 
 ---
 
-<!-- PACKAGES -->
+<!-- =========================================================================================
+                                     PACKAGES SECTION
+     ========================================================================================= -->
 ## 📦 User Defined Package (3 Programs)
 
 | # | Program | Description |
@@ -116,7 +135,9 @@
 
 ---
 
-<!-- EXCEPTION HANDLING -->
+<!-- =========================================================================================
+                                EXCEPTION HANDLING SECTION
+     ========================================================================================= -->
 ## ⚠️ User Defined Exception (1 Program)
 
 | # | Program | Description |
@@ -125,7 +146,9 @@
 
 ---
 
-<!-- STRING OPERATIONS -->
+<!-- =========================================================================================
+                                 STRING OPERATIONS SECTION
+     ========================================================================================= -->
 ## 🔤 String Operations (2 Programs)
 
 | # | Program | Description |
@@ -135,7 +158,9 @@
 
 ---
 
-<!-- MULTITHREADING -->
+<!-- =========================================================================================
+                                  MULTITHREADING SECTION
+     ========================================================================================= -->
 ## 🧵 Multithreading (1 Program)
 
 | # | Program | Description |
@@ -144,7 +169,9 @@
 
 ---
 
-<!-- VECTOR -->
+<!-- =========================================================================================
+                                      VECTOR SECTION
+     ========================================================================================= -->
 ## 📋 Vector (1 Program)
 
 | # | Program | Description |
@@ -153,7 +180,9 @@
 
 ---
 
-<!-- INPUT METHODS -->
+<!-- =========================================================================================
+                                   INPUT METHODS SECTION
+     ========================================================================================= -->
 ## ⌨️ Accept Input from User (3 Programs)
 
 | # | Program | Description |
@@ -164,7 +193,9 @@
 
 ---
 
-<!-- APPLETS -->
+<!-- =========================================================================================
+                                     APPLETS SECTION
+     ========================================================================================= -->
 ## 🖼️ Applets (5 Programs)
 
 ### Basic Applets
@@ -183,13 +214,15 @@
 
 ---
 
-<!-- HOW TO USE -->
+<!-- =========================================================================================
+                                     HOW TO USE SECTION
+     ========================================================================================= -->
 ## 🚀 How to Use
 
-1. **Navigate** to the desired program folder
-2. **Open** the `.java` file
-3. **Compile** using: `javac filename.java`
-4. **Run** using: `java classname`
+1. **Navigate** to the desired program folder.
+2. **Open** the `.java` file.
+3. **Compile** using: `javac filename.java`.
+4. **Run** using: `java classname`.
 
 Example:
 ```bash
@@ -205,9 +238,14 @@ javac Fill_Color_Applet.java
 appletviewer Fill_Color_Applet.html
 ```
 
+> [!TIP]
+> **Visualization is Key**: Always draw the flow of your object-oriented logic (classes, methods, relationships) on paper before and during code implementation. Dry running your logic with small test cases is the most effective way to debug complex inheritance and multithreading scenarios.
+
 ---
 
-<!-- LEARNING PATH -->
+<!-- =========================================================================================
+                                     LEARNING PATH SECTION
+     ========================================================================================= -->
 ## 📖 Learning Path
 
 **Beginner Level:**
@@ -229,25 +267,22 @@ appletviewer Fill_Color_Applet.html
 
 ---
 
-<!-- FOOTER -->
+<!-- =========================================================================================
+                                     FOOTER SECTION
+     ========================================================================================= -->
 <div align="center">
 
-  **[⬆ Back to Top](#object-oriented-programming-methodology-oopm-lab)** &nbsp;·&nbsp; **[📊 Arrays](#-arrays-3-programs)** &nbsp;·&nbsp; **[🔄 Looping](#-looping--branching-8-programs)** &nbsp;·&nbsp; **[🏗️ Classes](#-classes-methods--objects-1-program)** &nbsp;·&nbsp; **[⚡ Overloading](#-method-overloading-1-program)** &nbsp;·&nbsp; **[🔧 Constructors](#-constructor--constructor-overloading-3-programs)** &nbsp;·&nbsp; **[🧬 Inheritance](#-single--multilevel-inheritance-2-programs)** &nbsp;·&nbsp; **[🎨 Abstract](#-abstract-class-1-program)** &nbsp;·&nbsp; **[📦 Packages](#-user-defined-package-3-programs)** &nbsp;·&nbsp; **[⚠️ Exceptions](#-user-defined-exception-1-program)** &nbsp;·&nbsp; **[🔤 Strings](#-string-operations-2-programs)** &nbsp;·&nbsp; **[🧵 Multithreading](#-multithreading-1-program)** &nbsp;·&nbsp; **[📋 Vector](#-vector-1-program)** &nbsp;·&nbsp; **[⌨️ Input](#-accept-input-from-user-3-programs)** &nbsp;·&nbsp; **[🖼️ Applets](#-applets-5-programs)** &nbsp;·&nbsp; **[🚀 How to Use](#-how-to-use)** &nbsp;·&nbsp; **[📖 Learning Path](#-learning-path)**
+  <!-- Footer Navigation -->
+  **[⬆ Back to Top](#object-oriented-programming-methodology-oopm-lab)**
+
+  **[📊 Arrays](#-arrays-3-programs)** &nbsp;·&nbsp; [🔄 Looping](#-looping--branching-8-programs) &nbsp;·&nbsp; [🏗️ Classes](#-classes-methods--objects-1-program) &nbsp;·&nbsp; [⚡ Overloading](#-method-overloading-1-program) &nbsp;·&nbsp; [🔧 Constructors](#-constructor--constructor-overloading-3-programs) &nbsp;·&nbsp; [🧬 Inheritance](#-single--multilevel-inheritance-2-programs) &nbsp;·&nbsp; [🎨 Abstract](#-abstract-class-1-program) &nbsp;·&nbsp; [📦 Packages](#-user-defined-package-3-programs) &nbsp;·&nbsp; [⚠️ Exceptions](#-user-defined-exception-1-program) &nbsp;·&nbsp; [🔤 Strings](#-string-operations-2-programs) &nbsp;·&nbsp; [🧵 Multithreading](#-multithreading-1-program) &nbsp;·&nbsp; [📋 Vector](#-vector-1-program) &nbsp;·&nbsp; [⌨️ Input](#-accept-input-from-user-3-programs) &nbsp;·&nbsp; [🖼️ Applets](#-applets-5-programs) &nbsp;·&nbsp; [🚀 How to Use](#-how-to-use) &nbsp;·&nbsp; [📖 Learning Path](#-learning-path)
 
   <br>
 
   **[🏠 Back to Main Repository](../)** &nbsp;·&nbsp; **[🎮 Hangman Word Game (Mini Project)](../OOPM%20Mini%20Project/)** &nbsp;·&nbsp; **[🔗 Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
 
-</div>
-
----
-
-<div align="center">
+  <br>
 
   ### [Object-Oriented Programming Methodology (Java) Lab](https://github.com/Amey-Thakur/OOPM-JAVA-LAB)
-
-  **CSL304 · Semester III · Computer Engineering**
-
-  *University of Mumbai · Curated by [Amey Thakur](https://github.com/Amey-Thakur)*
 
 </div>

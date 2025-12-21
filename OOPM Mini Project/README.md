@@ -6,7 +6,7 @@
   ### CSL304 · Semester III · Computer Engineering
 
   [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
-  [![Language](https://img.shields.io/badge/Language-Java%20Applet-orange.svg)](Mega.java)
+  [![Language](https://img.shields.io/badge/Language-Java%20Applet-red.svg)](Mega.java)
   [![Status](https://img.shields.io/badge/Status-Completed-green.svg)](./)
   [![Game Repository](https://img.shields.io/badge/🎮-Game%20Repository-orange.svg)](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)
 
@@ -16,7 +16,9 @@
 
 ---
 
-<!-- NAVIGATION -->
+<!-- =========================================================================================
+                                     NAVIGATION SECTION
+     ========================================================================================= -->
 <div align="center">
 
   **[👥 Authors](#-authors)** &nbsp;·&nbsp; **[📖 Overview](#-overview)** &nbsp;·&nbsp; **[🔗 Resources](#-resources)** &nbsp;·&nbsp; **[✨ Features](#-features)** &nbsp;·&nbsp; **[🚀 How to Run](#-how-to-run)** &nbsp;·&nbsp; **[📸 Result](#-result)**
@@ -25,20 +27,21 @@
 
 ---
 
-<!-- AUTHORS -->
+<!-- =========================================================================================
+                                     AUTHORS SECTION
+     ========================================================================================= -->
 <div align="center">
 
-  ## 👥 Authors
-
-  **Terna Engineering College | Computer Engineering | Batch of 2022**
-
-  | <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"> | <img src="Mega/Mega.png" width="150" alt="Mega Satish"> | <img src="Mega/Saakshi.png" width="150" alt="Saakshi Deokar"> |
-  | :---: | :---: | :---: |
-  | [**Amey Thakur**](https://github.com/Amey-Thakur) | [**Mega Satish**](https://github.com/msatmod) | [**Saakshi Deokar**](https://www.linkedin.com/in/saakshideokar/) |
-
+### 👥 Authors
+| <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"><br>[**Amey Thakur**](https://github.com/Amey-Thakur) | <img src="Mega/Mega.png" width="150" alt="Mega Satish"><br>[**Mega Satish**](https://github.com/msatmod) | <img src="Mega/Saakshi.png" width="150" alt="Saakshi Deokar"><br>[**Saakshi Deokar**](https://www.linkedin.com/in/saakshideokar/) |
+| :---: | :---: | :---: |
 </div>
 
-*Special thanks to [Mega Satish](https://github.com/msatmod) and [Saakshi Deokar](https://www.linkedin.com/in/saakshideokar/) for their meaningful contributions, guidance, and support that helped shape this work.*
+<br>
+
+> [!IMPORTANT]
+> ### 🤝🏻 Special Acknowledgement
+> *Special thanks to [Mega Satish](https://github.com/msatmod) and [Saakshi Deokar](https://www.linkedin.com/in/saakshideokar/) for their meaningful contributions, guidance, and support that helped shape this work.*
 
 ---
 
@@ -154,27 +157,25 @@ Since Java Applets are deprecated in newer JDK versions, you may need to use `ap
 
 </div>
 
----
-
-<!-- FOOTER -->
+<!-- =========================================================================================
+                                     FOOTER SECTION
+     ========================================================================================= -->
 <div align="center">
 
-  **[⬆ Back to Top](#hangman-word-game-oopm-mini-project)** &nbsp;·&nbsp; **[👥 Authors](#-authors)** &nbsp;·&nbsp; **[📖 Overview](#-overview)** &nbsp;·&nbsp; **[🔗 Resources](#-resources)** &nbsp;·&nbsp; **[✨ Features](#-features)** &nbsp;·&nbsp; **[🚀 How to Run](#-how-to-run)** &nbsp;·&nbsp; **[📸 Result](#-result)**
+  <!-- Footer Navigation -->
+  **[⬆ Back to Top](#hangman-word-game-oopm-mini-project)**
+
+  **[👥 Authors](#-authors)** &nbsp;·&nbsp; **[📖 Overview](#-overview)** &nbsp;·&nbsp; **[🔗 Resources](#-resources)** &nbsp;·&nbsp; **[✨ Features](#-features)** &nbsp;·&nbsp; **[🚀 How to Run](#-how-to-run)** &nbsp;·&nbsp; **[📸 Result](#-result)**
 
   <br>
 
   **[🏠 Back to Main Repository](../)** &nbsp;·&nbsp; **[🧪 Back to OOPM Lab](../OOPM%20Lab)** &nbsp;·&nbsp; **[🔗 Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
 
-</div>
-
----
-
-<div align="center">
+  <br>
 
   ### 🎓 [Computer Engineering Repository](https://github.com/Amey-Thakur/COMPUTER-ENGINEERING)
 
   **Computer Engineering (B.E.) - University of Mumbai**
 
-  *Semester-wise curriculum, laboratories, projects, and academic notes.*
-
 </div>
+

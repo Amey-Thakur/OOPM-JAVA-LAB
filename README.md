@@ -421,7 +421,6 @@ Special thanks to the faculty members of the Department of Computer Engineering 
      ========================================================================================= -->
 <div align="center">
 
-  <!-- Footer Navigation -->
   **[⬆ Back to Top](#object-oriented-programming-methodology-oopm-lab)**
 
   **[📖 Overview](#overview)** &nbsp;·&nbsp; [📂 Contents](#repository-contents) &nbsp;·&nbsp; [📚 Reference Books](#reference-books) &nbsp;·&nbsp; [📝 Quizzes](#quizzes) &nbsp;·&nbsp; [🧪 Laboratory](#oopm-laboratory) &nbsp;·&nbsp; [🎮 Mini Project](#oopm-mini-project) &nbsp;·&nbsp; [👥 Authors](#-authors) &nbsp;·&nbsp; [📋 Syllabus](#syllabus) &nbsp;·&nbsp; [📘 Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [📜 License](#license) &nbsp;·&nbsp; [ℹ️ About](#about-this-repository) &nbsp;·&nbsp; [🙏🏻 Acknowledgments](#acknowledgments)
@@ -432,8 +431,14 @@ Special thanks to the faculty members of the Department of Computer Engineering 
 
   <br>
 
+  ---
+
   ### 🎓 [Computer Engineering Repository](https://github.com/Amey-Thakur/COMPUTER-ENGINEERING)
 
   **Computer Engineering (B.E.) - University of Mumbai**
 
+  *Semester-wise curriculum, laboratories, projects, and academic notes.*
+
 </div>
+
+

@@ -286,9 +286,14 @@ appletviewer Fill_Color_Applet.html
 
   <br>
 
-  ### 🎓 [Computer Engineering Repository](https://github.com/Amey-Thakur/COMPUTER-ENGINEERING)
+  ---
 
-  **Computer Engineering (B.E.) - University of Mumbai**
+  ### [Object-Oriented Programming Methodology (Java) Lab](https://github.com/Amey-Thakur/OOPM-JAVA-LAB)
+
+  **CSL304 · Semester III · Computer Engineering**
+
+  *University of Mumbai · Curated by [Amey Thakur](https://github.com/Amey-Thakur)*
 
 </div>
+
 

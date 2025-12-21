@@ -268,6 +268,24 @@ appletviewer Fill_Color_Applet.html
 ---
 
 <!-- =========================================================================================
+                                     AUTHORS SECTION
+     ========================================================================================= -->
+<div align="center">
+
+### 👥 Authors
+| <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"><br>[**Amey Thakur**](https://github.com/Amey-Thakur) | <img src="../OOPM%20Mini%20Project/Mega/Mega.png" width="150" alt="Mega Satish"><br>[**Mega Satish**](https://github.com/msatmod) | <img src="../OOPM%20Mini%20Project/Mega/Saakshi.png" width="150" alt="Saakshi Deokar"><br>[**Saakshi Deokar**](https://www.linkedin.com/in/saakshideokar/) |
+| :---: | :---: | :---: |
+</div>
+
+<br>
+
+> [!IMPORTANT]
+> ### 🤝🏻 Special Acknowledgement
+> *Special thanks to [Mega Satish](https://github.com/msatmod) and [Saakshi Deokar](https://www.linkedin.com/in/saakshideokar/) for their meaningful contributions, guidance, and support that helped shape this work.*
+
+---
+
+<!-- =========================================================================================
                                      FOOTER SECTION
      ========================================================================================= -->
 <div align="center">
@@ -283,6 +301,9 @@ appletviewer Fill_Color_Applet.html
 
   <br>
 
-  ### [Object-Oriented Programming Methodology (Java) Lab](https://github.com/Amey-Thakur/OOPM-JAVA-LAB)
+  ### 🎓 [Computer Engineering Repository](https://github.com/Amey-Thakur/COMPUTER-ENGINEERING)
+
+  **Computer Engineering (B.E.) - University of Mumbai**
 
 </div>
+

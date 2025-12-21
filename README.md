@@ -121,8 +121,6 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
   [![Total Programs](https://img.shields.io/badge/Total%20Programs-35-yellowgreen.svg)](OOPM%20Lab/)
   [![Language](https://img.shields.io/badge/Language-Java-red.svg)](OOPM%20Lab/)
 
-
-
 </div>
 
 ### Program Categories
@@ -330,25 +328,22 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
   <a href="https://youtu.be/JsT9KYKPUgs">
     <img src="https://img.youtube.com/vi/JsT9KYKPUgs/maxresdefault.jpg" width="60%" alt="Hangman Game Demo">
   </a>
-
-
-
+  <br>
 
 </div>
-
 <div align="center">
 
-### 👥 Authors
+  <!-- Authors Table -->
+  ### 👥 Authors
 | <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"><br>[**Amey Thakur**](https://github.com/Amey-Thakur) | <img src="OOPM%20Mini%20Project/Mega/Mega.png" width="150" alt="Mega Satish"><br>[**Mega Satish**](https://github.com/msatmod) | <img src="OOPM%20Mini%20Project/Mega/Saakshi.png" width="150" alt="Saakshi Deokar"><br>[**Saakshi Deokar**](https://www.linkedin.com/in/saakshideokar/) |
 | :---: | :---: | :---: |
 </div>
-
-<br>
 
 > [!IMPORTANT]
 > ### 🤝🏻 Special Acknowledgement
 > *Special thanks to [Mega Satish](https://github.com/msatmod) and [Saakshi Deokar](https://www.linkedin.com/in/saakshideokar/) for their meaningful contributions, guidance, and support that helped shape this work.*
 
+  <!-- Resources Table -->
 | Resource | Description | Link |
 |:---|:---|:---|
 | 📊 Presentation | Research paper presentation and visuals | [ResearchGate DOI](http://dx.doi.org/10.13140/RG.2.2.26806.22082) |

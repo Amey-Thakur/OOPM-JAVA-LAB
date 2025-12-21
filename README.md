@@ -116,7 +116,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 <div align="center">
 
   [![Total Programs](https://img.shields.io/badge/Total%20Programs-35-yellowgreen.svg)](OOPM%20Lab/)
-  [![Language](https://img.shields.io/badge/Language-Java-blueviolet.svg)](OOPM%20Lab/)
+  [![Language](https://img.shields.io/badge/Language-Java-red.svg)](OOPM%20Lab/)
 
   **[📂 Browse All Programs](OOPM%20Lab/)**
 

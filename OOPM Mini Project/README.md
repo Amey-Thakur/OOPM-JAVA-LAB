@@ -21,7 +21,7 @@
      ========================================================================================= -->
 <div align="center">
 
-  **[👥 Authors](#-authors)** &nbsp;·&nbsp; **[📖 Overview](#-overview)** &nbsp;·&nbsp; **[🔗 Resources](#-resources)** &nbsp;·&nbsp; **[✨ Features](#-features)** &nbsp;·&nbsp; **[🚀 How to Run](#-how-to-run)** &nbsp;·&nbsp; **[📸 Result](#-result)**
+  **[Authors](#authors)** &nbsp;·&nbsp; **[Overview](#overview)** &nbsp;·&nbsp; **[Resources](#resources)** &nbsp;·&nbsp; **[Features](#features)** &nbsp;·&nbsp; **[How to Run](#how-to-run)** &nbsp;·&nbsp; **[Result](#result)**
 
 </div>
 
@@ -32,7 +32,7 @@
      ========================================================================================= -->
 <div align="center">
 
-### 👥 Authors
+### Authors
 | <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"><br>[**Amey Thakur**](https://github.com/Amey-Thakur) | <img src="Mega/Mega.png" width="150" alt="Mega Satish"><br>[**Mega Satish**](https://github.com/msatmod) | <img src="Mega/Saakshi.png" width="150" alt="Saakshi Deokar"><br>[**Saakshi Deokar**](https://www.linkedin.com/in/saakshideokar/) |
 | :---: | :---: | :---: |
 </div>
@@ -45,7 +45,7 @@
 ---
 
 <!-- OVERVIEW -->
-## 📖 Overview
+## Overview
 
 The **Hangman Word Game** is a Java-based mini project developed for the Object-Oriented Programming Methodology (OOPM) laboratory. It demonstrates the application of core Java concepts, including Applets, Graphics programming (AWT), Event Handling, and String manipulation.
 
@@ -54,7 +54,7 @@ The objective of the game is to guess the hidden word letter by letter. For ever
 ---
 
 <!-- RESOURCES -->
-## 🔗 Resources
+## Resources
 
 <div align="center">
 
@@ -69,7 +69,7 @@ The objective of the game is to guess the hidden word letter by letter. For ever
 ---
 
 <!-- FEATURES -->
-## ✨ Features
+## Features
 
 - **Graphical User Interface (GUI)**: Built using Java Applet and AWT Graphics.
 - **Interactive Gameplay**: Mouse and Keyboard event handling for user interaction.
@@ -81,7 +81,7 @@ The objective of the game is to guess the hidden word letter by letter. For ever
 ---
 
 <!-- HOW TO RUN -->
-## 🚀 How to Run
+## How to Run
 
 Since Java Applets are deprecated in newer JDK versions, you may need to use `appletviewer` or an older JDK (like JDK 8) to run this project.
 
@@ -109,7 +109,7 @@ Since Java Applets are deprecated in newer JDK versions, you may need to use `ap
 ---
 
 <!-- RESULT -->
-## 📸 Result
+## Result
 
 <div align="center">
 
@@ -164,13 +164,13 @@ Since Java Applets are deprecated in newer JDK versions, you may need to use `ap
 <div align="center">
 
   <!-- Footer Navigation -->
-  **[⬆ Back to Top](#hangman-word-game-oopm-mini-project)**
+  **[↑ Back to Top](#hangman-word-game-oopm-mini-project)**
 
-  **[👥 Authors](#-authors)** &nbsp;·&nbsp; **[📖 Overview](#-overview)** &nbsp;·&nbsp; **[🔗 Resources](#-resources)** &nbsp;·&nbsp; **[✨ Features](#-features)** &nbsp;·&nbsp; **[🚀 How to Run](#-how-to-run)** &nbsp;·&nbsp; **[📸 Result](#-result)**
+  **[Authors](#authors)** &nbsp;·&nbsp; **[Overview](#overview)** &nbsp;·&nbsp; **[Resources](#resources)** &nbsp;·&nbsp; **[Features](#features)** &nbsp;·&nbsp; **[How to Run](#how-to-run)** &nbsp;·&nbsp; **[Result](#result)**
 
   <br>
 
-  **[🏠 Back to Main Repository](../)** &nbsp;·&nbsp; **[🧪 Back to OOPM Lab](../OOPM%20Lab)** &nbsp;·&nbsp; **[🔗 Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
+  **[🏠 Back to Main Repository](../)** &nbsp;·&nbsp; **[Back to OOPM Lab](../OOPM%20Lab)** &nbsp;·&nbsp; **[Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
 
   ---
 

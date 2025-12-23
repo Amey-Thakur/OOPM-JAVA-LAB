@@ -271,9 +271,6 @@ appletviewer Fill_Color_Applet.html
 | 1 | [Applet_Parameters_Demo.java](Passing-Parameters-To-Applets/Applet_Parameters_Demo.java) | Applet receiving parameters |
 | 2 | [Applet_Parameters_Demo.html](Passing-Parameters-To-Applets/Applet_Parameters_Demo.html) | HTML file with applet parameters |
 
-
-
-
 ---
 
 <!-- =========================================================================================

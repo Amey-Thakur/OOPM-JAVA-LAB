@@ -349,6 +349,8 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 > **Research Impact:** The source code, presentation, and project report are published on **ResearchGate**.
 >
 > - [ResearchGate Profile](https://www.researchgate.net/profile/Amey-Thakur)
+> - [Presentation DOI](https://doi.org/10.13140/RG.2.2.26806.22082)
+> - [Source Code DOI](https://doi.org/10.13140/RG.2.2.20095.33446)
 
 
   <!-- Resources Table -->

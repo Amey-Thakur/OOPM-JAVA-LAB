@@ -371,7 +371,7 @@ A classic Hangman Word Game developed as a mini project for the Object-Oriented 
      ========================================================================================= -->
 ## Syllabus
 
-> 📋 **[Official CBCGS Syllabus](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/SE-Comps_CBCGS_Syllabus.pdf)**  
+> **[Official CBCGS Syllabus](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/SE-Comps_CBCGS_Syllabus.pdf)**  
 > Complete Second Year Computer Engineering syllabus document from the University of Mumbai, including detailed course outcomes, assessment criteria, and module specifications for OOPM and OOPM Lab.
 
 > [!IMPORTANT]

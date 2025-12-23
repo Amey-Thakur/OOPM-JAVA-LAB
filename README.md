@@ -344,11 +344,12 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 > *Special thanks to [Mega Satish](https://github.com/msatmod) and [Saakshi Deokar](https://www.linkedin.com/in/saakshideokar/) for their meaningful contributions, guidance, and support that helped shape this work.*
 
 
+
 > [!NOTE]
-> **Research Impact:** The source code, presentation, and project report are published as a research paper in **International Research Journal of Engineering and Technology (IRJET)** (Volume 8, Issue 6) and is also available as a preprint on **ResearchGate**.
+> **Research Impact:** The source code, presentation, and project report are published on **ResearchGate**.
 >
-> - [Preprint @ResearchGate](https://www.researchgate.net/profile/Amey-Thakur)
-> - [Published Paper @IRJET](https://www.irjet.net/archives/V8/i6/IRJET-V8I6138.pdf)
+> - [ResearchGate Profile](https://www.researchgate.net/profile/Amey-Thakur)
+
 
   <!-- Resources Table -->
 | # | Resource | Description | Link |

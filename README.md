@@ -123,7 +123,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 </div>
 
-### Source Code Categories
+### Laboratory Experiments
 
 | # | Category | Source Code | Topics Covered |
 |:-:|:---|:-:|:---|
@@ -142,7 +142,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 | 13 | **Input Methods** | 3 | Scanner, BufferedReader, Console |
 | 14 | **Applets** | 5 | Basic applets, parameter passing, graphics |
 
-### Source Code Details
+### Program Details
 
 <details>
 <summary><strong>Array Operations (3 Source Codes)</strong></summary>

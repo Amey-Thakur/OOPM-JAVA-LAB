@@ -302,8 +302,6 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 ### Laboratory Documentation
 
-| Resource | Description |
-|:---|:---|
 | # | Resource | Description |
 |:-:|:---|:---|
 | 1 | [Lab README](OOPM%20Lab/) | Detailed navigation guide with source code descriptions |

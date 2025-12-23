@@ -97,12 +97,12 @@ This collection includes **7 comprehensive reference materials** covering all ma
 
 Practice tests for Java fundamentals and concept reinforcement:
 
-| # | Quiz | Description |
-|:---|:---|:---|
-| 1 | [Practice Test of Java Basics 1](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/Quizzes/Practice%20Test%20of%20Java%20Basics%201.pdf) | Fundamental Java concepts |
-| 2 | [Practice Test of Java Basics 2](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/Quizzes/Practice%20Test%20of%20Java%20Basics%202.pdf) | Intermediate Java topics |
-| 3 | [Practice Test of Java Basics 3](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/Quizzes/Practice%20Test%20of%20Java%20Basics%203.pdf) | Advanced Java concepts |
-| 4 | [Practice Test of Java Basic Strings](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/Quizzes/Practice%20Test%20of%20Java%20Basic%20Strings.pdf) | String manipulation practice |
+| # | Quiz | Description | Date | Marks |
+|:-:|:---|:---|:---|:---|
+| 1 | [Practice Test of Java Basics 1](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/Quizzes/Practice%20Test%20of%20Java%20Basics%201.pdf) | Fundamental concepts | Aug 2019 | 10 |
+| 2 | [Practice Test of Java Basics 2](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/Quizzes/Practice%20Test%20of%20Java%20Basics%202.pdf) | Intermediate topics | - | - |
+| 3 | [Practice Test of Java Basics 3](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/Quizzes/Practice%20Test%20of%20Java%20Basics%203.pdf) | Advanced concepts | - | - |
+| 4 | [Practice Test of Java Basic Strings](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/Quizzes/Practice%20Test%20of%20Java%20Basic%20Strings.pdf) | String manipulation | - | - |
 
 ---
 

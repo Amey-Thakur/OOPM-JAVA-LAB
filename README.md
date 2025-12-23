@@ -125,7 +125,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 ### Laboratory Experiments
 
-| # | Category | Source Code | Topics Covered |
+| # | Category | Programs | Topics Covered |
 |:-:|:---|:-:|:---|
 | 1 | **Arrays** | 3 | 1-D arrays, 2-D arrays, array parameters |
 | 2 | **Looping & Branching** | 8 | for, while, do-while, break, continue, return |

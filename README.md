@@ -24,7 +24,7 @@
   ---
 
   <!-- Navigation Links -->
-  [📖 Overview](#overview) &nbsp;·&nbsp; [📂 Contents](#repository-contents) &nbsp;·&nbsp; [📚 Reference Books](#reference-books) &nbsp;·&nbsp; [📝 Quizzes](#quizzes) &nbsp;·&nbsp; [🧪 Laboratory](#oopm-laboratory) &nbsp;·&nbsp; [🎮 Mini Project](#oopm-mini-project) &nbsp;·&nbsp; [👥 Authors](#-authors) &nbsp;·&nbsp; [📋 Syllabus](#syllabus) &nbsp;·&nbsp; [📘 Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [📜 License](#license) &nbsp;·&nbsp; [ℹ️ About](#about-this-repository) &nbsp;·&nbsp; [🙏🏻 Acknowledgments](#acknowledgments)
+  [Overview](#overview) &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [Reference Books](#reference-books) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Laboratory](#oopm-laboratory) &nbsp;·&nbsp; [Mini Project](#oopm-mini-project) &nbsp;·&nbsp; [Authors](#-authors) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
 </div>
 
@@ -118,34 +118,34 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 <div align="center">
 
-  [![Total Programs](https://img.shields.io/badge/Total%20Programs-35-yellowgreen.svg)](OOPM%20Lab/)
+  [![Total Source Codes](https://img.shields.io/badge/Total%20Source%20Codes-35-yellowgreen.svg)](OOPM%20Lab/)
   [![Language](https://img.shields.io/badge/Language-Java-red.svg)](OOPM%20Lab/)
 
 </div>
 
-### Program Categories
+### Source Code Categories
 
-| Category | Programs | Topics Covered |
-|:---|:-:|:---|
-| 📊 **Arrays** | 3 | 1-D arrays, 2-D arrays, array parameters |
-| 🔄 **Looping & Branching** | 8 | for, while, do-while, break, continue, return |
-| 🏗️ **Classes & Objects** | 1 | Class creation, methods, object instantiation |
-| ⚡ **Method Overloading** | 1 | Method signature variations, compile-time polymorphism |
-| 🔧 **Constructors** | 3 | Default, parameterized, constructor overloading |
-| 🧬 **Inheritance** | 2 | Single inheritance, multilevel inheritance |
-| 🎨 **Abstract Class** | 1 | Abstraction, abstract methods |
-| 📦 **User Defined Package** | 3 | Package creation, import statements |
-| ⚠️ **Exception Handling** | 1 | Custom exceptions, try-catch |
-| 🔤 **String Operations** | 2 | String class, StringBuffer operations |
-| 🧵 **Multithreading** | 1 | Thread creation, concurrent execution |
-| 📋 **Vector** | 1 | Dynamic arrays, Vector class operations |
-| ⌨️ **Input Methods** | 3 | Scanner, BufferedReader, Console |
-| 🖼️ **Applets** | 5 | Basic applets, parameter passing, graphics |
+| # | Category | Source Code | Topics Covered |
+|:-:|:---|:-:|:---|
+| 1 | **Arrays** | 3 | 1-D arrays, 2-D arrays, array parameters |
+| 2 | **Looping & Branching** | 8 | for, while, do-while, break, continue, return |
+| 3 | **Classes & Objects** | 1 | Class creation, methods, object instantiation |
+| 4 | **Method Overloading** | 1 | Method signature variations, compile-time polymorphism |
+| 5 | **Constructors** | 3 | Default, parameterized, constructor overloading |
+| 6 | **Inheritance** | 2 | Single inheritance, multilevel inheritance |
+| 7 | **Abstract Class** | 1 | Abstraction, abstract methods |
+| 8 | **User Defined Package** | 3 | Package creation, import statements |
+| 9 | **Exception Handling** | 1 | Custom exceptions, try-catch |
+| 10 | **String Operations** | 2 | String class, StringBuffer operations |
+| 11 | **Multithreading** | 1 | Thread creation, concurrent execution |
+| 12 | **Vector** | 1 | Dynamic arrays, Vector class operations |
+| 13 | **Input Methods** | 3 | Scanner, BufferedReader, Console |
+| 14 | **Applets** | 5 | Basic applets, parameter passing, graphics |
 
-### Program Details
+### Source Code Details
 
 <details>
-<summary><strong>📊 Array Operations (3 Programs)</strong></summary>
+<summary><strong>Array Operations (3 Source Codes)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -156,7 +156,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>🔄 Looping & Branching (8 Programs)</strong></summary>
+<summary><strong>Looping & Branching (8 Source Codes)</strong></summary>
 
 **Looping Constructs:**
 | Program | Description | Code |
@@ -177,7 +177,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>🏗️ Classes, Methods & Objects (1 Program)</strong></summary>
+<summary><strong>Classes, Methods & Objects (1 Source Code)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -186,7 +186,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>⚡ Method Overloading (1 Program)</strong></summary>
+<summary><strong>Method Overloading (1 Source Code)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -195,7 +195,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>🔧 Constructor & Constructor Overloading (3 Programs)</strong></summary>
+<summary><strong>Constructor & Constructor Overloading (3 Source Codes)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -206,7 +206,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>🧬 Single & Multilevel Inheritance (2 Programs)</strong></summary>
+<summary><strong>Single & Multilevel Inheritance (2 Source Codes)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -216,7 +216,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>🎨 Abstract Class (1 Program)</strong></summary>
+<summary><strong>Abstract Class (1 Source Code)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -225,7 +225,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>📦 User Defined Package (3 Programs)</strong></summary>
+<summary><strong>User Defined Package (3 Source Codes)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -236,7 +236,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>⚠️ User Defined Exception (1 Program)</strong></summary>
+<summary><strong>User Defined Exception (1 Source Code)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -245,7 +245,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>🔤 String Operations (2 Programs)</strong></summary>
+<summary><strong>String Operations (2 Source Codes)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -255,7 +255,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>🧵 Multithreading (1 Program)</strong></summary>
+<summary><strong>Multithreading (1 Source Code)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -264,7 +264,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>📋 Vector (1 Program)</strong></summary>
+<summary><strong>Vector (1 Source Code)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -273,7 +273,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>⌨️ Accept Input from User (3 Programs)</strong></summary>
+<summary><strong>Accept Input from User (3 Source Codes)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -284,7 +284,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>🖼️ Applets (5 Programs)</strong></summary>
+<summary><strong>Applets (5 Source Codes)</strong></summary>
 
 **Basic Applets:**
 | Program | Description | Code |
@@ -304,7 +304,9 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 | Resource | Description |
 |:---|:---|
-| 📖 [Lab README](OOPM%20Lab/) | Detailed navigation guide with program descriptions |
+| # | Resource | Description |
+|:-:|:---|:---|
+| 1 | [Lab README](OOPM%20Lab/) | Detailed navigation guide with source code descriptions |
 
 ---
 
@@ -423,13 +425,13 @@ Special thanks to the faculty members of the Department of Computer Engineering 
      ========================================================================================= -->
 <div align="center">
 
-  **[⬆ Back to Top](#object-oriented-programming-methodology-oopm-lab)**
+  **[↑ Back to Top](#object-oriented-programming-methodology-oopm-lab)**
 
-  **[📖 Overview](#overview)** &nbsp;·&nbsp; [📂 Contents](#repository-contents) &nbsp;·&nbsp; [📚 Reference Books](#reference-books) &nbsp;·&nbsp; [📝 Quizzes](#quizzes) &nbsp;·&nbsp; [🧪 Laboratory](#oopm-laboratory) &nbsp;·&nbsp; [🎮 Mini Project](#oopm-mini-project) &nbsp;·&nbsp; [👥 Authors](#-authors) &nbsp;·&nbsp; [📋 Syllabus](#syllabus) &nbsp;·&nbsp; [📘 Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [📜 License](#license) &nbsp;·&nbsp; [ℹ️ About](#about-this-repository) &nbsp;·&nbsp; [🙏🏻 Acknowledgments](#acknowledgments)
+  **[Overview](#overview)** &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [Reference Books](#reference-books) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Laboratory](#oopm-laboratory) &nbsp;·&nbsp; [Mini Project](#oopm-mini-project) &nbsp;·&nbsp; [Authors](#-authors) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
   <br>
 
-  **[🧪 OOPM Laboratory](OOPM%20Lab/)** &nbsp;·&nbsp; **[🎮 Hangman Word Game (Mini Project)](OOPM%20Mini%20Project/)** &nbsp;·&nbsp; **[🔗 Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
+  **[Laboratory](OOPM%20Lab/)** &nbsp;·&nbsp; **[Hangman Word Game (Mini Project)](OOPM%20Mini%20Project/)** &nbsp;·&nbsp; **[Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
 
   ---
 

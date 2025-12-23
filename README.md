@@ -145,7 +145,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 ### Program Details
 
 <details>
-<summary><strong>Array Operations (3 Source Codes)</strong></summary>
+<summary><strong>Array Operations (3 Programs)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -156,7 +156,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>Looping & Branching (8 Source Codes)</strong></summary>
+<summary><strong>Looping & Branching (8 Programs)</strong></summary>
 
 **Looping Constructs:**
 | Program | Description | Code |
@@ -177,7 +177,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>Classes, Methods & Objects (1 Source Code)</strong></summary>
+<summary><strong>Classes, Methods & Objects (1 Program)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -186,7 +186,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>Method Overloading (1 Source Code)</strong></summary>
+<summary><strong>Method Overloading (1 Program)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -195,7 +195,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>Constructor & Constructor Overloading (3 Source Codes)</strong></summary>
+<summary><strong>Constructor & Constructor Overloading (3 Programs)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -206,7 +206,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>Single & Multilevel Inheritance (2 Source Codes)</strong></summary>
+<summary><strong>Single & Multilevel Inheritance (2 Programs)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -216,7 +216,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>Abstract Class (1 Source Code)</strong></summary>
+<summary><strong>Abstract Class (1 Program)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -225,7 +225,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>User Defined Package (3 Source Codes)</strong></summary>
+<summary><strong>User Defined Package (3 Programs)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -236,7 +236,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>User Defined Exception (1 Source Code)</strong></summary>
+<summary><strong>User Defined Exception (1 Program)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -245,7 +245,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>String Operations (2 Source Codes)</strong></summary>
+<summary><strong>String Operations (2 Programs)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -255,7 +255,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>Multithreading (1 Source Code)</strong></summary>
+<summary><strong>Multithreading (1 Program)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -264,7 +264,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>Vector (1 Source Code)</strong></summary>
+<summary><strong>Vector (1 Program)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -273,7 +273,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>Accept Input from User (3 Source Codes)</strong></summary>
+<summary><strong>Accept Input from User (3 Programs)</strong></summary>
 
 | Program | Description | Code |
 |:---|:---|:---|
@@ -284,7 +284,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 </details>
 
 <details>
-<summary><strong>Applets (5 Source Codes)</strong></summary>
+<summary><strong>Applets (5 Programs)</strong></summary>
 
 **Basic Applets:**
 | Program | Description | Code |

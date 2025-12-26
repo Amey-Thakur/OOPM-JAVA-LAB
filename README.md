@@ -427,7 +427,9 @@ This repository represents a comprehensive collection of study materials, refere
 
 Grateful acknowledgment to **[Mega Satish](https://github.com/msatmod)** and **[Saakshi Deokar](https://www.linkedin.com/in/saakshideokar/)** for their collaboration on the Mini Project. Their valuable insights and teamwork played a significant role in the successful completion of the game development, and their contributions were instrumental throughout the course.
 
-Special thanks to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance in Object-Oriented Programming Methodology. Their teaching helped establish a strong foundation in OOP principles and Java programming. Gratitude is also extended to the mentors and peers whose support contributed positively to this learning experience.
+Special thanks to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance in Object-Oriented Programming Methodology. Their teaching helped establish a strong foundation in OOP principles and Java programming.
+
+Special thanks to the mentors and peers whose encouragement, discussions, and support contributed meaningfully to this learning experience.
 
 ---
 

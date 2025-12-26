@@ -446,7 +446,7 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
 
   <br>
 
-  🔬 **[Laboratory](OOPM%20Lab/)** &nbsp;·&nbsp; **[Hangman Word Game (Mini Project)](OOPM%20Mini%20Project/)** &nbsp;·&nbsp; **[🎮 Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
+  🔬 **[OOPM Laboratory](OOPM%20Lab/)** &nbsp;·&nbsp; **[Hangman Word Game (Mini Project)](OOPM%20Mini%20Project/)** &nbsp;·&nbsp; 🎮 **[Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
 
   ---
 

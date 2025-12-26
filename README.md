@@ -357,6 +357,8 @@ A classic Hangman Word Game developed as a mini project for the Object-Oriented 
 
 
   <!-- Resources Table -->
+  ### Resources
+
 | # | Resource | Description | Link |
 |:-:|:---|:---|:---|
 | 1 | Presentation | Research paper presentation and visuals | [ResearchGate DOI](http://dx.doi.org/10.13140/RG.2.2.26806.22082) |

@@ -289,7 +289,7 @@ appletviewer Fill_Color_Applet.html
 
   ---
 
-  ### [Object-Oriented Programming Methodology (Java) Lab](https://github.com/Amey-Thakur/OOPM-JAVA-LAB)
+  ### [Object-Oriented Programming Methodology (Java) Lab](../)
 
   **CSL304 · Semester III · Computer Engineering**
 

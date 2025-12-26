@@ -14,7 +14,7 @@
 
   <!-- Badges -->
   [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
-  [![University](https://img.shields.io/badge/University-Mumbai-A6192E.svg)](https://mu.ac.in/)
+  [![University](https://img.shields.io/badge/University-Mumbai-%23A6192E.svg)](https://mu.ac.in/)
   [![Institution](https://img.shields.io/badge/Institution-Terna%20Engineering%20College-orange.svg)](https://ternaengg.ac.in/)
   [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
 
@@ -83,13 +83,13 @@ This collection includes **7 comprehensive reference materials** covering all ma
 
 | # | Resource | Focus Area |
 |:-:|:---|:---|
-| 1 | [Java The Complete Reference - Herbert Schildt](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/Reference%20Books/Java%20The%20Complete%20Reference%20%5B9th%20Edition%5D%20-%20Herbert%20Schildt.pdf) | Comprehensive Java reference guide |
-| 2 | [Programming With Java A Primer - E. Balagurusamy](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/Reference%20Books/Programming%20With%20Java%20A%20Primer%20-%20E.%20Balagurusamy.pdf) | Core Java programming concepts |
-| 3 | [Java Programming From the Ground Up - Bravaco & Simoson](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/Reference%20Books/Java%20Programming%20From%20the%20Ground%20Up%20%5BBravaco%20%26%20Simoson%202009-01-22%5D.pdf) | Foundational Java programming |
-| 4 | [Java Notes For Professionals](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/Reference%20Books/Java%20Notes%20For%20Professionals.pdf) | Quick reference notes |
-| 5 | [Java For Beginners, In 8 Hours](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/Reference%20Books/JAVA%20For%20Beginners%2C%20In%208%20Hours%2C%20Learn%20Coding%20Fast!.pdf) | Beginner-friendly Java guide |
-| 6 | [Oracle Certified Professional Java SE 7 Programmer Exams](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/Reference%20Books/Oracle%20Certified%20Professional%20Java%20SE%207%20Programmer%20Exams.pdf) | Certification preparation |
-| 7 | [Algorithms Notes For Professionals](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/Reference%20Books/Algorithms%20Notes%20For%20Professionals.pdf) | Algorithm implementation reference |
+| 1 | [Java The Complete Reference - Herbert Schildt](Reference%20Books/Java%20The%20Complete%20Reference%20%5B9th%20Edition%5D%20-%20Herbert%20Schildt.pdf) | Comprehensive Java reference guide |
+| 2 | [Programming With Java A Primer - E. Balagurusamy](Reference%20Books/Programming%20With%20Java%20A%20Primer%20-%20E.%20Balagurusamy.pdf) | Core Java programming concepts |
+| 3 | [Java Programming From the Ground Up - Bravaco & Simoson](Reference%20Books/Java%20Programming%20From%20the%20Ground%20Up%20%5BBravaco%20%26%20Simoson%202009-01-22%5D.pdf) | Foundational Java programming |
+| 4 | [Java Notes For Professionals](Reference%20Books/Java%20Notes%20For%20Professionals.pdf) | Quick reference notes |
+| 5 | [Java For Beginners, In 8 Hours](Reference%20Books/JAVA%20For%20Beginners%2C%20In%208%20Hours%2C%20Learn%20Coding%20Fast!.pdf) | Beginner-friendly Java guide |
+| 6 | [Oracle Certified Professional Java SE 7 Programmer Exams](Reference%20Books/Oracle%20Certified%20Professional%20Java%20SE%207%20Programmer%20Exams.pdf) | Certification preparation |
+| 7 | [Algorithms Notes For Professionals](Reference%20Books/Algorithms%20Notes%20For%20Professionals.pdf) | Algorithm implementation reference |
 
 ---
 
@@ -99,10 +99,10 @@ Practice tests for Java fundamentals and concept reinforcement:
 
 | # | Quiz | Description | Date | Marks |
 |:-:|:---|:---|:---|:---|
-| 1 | [Practice Test of Java Basics 1](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/Quizzes/Practice%20Test%20of%20Java%20Basics%201.pdf) | Java Basics | August 24, 2020 | 37/37 |
-| 2 | [Practice Test of Java Basics 2](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/Quizzes/Practice%20Test%20of%20Java%20Basics%202.pdf) | Java Basics 2 | July 20, 2020 | 60/60 |
-| 3 | [Practice Test of Java Basics 3](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/Quizzes/Practice%20Test%20of%20Java%20Basics%203.pdf) | Java Basics 3 | July 27, 2020 | 49/50 |
-| 4 | [Practice Test of Java Basic Strings](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/Quizzes/Practice%20Test%20of%20Java%20Basic%20Strings.pdf) | Java Basics Strings | August 3, 2020 | 50/50 |
+| 1 | [Practice Test of Java Basics 1](Quizzes/Practice%20Test%20of%20Java%20Basics%201.pdf) | Java Basics | August 24, 2020 | 37/37 |
+| 2 | [Practice Test of Java Basics 2](Quizzes/Practice%20Test%20of%20Java%20Basics%202.pdf) | Java Basics 2 | July 20, 2020 | 60/60 |
+| 3 | [Practice Test of Java Basics 3](Quizzes/Practice%20Test%20of%20Java%20Basics%203.pdf) | Java Basics 3 | July 27, 2020 | 49/50 |
+| 4 | [Practice Test of Java Basic Strings](Quizzes/Practice%20Test%20of%20Java%20Basic%20Strings.pdf) | Java Basics Strings | August 3, 2020 | 50/50 |
 
 ---
 
@@ -373,7 +373,7 @@ A classic Hangman Word Game developed as a mini project for the Object-Oriented 
      ========================================================================================= -->
 ## Syllabus
 
-> **[Official CBCGS Syllabus](https://github.com/Amey-Thakur/OOPM-JAVA-LAB/blob/main/SE-Comps_CBCGS_Syllabus.pdf)**  
+> **[Official CBCGS Syllabus](SE-Comps_CBCGS_Syllabus.pdf)**  
 > Complete Second Year Computer Engineering syllabus document from the University of Mumbai, including detailed course outcomes, assessment criteria, and module specifications for OOPM and OOPM Lab.
 
 > [!IMPORTANT]
@@ -440,13 +440,13 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
      ========================================================================================= -->
 <div align="center">
 
-  **[↑ Back to Top](#object-oriented-programming-methodology-oopm-lab)**
+  [↑ Back to Top](#object-oriented-programming-methodology-oopm-lab)
 
-  **[Overview](#overview)** &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [Reference Books](#reference-books) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Laboratory](#oopm-laboratory) &nbsp;·&nbsp; [Mini Project](#oopm-mini-project) &nbsp;·&nbsp; [Authors](#-authors) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
+  [Overview](#overview) &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [Reference Books](#reference-books) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Laboratory](#oopm-laboratory) &nbsp;·&nbsp; [Mini Project](#oopm-mini-project) &nbsp;·&nbsp; [Authors](#-authors) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
   <br>
 
-  **[Laboratory](OOPM%20Lab/)** &nbsp;·&nbsp; **[Hangman Word Game (Mini Project)](OOPM%20Mini%20Project/)** &nbsp;·&nbsp; **[🎮 Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
+  🔬 **[Laboratory](OOPM%20Lab/)** &nbsp;·&nbsp; **[Hangman Word Game (Mini Project)](OOPM%20Mini%20Project/)** &nbsp;·&nbsp; **[🎮 Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
 
   ---
 

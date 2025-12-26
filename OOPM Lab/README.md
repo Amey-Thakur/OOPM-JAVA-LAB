@@ -279,13 +279,13 @@ appletviewer Fill_Color_Applet.html
 <div align="center">
 
   <!-- Footer Navigation -->
-  **[↑ Back to Top](#object-oriented-programming-methodology-oopm-lab)**
+  [↑ Back to Top](#object-oriented-programming-methodology-oopm-lab)
 
-  **[How to Use](#how-to-use)** &nbsp;·&nbsp; [Learning Path](#learning-path) &nbsp;·&nbsp; [Arrays](#arrays-3-source-codes) &nbsp;·&nbsp; [Looping](#looping--branching-8-source-codes) &nbsp;·&nbsp; [Classes](#classes-methods--objects-1-source-code) &nbsp;·&nbsp; [Overloading](#method-overloading-1-source-code) &nbsp;·&nbsp; [Constructors](#constructor--constructor-overloading-3-source-codes) &nbsp;·&nbsp; [Inheritance](#single--multilevel-inheritance-2-source-codes) &nbsp;·&nbsp; [Abstract](#abstract-class-1-source-code) &nbsp;·&nbsp; [Packages](#user-defined-package-3-source-codes) &nbsp;·&nbsp; [Exceptions](#user-defined-exception-1-source-code) &nbsp;·&nbsp; [Strings](#string-operations-2-source-codes) &nbsp;·&nbsp; [Multithreading](#multithreading-1-source-code) &nbsp;·&nbsp; [Vector](#vector-1-source-code) &nbsp;·&nbsp; [Input](#accept-input-from-user-3-source-codes) &nbsp;·&nbsp; [Applets](#applets-5-source-codes)
+  [How to Use](#how-to-use) &nbsp;·&nbsp; [Learning Path](#learning-path) &nbsp;·&nbsp; [Arrays](#arrays-3-source-codes) &nbsp;·&nbsp; [Looping](#looping--branching-8-source-codes) &nbsp;·&nbsp; [Classes](#classes-methods--objects-1-source-code) &nbsp;·&nbsp; [Overloading](#method-overloading-1-source-code) &nbsp;·&nbsp; [Constructors](#constructor--constructor-overloading-3-source-codes) &nbsp;·&nbsp; [Inheritance](#single--multilevel-inheritance-2-source-codes) &nbsp;·&nbsp; [Abstract](#abstract-class-1-source-code) &nbsp;·&nbsp; [Packages](#user-defined-package-3-source-codes) &nbsp;·&nbsp; [Exceptions](#user-defined-exception-1-source-code) &nbsp;·&nbsp; [Strings](#string-operations-2-source-codes) &nbsp;·&nbsp; [Multithreading](#multithreading-1-source-code) &nbsp;·&nbsp; [Vector](#vector-1-source-code) &nbsp;·&nbsp; [Input](#accept-input-from-user-3-source-codes) &nbsp;·&nbsp; [Applets](#applets-5-source-codes)
 
   <br>
 
-  **[🏠 Back to Main Repository](../)**
+  [🏠 Back to Main Repository](../)
 
   ---
 

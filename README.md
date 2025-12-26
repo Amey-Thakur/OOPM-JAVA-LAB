@@ -315,7 +315,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 <div align="center">
 
-  ### 🎮 Hangman Word Game
+  ### [🎮 Hangman Word Game](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)
 
   **A classic graphical Hangman game implemented using Java Applets and AWT/Swing components.**
 

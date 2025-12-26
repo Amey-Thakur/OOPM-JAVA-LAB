@@ -285,7 +285,7 @@ appletviewer Fill_Color_Applet.html
 
   <br>
 
-  [🏠 Back to Main Repository](../)
+  **[🏠 Back to Main Repository](../)**
 
   ---
 

@@ -181,5 +181,3 @@ Since Java Applets are deprecated in newer JDK versions, you may need to use `ap
   *University of Mumbai · Curated by [Amey Thakur](https://github.com/Amey-Thakur)*
 
 </div>
-
-

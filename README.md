@@ -431,7 +431,7 @@ Grateful acknowledgment to **[Mega Satish](https://github.com/msatmod)** and **[
 
 Special thanks to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance in Object-Oriented Programming Methodology. Their teaching helped establish a strong foundation in OOP principles and Java programming.
 
-Special thanks to the mentors and peers whose encouragement, discussions, and support contributed meaningfully to this learning experience.
+Special thanks to **Mega Satish** and **Saakshi Deokar** for their meaningful contributions, guidance, and support that helped shape this work.
 
 ---
 

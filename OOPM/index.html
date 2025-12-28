@@ -1,0 +1,333 @@
+<!--
+    ================================================================
+    Object-Oriented Programming (OOPM) Lab Portfolio
+    ================================================================
+    Author: Amey Thakur
+    GitHub: https://github.com/Amey-Thakur
+    Course: Object-Oriented Programming (OOPM) Lab
+    Roll No: 50
+    Batch: B3
+    Repository: https://github.com/Amey-Thakur/OOPM-JAVA-LAB
+    Date: January 17, 2020
+    
+    Description: Primary dashboard for the OOPM Lab repository. 
+                 Showcases Java experiments and the Hangman project.
+    License: CC BY 4.0
+    ================================================================
+-->
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMEY | OOPM Lab Portfolio</title>
+
+    <!-- PWA Support -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#dc2626">
+    <link rel="apple-touch-icon" href="assets/icon-192.png">
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Amey | OOPM Lab Portfolio">
+    <meta name="description"
+        content="Official scholarly portfolio for Object-Oriented Programming Laboratory (CSL304) at University of Mumbai. Features Java implementations and Hangman Mini Project by Amey Thakur.">
+    <meta name="keywords"
+        content="Java, OOP, Object Oriented Programming, Inheritance, Polymorphism, Exception Handling, Multithreading, Applets, Mumbai University, Computer Engineering, Portfolio, Amey Thakur">
+    <meta name="author" content="Amey Thakur">
+
+    <meta name="language" content="English">
+    <link rel="canonical" href="https://amey-thakur.github.io/OOPM-JAVA-LAB/OOPM/">
+
+    <!-- Favicon -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-java.min.js"></script>
+</head>
+
+<body>
+    <div class="main-container">
+
+        <!-- Hero Section -->
+        <div class="hero">
+            <div class="top-controls">
+                <button class="control-btn" id="share-btn" title="Share Portfolio">
+                    <i class="fas fa-share-nodes"></i>
+                </button>
+                <button class="control-btn" id="theme-toggle" title="Switch Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+
+            <h1>OOPM Lab Portfolio</h1>
+            <p>A curated showcase of 35+ Java experiments and the <strong>Hangman Mini Project</strong>, featuring
+                inheritance,
+                polymorphism, multithreading, and event-driven GUI development.</p>
+
+            <div class="info-badges">
+                <div class="d-flex gap-2 justify-content-center w-100 flex-wrap mb-2 align-items-center">
+                    <a href="https://github.com/Amey-Thakur" class="badge-pill clickable-badge" target="_blank">
+                        <i class="fas fa-user-graduate me-2"></i>Amey Thakur
+                    </a>
+                    <span class="badge-pill">Roll No: 50</span>
+                    <span class="badge-pill">Batch: B3</span>
+                </div>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="https://github.com/Amey-Thakur/OOPM-JAVA-LAB" class="btn btn-primary-custom">
+                    <i class="fab fa-github me-2"></i>OOPM Repo
+                </a>
+                <a href="https://github.com/Amey-Thakur/COMPUTER-ENGINEERING"
+                    class="btn btn-primary-custom btn-secondary-custom">
+                    <i class="fas fa-code-branch me-2"></i>Computer Engineering Repo
+                </a>
+            </div>
+
+            <!-- Stats Counter -->
+            <div class="stats-container">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="35">0</span>
+                    <span class="stat-label">Programs</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="14">0</span>
+                    <span class="stat-label">Categories</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="1">0</span>
+                    <span class="stat-label">Mini Project</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="100" data-suffix="%">0%</span>
+                    <span class="stat-label">Complete</span>
+                </div>
+            </div>
+
+            <div class="mt-4 text-center" style="animation: fadeInDown 1s ease 0.5s both;">
+                <a href="#foundations"
+                    style="color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 8px;">
+                    <i class="fas fa-chevron-down" style="animation: bounce 2s infinite;"></i>
+                    Explore Java Experiments
+                    <i class="fas fa-chevron-down" style="animation: bounce 2s infinite;"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Section: Fundamentals -->
+        <div id="foundations" class="section-title reveal">
+            <h3>Fundamentals</h3>
+        </div>
+
+        <div class="row g-4 mb-5 justify-content-center">
+            <div class="col-md-6 reveal-left">
+                <div class="card-custom">
+                    <div class="icon-wrapper"><i class="fas fa-keyboard"></i></div>
+                    <h5>Java Foundations</h5>
+                    <div class="tech-stack mb-3 d-flex align-items-center flex-wrap gap-2">
+                        <span class="badge-tech">Scanner</span>
+                        <span class="badge-tech">Arrays</span>
+                        <span class="badge-tech">Control Flow</span>
+                        <span class="badge bg-primary ms-1" style="font-size: 0.7rem;"
+                            data-tooltip="Programs covering User Input, Looping (for/while), and Multi-dimensional arrays.">14
+                            Programs</span>
+                    </div>
+                    <p>Core Java constructs focusing on robust input handling, logical branching, and efficient matrix
+                        operations.</p>
+                    <a href="https://github.com/Amey-Thakur/OOPM-JAVA-LAB/tree/main/OOPM%20Lab" class="launch-link"
+                        target="_blank">View Code <i class="fas fa-arrow-right ms-1"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 reveal-right">
+                <div class="card-custom">
+                    <div class="icon-wrapper"><i class="fas fa-cube"></i></div>
+                    <h5>Object Lifecycle</h5>
+                    <div class="tech-stack mb-3 d-flex align-items-center flex-wrap gap-2">
+                        <span class="badge-tech">Constructors</span>
+                        <span class="badge-tech">Overloading</span>
+                        <span class="badge-tech">Encapsulation</span>
+                        <span class="badge bg-info text-dark ms-1" style="font-size: 0.7rem;"
+                            data-tooltip="Deep dive into Method Overloading and complex Constructor chains.">5
+                            Programs</span>
+                    </div>
+                    <p>Implementing true object-oriented principles through encapsulation, state management, and
+                        hierarchical initialization.</p>
+                    <a href="https://github.com/Amey-Thakur/OOPM-JAVA-LAB/tree/main/OOPM%20Lab/Constructor-And-Constructor-Overloading"
+                        class="launch-link" target="_blank">View Code <i class="fas fa-arrow-right ms-1"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section: Object Orientation -->
+        <div class="section-title reveal">
+            <h3>Object Orientation</h3>
+        </div>
+
+        <div class="row g-4 mb-5 justify-content-center">
+            <div class="col-md-6 reveal-left">
+                <div class="card-custom">
+                    <div class="icon-wrapper"><i class="fas fa-sitemap"></i></div>
+                    <h5>Inheritance & Modularity</h5>
+                    <div class="tech-stack mb-3 d-flex align-items-center flex-wrap gap-2">
+                        <span class="badge-tech">Packages</span>
+                        <span class="badge-tech">Abstract</span>
+                        <span class="badge-tech">Multi-level</span>
+                        <span class="badge bg-success ms-1" style="font-size: 0.7rem;"
+                            data-tooltip="Hierarchical system designs using Packages and Inheritance.">6
+                            Programs</span>
+                    </div>
+                    <p>Building scalable systems using modular user-defined packages and abstract class blueprints.</p>
+                    <a href="https://github.com/Amey-Thakur/OOPM-JAVA-LAB/tree/main/OOPM%20Lab/Single-And-Multilevel-Inheritance"
+                        class="launch-link" target="_blank">View Code <i class="fas fa-arrow-right ms-1"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 reveal-right">
+                <div class="card-custom">
+                    <div class="icon-wrapper"><i class="fas fa-layer-group"></i></div>
+                    <h5>Collections & Memory</h5>
+                    <div class="tech-stack mb-3 d-flex align-items-center flex-wrap gap-2">
+                        <span class="badge-tech">Vector</span>
+                        <span class="badge-tech">Strings</span>
+                        <span class="badge-tech">StringBuffer</span>
+                        <span class="badge bg-warning text-dark ms-1" style="font-size: 0.7rem;"
+                            data-tooltip="Handling dynamic data with Vectors and performant String manipulation.">3
+                            Programs</span>
+                    </div>
+                    <p>Dynamic data management using thread-safe Vectors and high-performance buffer-based string
+                        engineering.</p>
+                    <a href="https://github.com/Amey-Thakur/OOPM-JAVA-LAB/tree/main/OOPM%20Lab/Vector-Operations"
+                        class="launch-link" target="_blank">View Code <i class="fas fa-arrow-right ms-1"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section: Advanced Java -->
+        <div class="section-title reveal">
+            <h3>Advanced Systems</h3>
+        </div>
+
+        <div class="row g-4 mb-5 justify-content-center">
+            <div class="col-md-6 reveal-left">
+                <div class="card-custom">
+                    <div class="icon-wrapper"><i class="fas fa-shield-alt"></i></div>
+                    <h5>Robustness & Concurrency</h5>
+                    <div class="tech-stack mb-3 d-flex align-items-center flex-wrap gap-2">
+                        <span class="badge-tech">Exceptions</span>
+                        <span class="badge-tech">Threads</span>
+                        <span class="badge bg-danger ms-1" style="font-size: 0.7rem;"
+                            data-tooltip="Fault-tolerant systems with custom Exceptions and Multithreading.">2
+                            Programs</span>
+                    </div>
+                    <p>Developing resilient applications with custom error handling and concurrent execution models.</p>
+                    <a href="https://github.com/Amey-Thakur/OOPM-JAVA-LAB/tree/main/OOPM%20Lab/Multithreading"
+                        class="launch-link" target="_blank">View Code <i class="fas fa-arrow-right ms-1"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 reveal-right">
+                <div class="card-custom">
+                    <div class="icon-wrapper"><i class="fas fa-desktop"></i></div>
+                    <h5>Interactive GUIs</h5>
+                    <div class="tech-stack mb-3 d-flex align-items-center flex-wrap gap-2">
+                        <span class="badge-tech">Applets</span>
+                        <span class="badge-tech">Graphics</span>
+                        <span class="badge bg-secondary ms-1" style="font-size: 0.7rem;"
+                            data-tooltip="Legacy GUI development using the Java Applet lifecycle.">4
+                            Programs</span>
+                    </div>
+                    <p>Creating visual interfaces and event-driven mini-applications using the legacy Java Applet
+                        framework.</p>
+                    <a href="https://github.com/Amey-Thakur/OOPM-JAVA-LAB/tree/main/OOPM%20Lab/Basic-Applets"
+                        class="launch-link" target="_blank">View Code <i class="fas fa-arrow-right ms-1"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section: Featured Mini Project -->
+        <div class="section-title reveal">
+            <h3>Featured Mini Project</h3>
+        </div>
+
+        <div class="row mb-5 justify-content-center">
+            <div class="col-12 reveal">
+                <div class="card-custom featured-card d-flex align-items-center">
+                    <!-- Title & Icon (Top) -->
+                    <div class="content-header mb-4 text-center">
+                        <div class="icon-header mb-2">
+                            <i class="fas fa-gamepad robot-icon"></i>
+                        </div>
+                        <h2 class="project-title">Hangman Word Game</h2>
+                    </div>
+
+                    <!-- Horizontal Video Laptop Frame (Visual Anchor) -->
+                    <div class="laptop-column">
+                        <div class="laptop-frame shadow-lg">
+                            <div class="laptop-screen">
+                                <iframe
+                                    src="https://www.youtube.com/embed/JsT9KYKPUgs?autoplay=1&mute=1&loop=1&playlist=JsT9KYKPUgs"
+                                    title="Hangman Game Demo"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen loading="lazy"></iframe>
+                            </div>
+                            <div class="laptop-base"></div>
+                        </div>
+                    </div>
+
+                    <!-- Details & Scholarly Actions (Bottom) -->
+                    <div class="content-column mt-4 text-center">
+                        <p class="project-description">
+                            A graphical Java application with reactive UI elements, published in research journals.
+                            Features intelligent word selection logic, automated state management, and event-driven
+                            architecture.
+                        </p>
+
+                        <!-- Feature Badges -->
+                        <div class="tech-stack mb-4 d-flex align-items-center flex-wrap gap-2 justify-content-center">
+                            <span class="badge-custom"><i class="fas fa-desktop me-2"></i>AWT/Swing</span>
+                            <span class="badge-custom"><i class="fas fa-bolt me-2"></i>Event Driven</span>
+                            <span class="badge-custom"><i class="fas fa-brain me-2"></i>Word Logic</span>
+                            <span class="badge-custom"><i class="fas fa-book-open me-2"></i>Published</span>
+                        </div>
+
+                        <!-- Action Buttons (Scholarly CTA) -->
+                        <div class="action-grid d-flex justify-content-center gap-3 w-100 mt-2">
+                            <a href="https://doi.org/10.13140/RG.2.2.26806.22082"
+                                class="btn btn-dark-custom flex-grow-1" style="max-width: 280px;" target="_blank">
+                                <i class="fas fa-file-pdf me-2"></i>Research Presentation
+                            </a>
+                            <a href="https://doi.org/10.13140/RG.2.2.20095.33446"
+                                class="btn btn-outline-custom flex-grow-1" style="max-width: 280px;" target="_blank">
+                                <i class="fas fa-code me-2"></i>Source Code DOI
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <p>2022 - <span id="current-year"></span> &copy; All Rights Reserved | Designed and Developed by <a
+                href="https://github.com/Amey-Thakur" rel="noopener noreferrer">Amey
+                Thakur</a></p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button type="button" class="btn" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -304,7 +304,8 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 | # | Resource | Description |
 |:-:|:---|:---|
-| 1 | [Lab README](OOPM%20Lab/) | Detailed navigation guide with source code descriptions |
+| 1 | [Interactive Lab Portfolio](https://amey-thakur.github.io/OOPM-JAVA-LAB/OOPM/) | Interactive dashboard with source code descriptions and visualizations |
+| 2 | [Lab README](OOPM%20Lab/) | Detailed navigation guide with source code descriptions |
 
 ---
 

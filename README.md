@@ -98,7 +98,7 @@ This collection includes **comprehensive reference materials** covering all majo
 Practice tests for Java fundamentals and concept reinforcement:
 
 | # | Quiz | Description | Date | Marks |
-|:-:|:---|:---|:---|:---|
+|:-:|:---|:---|:---:|:---:|
 | 1 | [Practice Test of Java Basics 1](Quizzes/Practice%20Test%20of%20Java%20Basics%201.pdf) | Java Basics | August 24, 2020 | 37/37 |
 | 2 | [Practice Test of Java Basics 2](Quizzes/Practice%20Test%20of%20Java%20Basics%202.pdf) | Java Basics 2 | July 20, 2020 | 60/60 |
 | 3 | [Practice Test of Java Basics 3](Quizzes/Practice%20Test%20of%20Java%20Basics%203.pdf) | Java Basics 3 | July 27, 2020 | 49/50 |

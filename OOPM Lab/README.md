@@ -90,11 +90,11 @@ appletviewer Fill_Color_Applet.html
      ========================================================================================= -->
 ## Arrays (3 Source Codes)
 
-| # | Program | Description |
-|:---|:---|:---|
-| 1 | [Student_Marks_Report.java](One-Dimensional-Array/Student_Marks_Report.java) | Basic 1-D array operations and traversal (Student Marks Report) |
-| 2 | [Array_Parameter_Passing.java](One-Dimensional-Array/Array_Parameter_Passing.java) | Passing arrays as method parameters demo |
-| 3 | [Matrix_Addition.java](Two-Dimensional-Array/Matrix_Addition.java) | 2-D array operations and matrix handling |
+| # | Program | Description | Source Code |
+|:---|:---|:---|:-:|
+| 1 | Student_Marks_Report.java | Basic 1-D array operations and traversal (Student Marks Report) | [View](One-Dimensional-Array/Student_Marks_Report.java) |
+| 2 | Array_Parameter_Passing.java | Passing arrays as method parameters demo | [View](One-Dimensional-Array/Array_Parameter_Passing.java) |
+| 3 | Matrix_Addition.java | 2-D array operations and matrix handling | [View](Two-Dimensional-Array/Matrix_Addition.java) |
 
 ---
 
@@ -105,21 +105,21 @@ appletviewer Fill_Color_Applet.html
 
 ### Looping Constructs
 
-| # | Program | Description |
-|:---|:---|:---|
-| 1 | [For_Loop.java](Looping-And-Branching/Looping/For_Loop.java) | For loop demonstration with counter |
-| 2 | [While_Loop.java](Looping-And-Branching/Looping/While_Loop.java) | While loop demonstration |
-| 3 | [Do_While_Loop.java](Looping-And-Branching/Looping/Do_While_Loop.java) | Do-while loop demonstration |
+| # | Program | Description | Source Code |
+|:---|:---|:---|:-:|
+| 1 | For_Loop.java | For loop demonstration with counter | [View](Looping-And-Branching/Looping/For_Loop.java) |
+| 2 | While_Loop.java | While loop demonstration | [View](Looping-And-Branching/Looping/While_Loop.java) |
+| 3 | Do_While_Loop.java | Do-while loop demonstration | [View](Looping-And-Branching/Looping/Do_While_Loop.java) |
 
 ### Branching Statements
 
-| # | Program | Description |
-|:---|:---|:---|
-| 4 | [Break_Statement.java](Looping-And-Branching/Branching/Break_Statement.java) | Break statement for loop termination |
-| 5 | [Continue_Statement.java](Looping-And-Branching/Branching/Continue_Statement.java) | Continue statement for iteration skip |
-| 6 | [Return_Statement.java](Looping-And-Branching/Branching/Return_Statement.java) | Return statement for method exit |
-| 7 | [Labelled_Break.java](Looping-And-Branching/Branching/Labelled_Break.java) | Labelled break for nested loops |
-| 8 | [Labelled_Continue.java](Looping-And-Branching/Branching/Labelled_Continue.java) | Labelled continue for nested loops |
+| # | Program | Description | Source Code |
+|:---|:---|:---|:-:|
+| 4 | Break_Statement.java | Break statement for loop termination | [View](Looping-And-Branching/Branching/Break_Statement.java) |
+| 5 | Continue_Statement.java | Continue statement for iteration skip | [View](Looping-And-Branching/Branching/Continue_Statement.java) |
+| 6 | Return_Statement.java | Return statement for method exit | [View](Looping-And-Branching/Branching/Return_Statement.java) |
+| 7 | Labelled_Break.java | Labelled break for nested loops | [View](Looping-And-Branching/Branching/Labelled_Break.java) |
+| 8 | Labelled_Continue.java | Labelled continue for nested loops | [View](Looping-And-Branching/Branching/Labelled_Continue.java) |
 
 ---
 
@@ -128,9 +128,9 @@ appletviewer Fill_Color_Applet.html
      ========================================================================================= -->
 ## Classes, Methods & Objects (1 Source Code)
 
-| # | Program | Description |
-|:---|:---|:---|
-| 1 | [Class_Method_Demo.java](Classes-Methods-And-Objects/Class_Method_Demo.java) | Class creation with methods and object instantiation |
+| # | Program | Description | Source Code |
+|:---|:---|:---|:-:|
+| 1 | Class_Method_Demo.java | Class creation with methods and object instantiation | [View](Classes-Methods-And-Objects/Class_Method_Demo.java) |
 
 ---
 
@@ -139,9 +139,9 @@ appletviewer Fill_Color_Applet.html
      ========================================================================================= -->
 ## Method Overloading (1 Source Code)
 
-| # | Program | Description |
-|:---|:---|:---|
-| 1 | [Method_Overloading_Demo.java](Method-Overloading/Method_Overloading_Demo.java) | Method overloading with different parameter types |
+| # | Program | Description | Source Code |
+|:---|:---|:---|:-:|
+| 1 | Method_Overloading_Demo.java | Method overloading with different parameter types | [View](Method-Overloading/Method_Overloading_Demo.java) |
 
 ---
 
@@ -150,11 +150,11 @@ appletviewer Fill_Color_Applet.html
      ========================================================================================= -->
 ## Constructor & Constructor Overloading (3 Source Codes)
 
-| # | Program | Description |
-|:---|:---|:---|
-| 1 | [Default_Constructor_Demo.java](Constructor-And-Constructor-Overloading/Default_Constructor_Demo.java) | Default constructor demonstration |
-| 2 | [Constructor_Types_Demo.java](Constructor-And-Constructor-Overloading/Constructor_Types_Demo.java) | Different types of constructors |
-| 3 | [Constructor_Overloading_Demo.java](Constructor-And-Constructor-Overloading/Constructor_Overloading_Demo.java) | Constructor overloading examples |
+| # | Program | Description | Source Code |
+|:---|:---|:---|:-:|
+| 1 | Default_Constructor_Demo.java | Default constructor demonstration | [View](Constructor-And-Constructor-Overloading/Default_Constructor_Demo.java) |
+| 2 | Constructor_Types_Demo.java | Different types of constructors | [View](Constructor-And-Constructor-Overloading/Constructor_Types_Demo.java) |
+| 3 | Constructor_Overloading_Demo.java | Constructor overloading examples | [View](Constructor-And-Constructor-Overloading/Constructor_Overloading_Demo.java) |
 
 ---
 
@@ -163,10 +163,10 @@ appletviewer Fill_Color_Applet.html
      ========================================================================================= -->
 ## Single & Multilevel Inheritance (2 Source Codes)
 
-| # | Program | Description |
-|:---|:---|:---|
-| 1 | [Single_Inheritance_Demo.java](Single-And-Multilevel-Inheritance/Single_Inheritance_Demo.java) | Single inheritance demonstration |
-| 2 | [Multilevel_Inheritance_Demo.java](Single-And-Multilevel-Inheritance/Multilevel_Inheritance_Demo.java) | Multilevel inheritance demonstration |
+| # | Program | Description | Source Code |
+|:---|:---|:---|:-:|
+| 1 | Single_Inheritance_Demo.java | Single inheritance demonstration | [View](Single-And-Multilevel-Inheritance/Single_Inheritance_Demo.java) |
+| 2 | Multilevel_Inheritance_Demo.java | Multilevel inheritance demonstration | [View](Single-And-Multilevel-Inheritance/Multilevel_Inheritance_Demo.java) |
 
 ---
 
@@ -175,9 +175,9 @@ appletviewer Fill_Color_Applet.html
      ========================================================================================= -->
 ## Abstract Class (1 Source Code)
 
-| # | Program | Description |
-|:---|:---|:---|
-| 1 | [Abstract_Class_Demo.java](Abstract-Class/Abstract_Class_Demo.java) | Abstract class and method implementation (Shape/Square) |
+| # | Program | Description | Source Code |
+|:---|:---|:---|:-:|
+| 1 | Abstract_Class_Demo.java | Abstract class and method implementation (Shape/Square) | [View](Abstract-Class/Abstract_Class_Demo.java) |
 
 ---
 
@@ -186,11 +186,11 @@ appletviewer Fill_Color_Applet.html
      ========================================================================================= -->
 ## User Defined Package (3 Source Codes)
 
-| # | Program | Description |
-|:---|:---|:---|
-| 1 | [Package_Demo.java](User-Defined-Package/Package_Demo.java) | Main program using custom package |
-| 2 | [Area_Calc.java](User-Defined-Package/geometry/Area_Calc.java) | Area calculation in package |
-| 3 | [Perimeter_Calc.java](User-Defined-Package/geometry/Perimeter_Calc.java) | Perimeter calculation in package |
+| # | Program | Description | Source Code |
+|:---|:---|:---|:-:|
+| 1 | Package_Demo.java | Main program using custom package | [View](User-Defined-Package/Package_Demo.java) |
+| 2 | Area_Calc.java | Area calculation in package | [View](User-Defined-Package/geometry/Area_Calc.java) |
+| 3 | Perimeter_Calc.java | Perimeter calculation in package | [View](User-Defined-Package/geometry/Perimeter_Calc.java) |
 
 ---
 
@@ -199,9 +199,9 @@ appletviewer Fill_Color_Applet.html
      ========================================================================================= -->
 ## User Defined Exception (1 Source Code)
 
-| # | Program | Description |
-|:---|:---|:---|
-| 1 | [User_Defined_Exception_Demo.java](User-Defined-Exception/User_Defined_Exception_Demo.java) | Custom exception class implementation |
+| # | Program | Description | Source Code |
+|:---|:---|:---|:-:|
+| 1 | User_Defined_Exception_Demo.java | Custom exception class implementation | [View](User-Defined-Exception/User_Defined_Exception_Demo.java) |
 
 ---
 
@@ -210,10 +210,10 @@ appletviewer Fill_Color_Applet.html
      ========================================================================================= -->
 ## String Operations (2 Source Codes)
 
-| # | Program | Description |
-|:---|:---|:---|
-| 1 | [String_Operations_Demo.java](String-Operations/String_Operations_Demo.java) | String class operations and methods |
-| 2 | [String_Buffer_Demo.java](String-Buffer/String_Buffer_Demo.java) | StringBuffer operations and manipulation |
+| # | Program | Description | Source Code |
+|:---|:---|:---|:-:|
+| 1 | String_Operations_Demo.java | String class operations and methods | [View](String-Operations/String_Operations_Demo.java) |
+| 2 | String_Buffer_Demo.java | StringBuffer operations and manipulation | [View](String-Buffer/String_Buffer_Demo.java) |
 
 ---
 
@@ -222,9 +222,9 @@ appletviewer Fill_Color_Applet.html
      ========================================================================================= -->
 ## Multithreading (1 Source Code)
 
-| # | Program | Description |
-|:---|:---|:---|
-| 1 | [Multithreading_Demo.java](Multithreading/Multithreading_Demo.java) | Thread creation and concurrent execution |
+| # | Program | Description | Source Code |
+|:---|:---|:---|:-:|
+| 1 | Multithreading_Demo.java | Thread creation and concurrent execution | [View](Multithreading/Multithreading_Demo.java) |
 
 ---
 
@@ -233,9 +233,9 @@ appletviewer Fill_Color_Applet.html
      ========================================================================================= -->
 ## Vector (1 Source Code)
 
-| # | Program | Description |
-|:---|:---|:---|
-| 1 | [Vector_Operations_Demo.java](Vector-Operations/Vector_Operations_Demo.java) | Vector class operations and dynamic arrays |
+| # | Program | Description | Source Code |
+|:---|:---|:---|:-:|
+| 1 | Vector_Operations_Demo.java | Vector class operations and dynamic arrays | [View](Vector-Operations/Vector_Operations_Demo.java) |
 
 ---
 
@@ -244,11 +244,11 @@ appletviewer Fill_Color_Applet.html
      ========================================================================================= -->
 ## Accept Input from User (3 Source Codes)
 
-| # | Program | Description |
-|:---|:---|:---|
-| 1 | [Input_Using_Scanner.java](Accept-Input-From-User/Input_Using_Scanner.java) | Input using Scanner class |
-| 2 | [Input_Using_Buffered_Reader.java](Accept-Input-From-User/Input_Using_Buffered_Reader.java) | Input using BufferedReader |
-| 3 | [Input_Using_Console.java](Accept-Input-From-User/Input_Using_Console.java) | Input using Console class |
+| # | Program | Description | Source Code |
+|:---|:---|:---|:-:|
+| 1 | Input_Using_Scanner.java | Input using Scanner class | [View](Accept-Input-From-User/Input_Using_Scanner.java) |
+| 2 | Input_Using_Buffered_Reader.java | Input using BufferedReader | [View](Accept-Input-From-User/Input_Using_Buffered_Reader.java) |
+| 3 | Input_Using_Console.java | Input using Console class | [View](Accept-Input-From-User/Input_Using_Console.java) |
 
 ---
 
@@ -259,17 +259,17 @@ appletviewer Fill_Color_Applet.html
 
 ### Basic Applets
 
-| # | Program | Description |
-|:---|:---|:---|
-| 1 | [Fill_Color_Applet.java](Basic-Applets/Fill_Color_Applet.java) | Basic applet with color filling |
-| 2 | [Fill_Color_Applet.html](Basic-Applets/Fill_Color_Applet.html) | HTML file for applet embedding |
+| # | Program | Description | Source Code |
+|:---|:---|:---|:-:|
+| 1 | Fill_Color_Applet.java | Basic applet with color filling | [View](Basic-Applets/Fill_Color_Applet.java) |
+| 2 | Fill_Color_Applet.html | HTML file for applet embedding | [View](Basic-Applets/Fill_Color_Applet.html) |
 
 ### Passing Parameters to Applets
 
-| # | Program | Description |
-|:---|:---|:---|
-| 1 | [Applet_Parameters_Demo.java](Passing-Parameters-To-Applets/Applet_Parameters_Demo.java) | Applet receiving parameters |
-| 2 | [Applet_Parameters_Demo.html](Passing-Parameters-To-Applets/Applet_Parameters_Demo.html) | HTML file with applet parameters |
+| # | Program | Description | Source Code |
+|:---|:---|:---|:-:|
+| 1 | Applet_Parameters_Demo.java | Applet receiving parameters | [View](Passing-Parameters-To-Applets/Applet_Parameters_Demo.java) |
+| 2 | Applet_Parameters_Demo.html | HTML file with applet parameters | [View](Passing-Parameters-To-Applets/Applet_Parameters_Demo.html) |
 
 ---
 
@@ -285,11 +285,11 @@ appletviewer Fill_Color_Applet.html
 
   <br>
 
-  [🏠 Back to Main Repository](../)
+  🏠 **[Back to Main Repository](../)**
 
   ---
 
-  ### [Object-Oriented Programming Methodology (Java) Lab](https://github.com/Amey-Thakur/OOPM-JAVA-LAB)
+  ### [Object-Oriented Programming Methodology (Java) Lab](../)
 
   **CSL304 · Semester III · Computer Engineering**
 

@@ -341,7 +341,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 > [!IMPORTANT]
 > ### 🤝🏻 Special Acknowledgement
-> *Special thanks to [Mega Satish](https://github.com/msatmod) and [Saakshi Deokar](https://www.linkedin.com/in/saakshideokar/) for their meaningful contributions, guidance, and support that helped shape this work.*
+> *Special thanks to **[Mega Satish](https://github.com/msatmod)** and **[Saakshi Deokar](https://www.linkedin.com/in/saakshideokar/)** for their meaningful contributions, guidance, and support that helped shape this work.*
 
 
 ### Project Overview

@@ -10,3 +10,6 @@
 *.ico binary
 *.jar binary
 *.class binary
+*.mp4 binary
+*.pptx binary
+*.docx binary

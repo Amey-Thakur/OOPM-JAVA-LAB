@@ -1,15 +1,47 @@
-# Standard text normalization
-* text=auto
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
 
-# Binaries
-*.pdf binary
+# Standard to msysgit
+*.doc	 diff=astextplain
+*.DOC	 diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot  diff=astextplain
+*.DOT  diff=astextplain
+*.pdf  diff=astextplain
+*.PDF	 diff=astextplain
+*.rtf	 diff=astextplain
+*.RTF	 diff=astextplain
+
+# Binary files
+*.png binary
 *.jpg binary
 *.jpeg binary
-*.png binary
 *.gif binary
 *.ico binary
-*.jar binary
-*.class binary
+*.bmp binary
+*.tif binary
+*.tiff binary
+*.mov binary
 *.mp4 binary
-*.pptx binary
-*.docx binary
+*.mp3 binary
+*.flv binary
+*.fla binary
+*.swf binary
+*.gz binary
+*.zip binary
+*.7z binary
+*.rar binary
+*.tar binary
+*.iso binary
+
+# Java Archives
+*.jar binary
+*.war binary
+*.ear binary
+
+# Java Source
+*.java   text diff=java
+*.jsp    text
+*.properties text
+*.xml    text

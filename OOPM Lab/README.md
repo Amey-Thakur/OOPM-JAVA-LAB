@@ -296,5 +296,3 @@ appletviewer Fill_Color_Applet.html
   *University of Mumbai · Curated by [Amey Thakur](https://github.com/Amey-Thakur)*
 
 </div>
-
-

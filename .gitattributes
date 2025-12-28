@@ -1,0 +1,12 @@
+# Standard text normalization
+* text=auto
+
+# Binaries
+*.pdf binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.ico binary
+*.jar binary
+*.class binary

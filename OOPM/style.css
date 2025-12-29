@@ -393,10 +393,20 @@ h5 {
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.05);
 }
 
+[data-theme="light"] .featured-card:hover {
+    border: 1px solid var(--accent-color) !important;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
 [data-theme="dark"] .featured-card {
     background: linear-gradient(-45deg, #0f172a, #1e293b, #0f172a, #450a0a) !important;
     background-size: 400% 400% !important;
     border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+[data-theme="dark"] .featured-card:hover {
+    border: 1px solid var(--accent-color) !important;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
 

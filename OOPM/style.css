@@ -206,6 +206,10 @@ h5 {
 .btn-primary-custom {
     background: var(--accent-color);
     color: #fff;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn-primary-custom:hover {

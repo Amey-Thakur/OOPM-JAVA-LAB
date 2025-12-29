@@ -632,9 +632,13 @@ document.addEventListener('DOMContentLoaded', () => {
     initHangman();
 
     // 12. Code Typing Animation
+    // 12. Code Typing Animation (Fixed)
     function initCodeTyping() {
         const codeElement = document.getElementById('typing-code');
         if (!codeElement) return;
+
+        // Remove the class to prevent Prism from double-highlighting
+        codeElement.className = '';
 
         const rawCode = `public class HangmanGame extends JFrame {
     private String[] words = {"JAVA", "OOP"};
@@ -651,13 +655,13 @@ document.addEventListener('DOMContentLoaded', () => {
 }`;
 
         function highlightJava(code) {
+            // Apply highlighting to text content
             return code
-                .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;") // Escape HTML
+                .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
                 .replace(/\b(public|class|extends|private|int|void|char|if|else|new|return|import|package)\b/g, '<span style="color: #c678dd;">$1</span>')
                 .replace(/\b(String|JFrame|HangmanGame|Math|System)\b/g, '<span style="color: #e5c07b;">$1</span>')
-                .replace(/(".*?")/g, '<span style="color: #98c379;">$1</span>')
                 .replace(/\b(lives|word|letter|words)\b/g, '<span style="color: #e06c75;">$1</span>')
-                .replace(/(\/\/.*)/g, '<span style="color: #5c6370; font-style: italic;">$1</span>')
+                .replace(/(".*?")/g, '<span style="color: #98c379;">$1</span>')
                 .replace(/\b(\d+)\b/g, '<span style="color: #d19a66;">$1</span>')
                 .replace(/({|}|\[|\]|\(|\))/g, '<span style="color: #abb2bf;">$1</span>');
         }
@@ -667,18 +671,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
         function type() {
             if (charIndex < rawCode.length) {
-                const currentSubString = rawCode.substring(0, charIndex + 1);
-                // Highlight the string typed so far
-                codeElement.innerHTML = highlightJava(currentSubString);
+                // Get the substring to display
+                const currentText = rawCode.substring(0, charIndex + 1);
+                // Apply syntax highlighting to the substring
+                codeElement.innerHTML = highlightJava(currentText);
+
                 charIndex++;
                 setTimeout(type, typeSpeed);
             } else {
-                // Blink cursor at the end
                 codeElement.innerHTML += '<span class="typing-cursor">|</span>';
             }
         }
 
-        // Start typing when element is in view
         const observer = new IntersectionObserver((entries) => {
             if (entries[0].isIntersecting) {
                 type();

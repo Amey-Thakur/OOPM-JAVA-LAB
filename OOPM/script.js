@@ -683,6 +683,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Apply syntax highlighting to the substring
                 codeElement.innerHTML = highlightJava(currentText);
 
+                // Auto-scroll to bottom
+                const terminalBody = codeElement.closest('.terminal-body');
+                if (terminalBody) {
+                    terminalBody.scrollTop = terminalBody.scrollHeight;
+                }
+
                 charIndex++;
                 setTimeout(type, typeSpeed);
             } else {

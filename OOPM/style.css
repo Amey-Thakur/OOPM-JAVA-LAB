@@ -1242,9 +1242,9 @@ font-size: 0.9rem;
 /* Variable Monitor */
 /* Sidebar Container (Fixed Width) */
 .logic-sidebar {
-    flex: 0 0 160px;
+    flex: 0 0 220px;
     /* Rigid constraint */
-    width: 160px;
+    width: 220px;
     border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 

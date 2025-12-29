@@ -16,44 +16,8 @@
     "dir": "ltr",
     "icons": [
         {
-            "src": "assets/icon-72.png",
-            "sizes": "72x72",
-            "type": "image/png",
-            "purpose": "maskable any"
-        },
-        {
-            "src": "assets/icon-96.png",
-            "sizes": "96x96",
-            "type": "image/png",
-            "purpose": "maskable any"
-        },
-        {
-            "src": "assets/icon-128.png",
-            "sizes": "128x128",
-            "type": "image/png",
-            "purpose": "maskable any"
-        },
-        {
-            "src": "assets/icon-144.png",
-            "sizes": "144x144",
-            "type": "image/png",
-            "purpose": "maskable any"
-        },
-        {
-            "src": "assets/icon-152.png",
-            "sizes": "152x152",
-            "type": "image/png",
-            "purpose": "maskable any"
-        },
-        {
             "src": "assets/icon-192.png",
             "sizes": "192x192",
-            "type": "image/png",
-            "purpose": "maskable any"
-        },
-        {
-            "src": "assets/icon-384.png",
-            "sizes": "384x384",
             "type": "image/png",
             "purpose": "maskable any"
         },
@@ -67,14 +31,14 @@
     "screenshots": [
         {
             "src": "assets/screenshot-wide.png",
-            "sizes": "1280x720",
+            "sizes": "1280x800",
             "type": "image/png",
             "form_factor": "wide",
             "label": "OOPM Lab Portfolio - Desktop View"
         },
         {
             "src": "assets/screenshot-narrow.png",
-            "sizes": "540x720",
+            "sizes": "750x1334",
             "type": "image/png",
             "form_factor": "narrow",
             "label": "OOPM Lab Portfolio - Mobile View"

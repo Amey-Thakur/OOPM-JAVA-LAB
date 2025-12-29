@@ -125,4 +125,35 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 6. Footer Year Update
     document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    // 7. Low-Level Security Measures
+    // Disable Right Click
+    document.addEventListener('contextmenu', (e) => {
+        e.preventDefault();
+    });
+
+    // Disable Key Combinations (F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U)
+    document.addEventListener('keydown', (e) => {
+        if (
+            e.key === 'F12' ||
+            (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'J')) ||
+            (e.ctrlKey && e.key === 'u')
+        ) {
+            e.preventDefault();
+        }
+    });
+
+    // Disable Dragging images
+    document.addEventListener('dragstart', (e) => {
+        e.preventDefault();
+    });
+
+    // Disable Selection (Optional, but "Low Level" standard)
+    document.addEventListener('selectstart', (e) => {
+        // Allow selection in input fields if any
+        if (e.target.tagName !== 'INPUT' && e.target.tagName !== 'TEXTAREA') {
+            e.preventDefault();
+        }
+    });
 });
+

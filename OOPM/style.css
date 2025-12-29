@@ -1229,14 +1229,33 @@ font-size: 0.9rem;
     border: none;
 }
 
-/* Pseudocode Block */
+/* Pseudocode Block (Flexible) */
 .pseudocode-block {
     background: #1e1e1e;
     font-family: 'Fira Code', monospace;
     font-size: 0.8rem;
     color: #abb2bf;
-    color: #abb2bf;
     line-height: 1.5;
+    flex: 1 1 auto;
+    /* Allow growth but shrinking is fine */
+}
+
+/* Variable Monitor (Fixed Width) */
+.variable-monitor {
+    flex: 0 0 160px;
+    /* Fixed width */
+    width: 160px;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    white-space: nowrap;
+    /* Prevent wrapping */
+}
+
+/* Hangman Animation (Fixed Width) */
+.hangman-anim-box {
+    flex: 0 0 100px;
+    /* Fixed width */
+    width: 100px;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .code-line {

@@ -449,6 +449,22 @@ h5 {
     width: 100%;
     height: 100%;
     border: none;
+    opacity: 0;
+    animation: videoLoad 1.5s ease-out 0.8s forwards;
+}
+
+@keyframes videoLoad {
+    from {
+        opacity: 0;
+        filter: blur(10px);
+        transform: scale(1.02);
+    }
+
+    to {
+        opacity: 1;
+        filter: blur(0);
+        transform: scale(1);
+    }
 }
 
 .laptop-base {

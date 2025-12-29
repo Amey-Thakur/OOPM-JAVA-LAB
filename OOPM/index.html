@@ -352,18 +352,19 @@
         </div>
 
         <div class="row mb-5 justify-content-center">
-            <div class="col-12 reveal">
-                <div class="card-custom featured-card d-flex align-items-center">
-                    <!-- Title & Icon (Top) -->
-                    <div class="content-header mb-4 text-center">
+            <!-- Left Column: Project Info & Video -->
+            <div class="col-lg-6 col-md-12 mb-4 reveal">
+                <div class="card-custom featured-card d-flex flex-column h-100 p-4">
+                    <!-- Title & Icon -->
+                    <div class="content-header mb-3 text-center">
                         <div class="icon-header mb-2">
                             <i class="fas fa-gamepad robot-icon"></i>
                         </div>
                         <h2 class="project-title">Hangman Word Game</h2>
                     </div>
 
-                    <!-- Horizontal Video Laptop Frame (Visual Anchor) -->
-                    <div class="laptop-column">
+                    <!-- Laptop Video Frame -->
+                    <div class="laptop-column mb-4">
                         <div class="laptop-frame">
                             <div class="laptop-screen">
                                 <iframe
@@ -376,15 +377,15 @@
                         </div>
                     </div>
 
-                    <!-- Details & Scholarly Actions (Bottom) -->
-                    <div class="content-column mt-4 text-center">
+                    <!-- Description -->
+                    <div class="text-center mt-auto">
                         <p class="project-description">
                             A graphical Java application with reactive UI elements, published in research journals.
                             Features intelligent word selection logic, automated state management, and event-driven
                             architecture.
                         </p>
 
-                        <!-- Feature Badges -->
+                        <!-- Badges -->
                         <div class="tech-stack mb-4 d-flex align-items-center flex-wrap gap-2 justify-content-center">
                             <span class="badge-custom"><i class="fas fa-desktop me-2"></i>AWT/Swing</span>
                             <span class="badge-custom"><i class="fas fa-bolt me-2"></i>Event Driven</span>
@@ -392,66 +393,72 @@
                             <span class="badge-custom"><i class="fas fa-book-open me-2"></i>Published</span>
                         </div>
 
-                        <!-- Action Buttons (Scholarly CTA) -->
-                        <div class="action-grid d-flex justify-content-center gap-3 w-100 mt-2"
-                            style="flex-wrap: nowrap;">
+                        <!-- Buttons -->
+                        <div class="action-grid d-flex justify-content-center gap-2 w-100 flex-wrap">
                             <a href="https://github.com/Amey-Thakur/HANGMAN-WORD-GAME" class="btn btn-primary-custom"
-                                style="white-space: nowrap;" target="_blank" rel="noopener noreferrer">
-                                <i class="fab fa-github me-2"></i>Hangman Word Game Repo
+                                target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github me-2"></i>Repo
                             </a>
                             <a href="https://doi.org/10.13140/RG.2.2.26806.22082" class="btn btn-dark-custom"
-                                style="white-space: nowrap;" target="_blank" rel="noopener noreferrer">
-                                <i class="fas fa-file-pdf me-2"></i>Research Presentation
+                                target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-file-pdf me-2"></i>Presentation
                             </a>
                             <a href="https://doi.org/10.13140/RG.2.2.20095.33446" class="btn btn-outline-custom"
-                                style="white-space: nowrap;" target="_blank" rel="noopener noreferrer">
-                                <i class="fas fa-code me-2"></i>Source Code DOI
+                                target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-code me-2"></i>DOI
                             </a>
                         </div>
+                    </div>
+                </div>
+            </div>
 
-                        <!-- Interactive Hangman Game -->
-                        <div class="hangman-game-container mt-4">
-                            <h5 style="color: var(--accent-color); margin-bottom: 15px;"><i
-                                    class="fas fa-play-circle me-2"></i>Try It Now!</h5>
-                            <div class="hangman-game">
-                                <!-- ASCII Hangman Terminal -->
-                                <div class="hangman-terminal">
-                                    <div class="terminal-header">
-                                        <span class="terminal-dot red"></span>
-                                        <span class="terminal-dot yellow"></span>
-                                        <span class="terminal-dot green"></span>
-                                        <span class="terminal-title">hangman.exe</span>
-                                    </div>
-                                    <div class="terminal-body">
-                                        <pre id="hangman-ascii"
-                                            style="font-family: 'Courier New', monospace; font-size: 1rem; line-height: 1.2; color: #22c55e; margin: 0;"></pre>
-                                    </div>
+            <!-- Right Column: Interactive Game & Code -->
+            <div class="col-lg-6 col-md-12 mb-4 reveal" style="transition-delay: 0.2s;">
+                <div class="card-custom featured-card h-100 p-4 d-flex flex-column">
+
+                    <!-- Interactive Hangman Game -->
+                    <div class="hangman-game-container mb-4 flex-grow-1">
+                        <h5 style="color: var(--accent-color); margin-bottom: 15px; text-align: center;">
+                            <i class="fas fa-play-circle me-2"></i>Try It Now!
+                        </h5>
+                        <div class="hangman-game">
+                            <!-- ASCII Hangman Terminal -->
+                            <div class="hangman-terminal">
+                                <div class="terminal-header">
+                                    <span class="terminal-dot red"></span>
+                                    <span class="terminal-dot yellow"></span>
+                                    <span class="terminal-dot green"></span>
+                                    <span class="terminal-title">hangman.exe</span>
                                 </div>
-                                <div id="hangman-hint" class="hangman-hint"></div>
-                                <div class="hangman-word" id="hangman-word"></div>
-                                <div class="hangman-keyboard" id="hangman-keyboard"></div>
-                                <div class="hangman-status">
-                                    <span id="hangman-lives"><i class="fas fa-heart"></i> Lives: <span
-                                            id="lives-count">6</span></span>
-                                    <button class="btn btn-sm btn-outline-custom" id="hangman-reset"
-                                        style="padding: 5px 15px; font-size: 0.8rem;"><i
-                                            class="fas fa-redo me-1"></i>New Word</button>
+                                <div class="terminal-body">
+                                    <pre id="hangman-ascii"
+                                        style="font-family: 'Courier New', monospace; font-size: 1rem; line-height: 1.2; color: #22c55e; margin: 0;"></pre>
                                 </div>
-                                <div id="hangman-result" class="hangman-result"></div>
                             </div>
+                            <div id="hangman-hint" class="hangman-hint"></div>
+                            <div class="hangman-word" id="hangman-word"></div>
+                            <div class="hangman-keyboard" id="hangman-keyboard"></div>
+                            <div class="hangman-status">
+                                <span id="hangman-lives"><i class="fas fa-heart"></i> Lives: <span
+                                        id="lives-count">6</span></span>
+                                <button class="btn btn-sm btn-outline-custom" id="hangman-reset"
+                                    style="padding: 5px 15px; font-size: 0.8rem;"><i class="fas fa-redo me-1"></i>New
+                                    Word</button>
+                            </div>
+                            <div id="hangman-result" class="hangman-result"></div>
                         </div>
+                    </div>
 
-                        <!-- Code Preview Terminal -->
-                        <div class="code-terminal mt-4">
-                            <div class="terminal-header">
-                                <span class="terminal-dot red"></span>
-                                <span class="terminal-dot yellow"></span>
-                                <span class="terminal-dot green"></span>
-                                <span class="terminal-title">HangmanGame.java</span>
-                            </div>
-                            <div class="terminal-body">
-                                <pre><code id="typing-code" class="language-java"></code></pre>
-                            </div>
+                    <!-- Code Preview Terminal -->
+                    <div class="code-terminal mt-auto">
+                        <div class="terminal-header">
+                            <span class="terminal-dot red"></span>
+                            <span class="terminal-dot yellow"></span>
+                            <span class="terminal-dot green"></span>
+                            <span class="terminal-title">HangmanGame.java</span>
+                        </div>
+                        <div class="terminal-body">
+                            <pre><code id="typing-code" class="language-java"></code></pre>
                         </div>
                     </div>
                 </div>

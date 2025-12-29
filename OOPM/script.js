@@ -106,8 +106,8 @@ document.addEventListener('DOMContentLoaded', () => {
         shareBtn.addEventListener('click', async () => {
             try {
                 await navigator.share({
-                    title: 'OOPM Lab Portfolio — Amey Thakur',
-                    text: 'OOPM Lab Portfolio — Amey Thakur',
+                    title: 'OOPM Lab Portfolio — Amey Thakur & Mega Satish',
+                    text: 'OOPM Lab Portfolio — Amey Thakur & Mega Satish',
                     url: window.location.href
                 });
             } catch (err) {

@@ -605,30 +605,32 @@ document.addEventListener('DOMContentLoaded', () => {
                 resultEl.className = 'hangman-result win';
                 gameOver = true;
 
-                // Trigger confetti
-                const duration = 3000;
-                const end = Date.now() + duration;
+                // Trigger confetti (if library loaded)
+                if (typeof window.confetti === 'function') {
+                    const duration = 3000;
+                    const end = Date.now() + duration;
 
-                (function frame() {
-                    confetti({
-                        particleCount: 5,
-                        angle: 60,
-                        spread: 55,
-                        origin: { x: 0 },
-                        colors: ['#dc2626', '#1e293b', '#ffffff'] // Theme colors
-                    });
-                    confetti({
-                        particleCount: 5,
-                        angle: 120,
-                        spread: 55,
-                        origin: { x: 1 },
-                        colors: ['#dc2626', '#1e293b', '#ffffff']
-                    });
+                    (function frame() {
+                        window.confetti({
+                            particleCount: 5,
+                            angle: 60,
+                            spread: 55,
+                            origin: { x: 0 },
+                            colors: ['#dc2626', '#1e293b', '#ffffff'] // Theme colors
+                        });
+                        window.confetti({
+                            particleCount: 5,
+                            angle: 120,
+                            spread: 55,
+                            origin: { x: 1 },
+                            colors: ['#dc2626', '#1e293b', '#ffffff']
+                        });
 
-                    if (Date.now() < end) {
-                        requestAnimationFrame(frame);
-                    }
-                }());
+                        if (Date.now() < end) {
+                            requestAnimationFrame(frame);
+                        }
+                    }());
+                }
             } else if (lives <= 0) {
                 currentStreak = 0;
                 updateStreakUI();

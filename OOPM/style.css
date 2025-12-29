@@ -373,7 +373,7 @@ h5 {
     align-items: center !important;
     text-align: center !important;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     gap: 0 !important;
     /* Managed by margins */
     animation: heroEntrance 1.2s cubic-bezier(0.23, 1, 0.32, 1) both, gradientBG 15s ease infinite;
@@ -395,9 +395,9 @@ h5 {
 
 
 .laptop-column {
-    width: 160%;
+    width: 180%;
     max-width: none;
-    margin: 0 -30% 40px -30%;
+    margin: 0 -40% 40px -40%;
     perspective: 1000px;
     display: flex;
     justify-content: center;

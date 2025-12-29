@@ -645,6 +645,11 @@ h5 {
     text-decoration: none;
     font-weight: 700;
     font-family: 'Playfair Display', serif;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: var(--accent-color);
 }
 
 /* Top Controls */

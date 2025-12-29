@@ -898,3 +898,144 @@ function initLogicAnimation() {
 
 
 
+/* =========================================
+   COMMAND PALETTE LOGIC
+   ========================================= */
+function initCommandPalette() {
+    const overlay = document.getElementById('command-palette-overlay');
+    const input = document.getElementById('cmd-input');
+    const list = document.getElementById('cmd-list');
+
+    // Commands & Shortcuts
+    const commands = [
+        { type: 'Command', name: 'Toggle Theme', icon: 'fa-moon', action: () => document.getElementById('theme-toggle').click() },
+        { type: 'Command', name: 'Go to Hangman', icon: 'fa-gamepad', action: () => document.getElementById('mini-project').scrollIntoView({ behavior: 'smooth' }) },
+        { type: 'Command', name: 'Go to Experiments', icon: 'fa-flask', action: () => document.getElementById('foundations').scrollIntoView({ behavior: 'smooth' }) },
+        { type: 'Command', name: 'Scroll to Top', icon: 'fa-arrow-up', action: () => window.scrollTo({ top: 0, behavior: 'smooth' }) },
+    ];
+
+    // Scrape Experiments
+    const experiments = Array.from(document.querySelectorAll('.card-custom h5')).map(h5 => ({
+        type: 'Experiment',
+        name: h5.textContent.trim(),
+        icon: 'fa-code',
+        action: () => {
+            h5.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            const card = h5.closest('.card-custom');
+            if (card) {
+                card.style.transition = 'all 0.3s ease';
+                card.style.transform = 'scale(1.05)';
+                card.style.boxShadow = '0 0 0 4px var(--accent-color)';
+                setTimeout(() => {
+                    card.style.transform = '';
+                    card.style.boxShadow = '';
+                }, 1500);
+            }
+        }
+    }));
+
+    const allItems = [...commands, ...experiments];
+    let filteredItems = [];
+    let selectedIndex = 0;
+
+    function openPalette() {
+        overlay.style.display = 'flex';
+        // Force reflow
+        overlay.offsetHeight;
+        overlay.classList.add('active');
+        input.value = '';
+        input.focus();
+        filterResults('');
+    }
+
+    function closePalette() {
+        overlay.classList.remove('active');
+        setTimeout(() => {
+            overlay.style.display = 'none';
+        }, 200);
+    }
+
+    function filterResults(query) {
+        const q = query.toLowerCase();
+        filteredItems = allItems.filter(item => item.name.toLowerCase().includes(q));
+        renderResults();
+    }
+
+    function renderResults() {
+        list.innerHTML = '';
+        if (filteredItems.length === 0) {
+            list.innerHTML = '<div class="algo-no-results">No matches found</div>';
+            return;
+        }
+
+        // Limit to 10 results for performance
+        filteredItems.slice(0, 10).forEach((item, index) => {
+            const div = document.createElement('div');
+            div.className = `cmd-item ${index === selectedIndex ? 'selected' : ''}`;
+            div.innerHTML = `
+                <div class="cmd-item-icon"><i class="fas ${item.icon}"></i></div>
+                <div class="cmd-item-text">${item.name}</div>
+                <div class="cmd-item-type">${item.type}</div>
+            `;
+            div.onclick = () => {
+                closePalette();
+                item.action();
+            };
+            list.appendChild(div);
+        });
+
+        // Scroll selected into view
+        const selectedEl = list.children[selectedIndex];
+        if (selectedEl) {
+            selectedEl.scrollIntoView({ block: 'nearest' });
+        }
+    }
+
+    // Event Listeners
+    document.addEventListener('keydown', (e) => {
+        if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+            e.preventDefault();
+            openPalette();
+        }
+        if (e.key === 'Escape') closePalette();
+
+        // Global Shortcuts (only if not typing in input)
+        if (document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
+            if (e.key.toLowerCase() === 't') document.getElementById('theme-toggle').click();
+            if (e.key.toLowerCase() === 'h') document.getElementById('mini-project').scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+
+    input.addEventListener('input', (e) => {
+        selectedIndex = 0;
+        filterResults(e.target.value);
+    });
+
+    input.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            selectedIndex = (selectedIndex + 1) % Math.min(filteredItems.length, 10);
+            renderResults();
+        }
+        if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            selectedIndex = (selectedIndex - 1 + Math.min(filteredItems.length, 10)) % Math.min(filteredItems.length, 10);
+            renderResults();
+        }
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            if (filteredItems[selectedIndex]) {
+                closePalette();
+                filteredItems[selectedIndex].action();
+            }
+        }
+    });
+
+    // Close on backdrop click
+    overlay.addEventListener('click', (e) => {
+        if (e.target === overlay) closePalette();
+    });
+}
+
+// Initialize
+initCommandPalette();

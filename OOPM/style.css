@@ -394,6 +394,7 @@ h5 {
 }
 
 [data-theme="light"] .featured-card:hover {
+    transform: translateY(-10px);
     border: 1px solid var(--accent-color) !important;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
@@ -405,6 +406,7 @@ h5 {
 }
 
 [data-theme="dark"] .featured-card:hover {
+    transform: translateY(-10px);
     border: 1px solid var(--accent-color) !important;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }

@@ -408,6 +408,37 @@
                                 <i class="fas fa-code me-2"></i>Source Code DOI
                             </a>
                         </div>
+
+                        <!-- Interactive Hangman Game -->
+                        <div class="hangman-game-container mt-4">
+                            <h5 style="color: var(--accent-color); margin-bottom: 15px;"><i
+                                    class="fas fa-play-circle me-2"></i>Try It Now!</h5>
+                            <div class="hangman-game">
+                                <div class="hangman-word" id="hangman-word"></div>
+                                <div class="hangman-keyboard" id="hangman-keyboard"></div>
+                                <div class="hangman-status">
+                                    <span id="hangman-lives"><i class="fas fa-heart"></i> Lives: <span
+                                            id="lives-count">6</span></span>
+                                    <button class="btn btn-sm btn-outline-custom" id="hangman-reset"
+                                        style="padding: 5px 15px; font-size: 0.8rem;"><i
+                                            class="fas fa-redo me-1"></i>New Word</button>
+                                </div>
+                                <div id="hangman-result" class="hangman-result"></div>
+                            </div>
+                        </div>
+
+                        <!-- Code Preview Terminal -->
+                        <div class="code-terminal mt-4">
+                            <div class="terminal-header">
+                                <span class="terminal-dot red"></span>
+                                <span class="terminal-dot yellow"></span>
+                                <span class="terminal-dot green"></span>
+                                <span class="terminal-title">HangmanGame.java</span>
+                            </div>
+                            <div class="terminal-body">
+                                <pre><code id="typing-code" class="language-java"></code></pre>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -641,7 +641,7 @@ document.addEventListener('DOMContentLoaded', () => {
         codeElement.className = '';
 
         const rawCode = `public class HangmanGame extends JFrame {
-    private String[] words = {"JAVA", "OOP"};
+    private String[] words = {"AMEY", "MEGA", "JAVA"};
     private int lives = 6;
     
     public void checkGuess(char letter) {

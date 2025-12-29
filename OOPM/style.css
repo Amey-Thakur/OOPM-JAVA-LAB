@@ -416,7 +416,7 @@ h5 {
 .laptop-column {
     width: 75%;
     max-width: none;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 20px auto;
     perspective: 1000px;
     display: flex;
     justify-content: center;
@@ -577,6 +577,18 @@ h5 {
     background: rgba(56, 189, 248, 0.1);
     transform: translateY(-2px);
     color: #7dd3fc;
+}
+
+/* Light up buttons on card hover */
+.featured-card:hover .btn-dark-custom {
+    background: var(--accent-color);
+    box-shadow: 0 4px 15px rgba(220, 38, 38, 0.3);
+}
+
+.featured-card:hover .btn-outline-custom {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    box-shadow: 0 4px 15px rgba(220, 38, 38, 0.2);
 }
 
 .btn-yellow-custom {

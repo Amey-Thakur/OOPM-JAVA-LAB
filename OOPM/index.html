@@ -426,17 +426,34 @@
                             <!-- Terminal Body -->
                             <div class="logic-body d-flex gap-3 align-items-stretch">
                                 <!-- Pseudocode Block -->
-                                <div class="pseudocode-block p-3 flex-grow-1">
-                                    <pre><code class="language-java" style="background:transparent; padding:0;">while (lives > 0) {
-  input = getUserGuess();
-  if (word.has(input)) {
-    <span class="var">revealChar</span>(input);
-  } else {
-    <span class="err">lives--</span>;
-    <span class="func">drawNextPart</span>();
-  }
-  <span class="kwd">checkWinCondition</span>();
-}</code></pre>
+                                <div class="pseudocode-block p-3 flex-grow-1" id="anim-code-block">
+                                    <div class="code-line" data-line="1"><span class="kwd">while</span> (<span
+                                            class="var">lives</span> > 0) {</div>
+                                    <div class="code-line" data-line="2"> <span class="var">input</span> = <span
+                                            class="func">getUserGuess</span>();</div>
+                                    <div class="code-line" data-line="3"> <span class="kwd">if</span> (word.<span
+                                            class="func">has</span>(<span class="var">input</span>)) {</div>
+                                    <div class="code-line" data-line="4"> <span class="func">revealChar</span>(<span
+                                            class="var">input</span>);</div>
+                                    <div class="code-line" data-line="5"> } <span class="kwd">else</span> {</div>
+                                    <div class="code-line" data-line="6"> <span class="err">lives--</span>;</div>
+                                    <div class="code-line" data-line="7"> <span class="func">drawNextPart</span>();
+                                    </div>
+                                    <div class="code-line" data-line="8"> }</div>
+                                    <div class="code-line" data-line="9"> <span class="func">checkWinCondition</span>();
+                                    </div>
+                                    <div class="code-line" data-line="10">}</div>
+                                </div>
+
+                                <!-- Variable Monitor (New) -->
+                                <div class="variable-monitor p-3 d-flex flex-column justify-content-center"
+                                    style="min-width: 120px; border-left: 1px solid rgba(255,255,255,0.1);">
+                                    <div class="var-row mb-2"><span class="text-muted small">lives:</span> <span
+                                            id="var-lives" class="var-val text-danger fw-bold">6</span></div>
+                                    <div class="var-row mb-2"><span class="text-muted small">input:</span> <span
+                                            id="var-input" class="var-val text-warning">null</span></div>
+                                    <div class="var-row"><span class="text-muted small">status:</span> <span
+                                            id="var-status" class="var-val text-success small">IDLE</span></div>
                                 </div>
 
                                 <!-- Animated Hangman SVG -->

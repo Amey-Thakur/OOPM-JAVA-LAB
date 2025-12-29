@@ -714,7 +714,109 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     initCodeTyping();
+    initLogicAnimation();
 });
+
+// Logic Visualization Animation (Debugger Style)
+function initLogicAnimation() {
+    const lines = document.querySelectorAll('.code-line');
+    const varLives = document.getElementById('var-lives');
+    const varInput = document.getElementById('var-input');
+    const varStatus = document.getElementById('var-status');
+
+    if (lines.length === 0) return;
+
+    let currentLine = 1;
+    let logicLives = 6;
+    let logicInput = null;
+
+    function runStep() {
+        // Reset styles
+        lines.forEach(l => l.classList.remove('active'));
+
+        // Highlight active line
+        const activeEl = document.querySelector(`.code-line[data-line="${currentLine}"]`);
+        if (activeEl) {
+            activeEl.classList.add('active');
+            activeEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+
+        // Logic branching
+        if (currentLine === 1) { // while loop
+            if (logicLives === 0) {
+                logicLives = 6;
+                varLives.innerText = 6;
+                varLives.className = 'var-val text-danger fw-bold';
+            }
+            varStatus.innerText = "Checking Loop";
+            varStatus.className = "var-val text-warning";
+        }
+
+        else if (currentLine === 2) { // getUserGuess
+            const chars = ['A', 'E', 'I', 'O', 'U', 'R', 'S', 'T'];
+            logicInput = chars[Math.floor(Math.random() * chars.length)];
+            varInput.innerText = "'" + logicInput + "'";
+            varInput.className = "var-val text-info fw-bold";
+            varStatus.innerText = "Getting Input";
+        }
+
+        else if (currentLine === 3) { // if word.has
+            const isHit = Math.random() > 0.6; // 40% chance of miss
+            if (isHit) {
+                varStatus.innerText = "Found Match!";
+                varStatus.className = "var-val text-success fw-bold";
+                setTimeout(() => { currentLine = 4; runStep(); }, 1000);
+            } else {
+                varStatus.innerText = "No Match";
+                varStatus.className = "var-val text-danger fw-bold";
+                setTimeout(() => { currentLine = 5; runStep(); }, 1000);
+            }
+            return;
+        }
+
+        else if (currentLine === 5) { // else
+            setTimeout(() => { currentLine = 6; runStep(); }, 500);
+            return;
+        }
+
+        else if (currentLine === 6) { // lives--
+            logicLives--;
+            varLives.innerText = logicLives;
+            // flash red
+            varLives.style.transform = "scale(1.5)";
+            setTimeout(() => varLives.style.transform = "scale(1)", 200);
+        }
+
+        else if (currentLine === 4 || currentLine === 7) {
+            setTimeout(() => { currentLine = 9; runStep(); }, 800);
+            return;
+        }
+
+        else if (currentLine === 9) { // checkWin
+            setTimeout(() => { currentLine = 10; runStep(); }, 800);
+            return;
+        }
+
+        else if (currentLine === 10) { // loop end
+            setTimeout(() => { currentLine = 1; runStep(); }, 800);
+            return;
+        }
+
+        // Default increment
+        currentLine++;
+        setTimeout(runStep, 1000);
+    }
+
+    // Start visibility observer
+    const observer = new IntersectionObserver((entries) => {
+        if (entries[0].isIntersecting) {
+            runStep();
+            observer.disconnect();
+        }
+    });
+    const container = document.querySelector('.logic-visualization');
+    if (container) observer.observe(container);
+}
 
 
 

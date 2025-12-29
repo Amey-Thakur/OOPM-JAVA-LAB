@@ -285,8 +285,76 @@ document.addEventListener('DOMContentLoaded', () => {
         const wordContainer = document.getElementById('hangman-word');
         const keyboardContainer = document.getElementById('hangman-keyboard');
         const resetBtn = document.getElementById('hangman-reset');
+        const asciiContainer = document.getElementById('hangman-ascii');
 
         if (!wordContainer || !keyboardContainer) return;
+
+        // ASCII Hangman stages (6 lives = 6 stages to full hangman)
+        const hangmanStages = [
+            // 6 lives - empty gallows
+            `  ┌───────┐
+  │       │
+  │       
+  │      
+  │      
+  │      
+══╧══════════`,
+            // 5 lives - head
+            `  ┌───────┐
+  │       │
+  │       O
+  │      
+  │      
+  │      
+══╧══════════`,
+            // 4 lives - body
+            `  ┌───────┐
+  │       │
+  │       O
+  │       │
+  │      
+  │      
+══╧══════════`,
+            // 3 lives - one arm
+            `  ┌───────┐
+  │       │
+  │       O
+  │      /│
+  │      
+  │      
+══╧══════════`,
+            // 2 lives - both arms
+            `  ┌───────┐
+  │       │
+  │       O
+  │      /│\\
+  │      
+  │      
+══╧══════════`,
+            // 1 life - one leg
+            `  ┌───────┐
+  │       │
+  │       O
+  │      /│\\
+  │      / 
+  │      
+══╧══════════`,
+            // 0 lives - dead (full hangman)
+            `  ┌───────┐
+  │       │
+  │       O
+  │      /│\\
+  │      / \\
+  │      
+══╧══════════`
+        ];
+
+        function renderHangman() {
+            if (asciiContainer) {
+                const stage = 6 - lives;
+                asciiContainer.textContent = hangmanStages[stage];
+            }
+        }
 
         function newGame() {
             currentWord = hangmanWords[Math.floor(Math.random() * hangmanWords.length)];
@@ -296,6 +364,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('lives-count').textContent = lives;
             document.getElementById('hangman-result').textContent = '';
             document.getElementById('hangman-result').className = 'hangman-result';
+            renderHangman();
             renderWord();
             renderKeyboard();
         }
@@ -329,6 +398,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!currentWord.includes(letter)) {
                 lives--;
                 document.getElementById('lives-count').textContent = lives;
+                renderHangman();
             }
 
             renderWord();

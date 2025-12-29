@@ -1351,3 +1351,16 @@ font-size: 0.9rem;
 
     /* Fade out for loop */
 }
+
+/* Variable Monitor Visibility */
+.variable-monitor .text-muted {
+    color: #8b9bb4 !important;
+    /* Lighter grey for better contrast on dark bg */
+    font-family: 'Fira Code', monospace;
+}
+
+.variable-monitor .var-val {
+    font-family: 'Fira Code', monospace;
+    font-size: 0.9rem;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}

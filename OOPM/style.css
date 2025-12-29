@@ -210,6 +210,11 @@ h5 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    transition: all 0.3s;
 }
 
 .btn-primary-custom:hover {

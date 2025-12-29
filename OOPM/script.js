@@ -386,6 +386,77 @@ document.addEventListener('DOMContentLoaded', () => {
 ══╧══════════`
         ];
 
+        // Gamification & PWA State
+        let currentStreak = 0;
+        let bestStreak = localStorage.getItem('hangmanBestStreak') || 0;
+        let soundEnabled = true;
+
+        // PWA Install Prompt
+        let deferredPrompt;
+        const pwaInstallBtn = document.getElementById('pwa-install-btn');
+
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            if (pwaInstallBtn) {
+                pwaInstallBtn.style.display = 'inline-flex';
+                pwaInstallBtn.addEventListener('click', async () => {
+                    if (deferredPrompt) {
+                        deferredPrompt.prompt();
+                        const { outcome } = await deferredPrompt.userChoice;
+                        deferredPrompt = null;
+                        pwaInstallBtn.style.display = 'none';
+                    }
+                });
+            }
+        });
+
+        // Sound Effects (Web Audio API)
+        const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        function playSound(type) {
+            if (!soundEnabled) return;
+            const osc = audioCtx.createOscillator();
+            const gainNode = audioCtx.createGain();
+            osc.connect(gainNode);
+            gainNode.connect(audioCtx.destination);
+
+            const now = audioCtx.currentTime;
+
+            if (type === 'click') {
+                osc.type = 'sine';
+                osc.frequency.setValueAtTime(800, now);
+                osc.frequency.exponentialRampToValueAtTime(300, now + 0.1);
+                gainNode.gain.setValueAtTime(0.1, now);
+                gainNode.gain.exponentialRampToValueAtTime(0.01, now + 0.1);
+                osc.start(now);
+                osc.stop(now + 0.1);
+            } else if (type === 'win') {
+                osc.type = 'triangle';
+                osc.frequency.setValueAtTime(400, now);
+                osc.frequency.linearRampToValueAtTime(600, now + 0.1);
+                osc.frequency.linearRampToValueAtTime(1000, now + 0.3);
+                gainNode.gain.setValueAtTime(0.1, now);
+                gainNode.gain.linearRampToValueAtTime(0, now + 0.5);
+                osc.start(now);
+                osc.stop(now + 0.5);
+            } else if (type === 'lose') {
+                osc.type = 'sawtooth';
+                osc.frequency.setValueAtTime(200, now);
+                osc.frequency.linearRampToValueAtTime(100, now + 0.3);
+                gainNode.gain.setValueAtTime(0.1, now);
+                gainNode.gain.linearRampToValueAtTime(0, now + 0.3);
+                osc.start(now);
+                osc.stop(now + 0.3);
+            } else if (type === 'wrong') {
+                osc.type = 'square';
+                osc.frequency.setValueAtTime(150, now);
+                gainNode.gain.setValueAtTime(0.1, now);
+                gainNode.gain.exponentialRampToValueAtTime(0.01, now + 0.1);
+                osc.start(now);
+                osc.stop(now + 0.1);
+            }
+        }
+
         function renderHangman() {
             if (asciiContainer) {
                 const stage = 6 - lives;
@@ -393,10 +464,29 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
+        function updateStreakUI() {
+            const curEl = document.getElementById('current-streak');
+            const bestEl = document.getElementById('best-streak');
+            if (curEl) curEl.textContent = currentStreak;
+            if (bestEl) bestEl.textContent = bestStreak;
+        }
+
+        // Initialize UI
+        setTimeout(() => {
+            updateStreakUI();
+            const soundBtn = document.getElementById('sound-toggle');
+            if (soundBtn) {
+                soundBtn.addEventListener('click', () => {
+                    soundEnabled = !soundEnabled;
+                    soundBtn.innerHTML = soundEnabled ? '<i class="fas fa-volume-up"></i>' : '<i class="fas fa-volume-mute"></i>';
+                    soundBtn.style.opacity = soundEnabled ? '1' : '0.5';
+                });
+            }
+        }, 500);
+
         function newGame() {
             gameCount++;
             let selected;
-            // Every 3rd game, show author name
             if (gameCount % 3 === 0) {
                 selected = authorWords[Math.floor(Math.random() * authorWords.length)];
             } else {
@@ -413,6 +503,8 @@ document.addEventListener('DOMContentLoaded', () => {
             renderHangman();
             renderWord();
             renderKeyboard();
+            // Resume Audio Context on interaction
+            if (audioCtx.state === 'suspended') audioCtx.resume();
         }
 
         function renderWord() {
@@ -441,10 +533,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
         function guessLetter(letter) {
             if (gameOver || guessedLetters.includes(letter)) return;
+
+            // Resume context if suspended
+            if (audioCtx.state === 'suspended') audioCtx.resume();
+
             guessedLetters.push(letter);
+            playSound('click');
 
             if (!currentWord.includes(letter)) {
                 lives--;
+                playSound('wrong');
                 document.getElementById('lives-count').textContent = lives;
                 renderHangman();
             }
@@ -459,6 +557,14 @@ document.addEventListener('DOMContentLoaded', () => {
             const won = currentWord.split('').every(l => guessedLetters.includes(l));
 
             if (won) {
+                currentStreak++;
+                if (currentStreak > bestStreak) {
+                    bestStreak = currentStreak;
+                    localStorage.setItem('hangmanBestStreak', bestStreak);
+                }
+                updateStreakUI();
+                playSound('win');
+
                 resultEl.textContent = '🎉 You Won! Great job!';
                 resultEl.className = 'hangman-result win';
                 gameOver = true;
@@ -488,6 +594,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 }());
             } else if (lives <= 0) {
+                currentStreak = 0;
+                updateStreakUI();
+                playSound('lose');
+
                 resultEl.textContent = `💀 Game Over! The word was: ${currentWord}`;
                 resultEl.className = 'hangman-result lose';
                 gameOver = true;
@@ -509,54 +619,64 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 12. Code Typing Animation
     function initCodeTyping() {
-        const codeEl = document.getElementById('typing-code');
-        if (!codeEl) return;
+        const codeElement = document.getElementById('typing-code');
+        if (!codeElement) return;
 
-        const codeSnippet = `<span class="comment">// Hangman Word Game</span>
-<span class="keyword">public class</span> <span class="type">HangmanGame</span> {
-    <span class="keyword">private</span> <span class="type">String</span> secretWord;
-    <span class="keyword">private int</span> lives = <span class="string">6</span>;
-
-    <span class="keyword">public void</span> <span class="function">guess</span>(<span class="type">char</span> letter) {
-        <span class="keyword">if</span> (secretWord.contains(letter)) {
+        const rawCode = `public class HangmanGame extends JFrame {
+    private String[] words = {"JAVA", "OOP"};
+    private int lives = 6;
+    
+    public void checkGuess(char letter) {
+        if (word.contains(letter)) {
             revealLetter(letter);
-        } <span class="keyword">else</span> {
+        } else {
             lives--;
+            repaint();
         }
     }
 }`;
 
-        let index = 0;
-        const cursor = '<span class="typing-cursor"></span>';
+        function highlightJava(code) {
+            return code
+                .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;") // Escape HTML
+                .replace(/\b(public|class|extends|private|int|void|char|if|else|new|return|import|package)\b/g, '<span style="color: #c678dd;">$1</span>')
+                .replace(/\b(String|JFrame|HangmanGame|Math|System)\b/g, '<span style="color: #e5c07b;">$1</span>')
+                .replace(/(".*?")/g, '<span style="color: #98c379;">$1</span>')
+                .replace(/\b(lives|word|letter|words)\b/g, '<span style="color: #e06c75;">$1</span>')
+                .replace(/(\/\/.*)/g, '<span style="color: #5c6370; font-style: italic;">$1</span>')
+                .replace(/\b(\d+)\b/g, '<span style="color: #d19a66;">$1</span>')
+                .replace(/({|}|\[|\]|\(|\))/g, '<span style="color: #abb2bf;">$1</span>');
+        }
+
+        let charIndex = 0;
+        const typeSpeed = 40;
 
         function type() {
-            if (index < codeSnippet.length) {
-                // Handle HTML tags - don't type them character by character
-                if (codeSnippet[index] === '<') {
-                    const closeIndex = codeSnippet.indexOf('>', index);
-                    index = closeIndex + 1;
-                }
-                codeEl.innerHTML = codeSnippet.substring(0, index) + cursor;
-                index++;
-                setTimeout(type, 30 + Math.random() * 50);
+            if (charIndex < rawCode.length) {
+                const currentSubString = rawCode.substring(0, charIndex + 1);
+                // Highlight the string typed so far
+                codeElement.innerHTML = highlightJava(currentSubString);
+                charIndex++;
+                setTimeout(type, typeSpeed);
             } else {
-                codeEl.innerHTML = codeSnippet;
+                // Blink cursor at the end
+                codeElement.innerHTML += '<span class="typing-cursor">|</span>';
             }
         }
 
-        // Start typing when element comes into view
+        // Start typing when element is in view
         const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    type();
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, { threshold: 0.5 });
-
-        observer.observe(codeEl);
+            if (entries[0].isIntersecting) {
+                type();
+                observer.disconnect();
+            }
+        });
+        observer.observe(codeElement);
     }
 
     initCodeTyping();
+});
+
+initCodeTyping();
 });
 

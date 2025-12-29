@@ -117,26 +117,51 @@
         // Test if confetti loaded properly
         if (typeof confetti === 'function') {
             console.log('✅ Confetti library loaded successfully');
-            // Expose a global function to trigger confetti (for game win)
+
+            // Simple, reliable confetti function
             window.fireConfetti = function () {
-                const duration = 3000;
-                const animationEnd = Date.now() + duration;
-                const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 9999 };
+                console.log('🎉 Firing confetti!');
 
-                const interval = setInterval(function () {
-                    const timeLeft = animationEnd - Date.now();
-                    if (timeLeft <= 0) return clearInterval(interval);
+                // Simple immediate burst
+                confetti({
+                    particleCount: 150,
+                    spread: 180,
+                    origin: { y: 0.6, x: 0.5 }
+                });
 
-                    const particleCount = 50 * (timeLeft / duration);
-                    confetti(Object.assign({}, defaults, {
-                        particleCount,
-                        origin: { x: Math.random() * 0.4, y: Math.random() - 0.2 }
-                    }));
-                    confetti(Object.assign({}, defaults, {
-                        particleCount,
-                        origin: { x: 0.6 + Math.random() * 0.4, y: Math.random() - 0.2 }
-                    }));
-                }, 100);
+                // Left side burst
+                setTimeout(function () {
+                    confetti({
+                        particleCount: 100,
+                        angle: 60,
+                        spread: 80,
+                        origin: { x: 0, y: 0.6 }
+                    });
+                }, 200);
+
+                // Right side burst
+                setTimeout(function () {
+                    confetti({
+                        particleCount: 100,
+                        angle: 120,
+                        spread: 80,
+                        origin: { x: 1, y: 0.6 }
+                    });
+                }, 400);
+
+                // Final big burst
+                setTimeout(function () {
+                    confetti({
+                        particleCount: 200,
+                        spread: 160,
+                        origin: { y: 0.5 }
+                    });
+                }, 700);
+            };
+
+            // Expose for testing in console
+            window.testConfetti = function () {
+                confetti({ particleCount: 100, spread: 70, origin: { y: 0.6 } });
             };
         } else {
             console.error('❌ Confetti library failed to load!');

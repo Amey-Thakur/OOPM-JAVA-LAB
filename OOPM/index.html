@@ -118,50 +118,92 @@
         if (typeof confetti === 'function') {
             console.log('✅ Confetti library loaded successfully');
 
-            // Simple, reliable confetti function
-            window.fireConfetti = function () {
-                console.log('🎉 Firing confetti!');
+            // OOPM Theme Colors - Red palette
+            const oopmColors = ['#dc2626', '#ef4444', '#f87171', '#fecaca', '#ffffff', '#1e293b'];
 
-                // Simple immediate burst
+            // Premium fireworks-style confetti celebration
+            window.fireConfetti = function () {
+                console.log('🎉 Firing premium confetti!');
+
+                const duration = 3000;
+                const animationEnd = Date.now() + duration;
+                const defaults = {
+                    startVelocity: 45,
+                    spread: 360,
+                    ticks: 80,
+                    gravity: 1,
+                    decay: 0.94,
+                    colors: oopmColors
+                };
+
+                function randomInRange(min, max) {
+                    return Math.random() * (max - min) + min;
+                }
+
+                // Continuous fireworks effect
+                const interval = setInterval(function () {
+                    const timeLeft = animationEnd - Date.now();
+
+                    if (timeLeft <= 0) {
+                        return clearInterval(interval);
+                    }
+
+                    const particleCount = 50 * (timeLeft / duration);
+
+                    // Fire from random positions
+                    confetti(Object.assign({}, defaults, {
+                        particleCount: Math.floor(particleCount),
+                        origin: { x: randomInRange(0.1, 0.4), y: Math.random() * 0.4 },
+                        shapes: ['circle', 'square'],
+                        scalar: randomInRange(0.8, 1.2)
+                    }));
+                    confetti(Object.assign({}, defaults, {
+                        particleCount: Math.floor(particleCount),
+                        origin: { x: randomInRange(0.6, 0.9), y: Math.random() * 0.4 },
+                        shapes: ['circle', 'square'],
+                        scalar: randomInRange(0.8, 1.2)
+                    }));
+                }, 150);
+
+                // Initial big burst
                 confetti({
-                    particleCount: 150,
-                    spread: 180,
-                    origin: { y: 0.6, x: 0.5 }
+                    particleCount: 100,
+                    spread: 100,
+                    origin: { y: 0.6, x: 0.5 },
+                    colors: oopmColors,
+                    shapes: ['circle', 'square'],
+                    startVelocity: 55
                 });
 
-                // Left side burst
+                // Side cannons
                 setTimeout(function () {
                     confetti({
-                        particleCount: 100,
+                        particleCount: 80,
                         angle: 60,
-                        spread: 80,
-                        origin: { x: 0, y: 0.6 }
+                        spread: 55,
+                        origin: { x: 0 },
+                        colors: oopmColors,
+                        startVelocity: 60
                     });
-                }, 200);
-
-                // Right side burst
-                setTimeout(function () {
                     confetti({
-                        particleCount: 100,
+                        particleCount: 80,
                         angle: 120,
-                        spread: 80,
-                        origin: { x: 1, y: 0.6 }
+                        spread: 55,
+                        origin: { x: 1 },
+                        colors: oopmColors,
+                        startVelocity: 60
                     });
-                }, 400);
-
-                // Final big burst
-                setTimeout(function () {
-                    confetti({
-                        particleCount: 200,
-                        spread: 160,
-                        origin: { y: 0.5 }
-                    });
-                }, 700);
+                }, 250);
             };
 
-            // Expose for testing in console
+            // Quick test function
             window.testConfetti = function () {
-                confetti({ particleCount: 100, spread: 70, origin: { y: 0.6 } });
+                confetti({
+                    particleCount: 150,
+                    spread: 100,
+                    origin: { y: 0.6 },
+                    colors: oopmColors
+                });
             };
         } else {
             console.error('❌ Confetti library failed to load!');

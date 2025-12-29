@@ -640,29 +640,32 @@ document.addEventListener('DOMContentLoaded', () => {
         // Remove the class to prevent Prism from double-highlighting
         codeElement.className = '';
 
-        const rawCode = `while (lives > 0) {
-    input = getUserGuess();
-    if (word.has(input)) {
-        revealChar(input);
-    } else {
-        lives--;
-        drawNextPart();
+        const rawCode = `public class HangmanGame extends JFrame {
+    private String[] words = {"AMEY", "MEGA", "JAVA"};
+    private int lives = 6;
+    
+    public void checkGuess(char letter) {
+        if (word.contains(letter)) {
+            revealLetter(letter);
+        } else {
+            lives--;
+            repaint();
+        }
     }
-    checkWinCondition();
 }`;
 
         function highlightJava(code) {
             code = code.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
-            // Updated regex to catch keywords, functions, variables, strings, numbers
-            const tokenRegex = /(\/\/.*)|(".*?")|\b(while|if|else|return)\b|\b(getUserGuess|has|revealChar|drawNextPart|checkWinCondition)\b|\b(lives|input|word)\b|\b(\d+)\b|({|}|\[|\]|\(|\))/g;
+            // Comprehensive regex for Java class + Logic keywords
+            const tokenRegex = /(\/\/.*)|(".*?")|\b(public|class|extends|private|int|void|char|if|else|new|return|import|package|while)\b|\b(String|JFrame|HangmanGame|Math|System)\b|\b(lives|word|words|letter|checkGuess|revealLetter|repaint|getUserGuess|has|drawNextPart|checkWinCondition)\b|\b(\d+)\b|({|}|\[|\]|\(|\))/g;
 
-            return code.replace(tokenRegex, function (match, comment, string, keyword, func, varName, number, bracket) {
+            return code.replace(tokenRegex, function (match, comment, string, keyword, type, varName, number, bracket) {
                 if (comment) return '<span style="color: #5c6370; font-style: italic;">' + comment + '</span>';
                 if (string) return '<span style="color: #98c379;">' + string + '</span>';
                 if (keyword) return '<span style="color: #c678dd; font-weight: bold;">' + keyword + '</span>';
-                if (func) return '<span style="color: #61afef;">' + func + '</span>'; // Blue for functions
-                if (varName) return '<span style="color: #98c379;">' + varName + '</span>'; // Green for vars
+                if (type) return '<span style="color: #e5c07b;">' + type + '</span>'; // Yellow for Types
+                if (varName) return '<span style="color: #61afef;">' + varName + '</span>'; // Blue for method calls/vars
                 if (number) return '<span style="color: #d19a66;">' + number + '</span>';
                 if (bracket) return '<span style="color: #abb2bf;">' + bracket + '</span>';
                 return match;

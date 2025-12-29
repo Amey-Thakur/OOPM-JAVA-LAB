@@ -1236,26 +1236,19 @@ font-size: 0.9rem;
     font-size: 0.8rem;
     color: #abb2bf;
     line-height: 1.5;
-    flex: 1 1 auto;
-    /* Allow growth but shrinking is fine */
+    /* Flex handled by HTML classes */
 }
 
-/* Variable Monitor (Fixed Width) */
+/* Variable Monitor */
 .variable-monitor {
-    flex: 0 0 210px;
-    /* Fixed width */
-    width: 210px;
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
     white-space: nowrap;
     /* Prevent wrapping */
+    /* Width & Borders handled by HTML structure */
 }
 
-/* Hangman Animation (Fixed Width) */
+/* Hangman Animation */
 .hangman-anim-box {
-    flex: 0 0 100px;
-    /* Fixed width */
-    width: 100px;
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    /* Dimensions handled by HTML structure */
 }
 
 .code-line {

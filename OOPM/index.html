@@ -39,6 +39,61 @@
     <meta name="language" content="English">
     <link rel="canonical" href="https://amey-thakur.github.io/OOPM-JAVA-LAB/OOPM/">
 
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://amey-thakur.github.io/OOPM-JAVA-LAB/OOPM/">
+    <meta property="og:title" content="Amey | OOPM Lab Portfolio">
+    <meta property="og:description"
+        content="Official scholarly portfolio for Object-Oriented Programming Laboratory (CSL304) at University of Mumbai. Features Java implementations and Hangman Mini Project.">
+    <meta property="og:image" content="https://amey-thakur.github.io/OOPM-JAVA-LAB/OOPM/assets/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="OOPM Lab Portfolio">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://amey-thakur.github.io/OOPM-JAVA-LAB/OOPM/">
+    <meta name="twitter:title" content="Amey | OOPM Lab Portfolio">
+    <meta name="twitter:description"
+        content="Official scholarly portfolio for Object-Oriented Programming Laboratory (CSL304) at University of Mumbai. Features Java implementations and Hangman Mini Project.">
+    <meta name="twitter:image" content="https://amey-thakur.github.io/OOPM-JAVA-LAB/OOPM/assets/og-image.png">
+    <meta name="twitter:creator" content="@AmeyThakur">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "OOPM Lab Portfolio",
+        "url": "https://amey-thakur.github.io/OOPM-JAVA-LAB/OOPM/",
+        "description": "Official scholarly portfolio for Object-Oriented Programming Laboratory (CSL304) at University of Mumbai",
+        "author": {
+            "@type": "Person",
+            "name": "Amey Thakur",
+            "url": "https://github.com/Amey-Thakur",
+            "sameAs": [
+                "https://github.com/Amey-Thakur",
+                "https://www.linkedin.com/in/amey-thakur"
+            ]
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "University of Mumbai",
+            "url": "https://mu.ac.in"
+        },
+        "mainEntity": {
+            "@type": "SoftwareSourceCode",
+            "name": "Hangman Word Game",
+            "programmingLanguage": "Java",
+            "codeRepository": "https://github.com/Amey-Thakur/HANGMAN-WORD-GAME",
+            "description": "A graphical Java application with reactive UI elements, published in research journals"
+        },
+        "educationalLevel": "Undergraduate",
+        "teaches": ["Object-Oriented Programming", "Java", "GUI Development", "Multithreading"]
+    }
+    </script>
+
     <!-- Favicon -->
     <link rel="icon"
         href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
@@ -56,6 +111,23 @@
 </head>
 
 <body>
+    <!-- Skeleton Loader -->
+    <div id="skeleton-loader"
+        style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--bg-primary, #0f172a); z-index: 10000; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: opacity 0.3s ease;">
+        <div
+            style="width: 60px; height: 60px; border: 4px solid rgba(220, 38, 38, 0.2); border-top-color: #dc2626; border-radius: 50%; animation: spin 1s linear infinite;">
+        </div>
+        <p style="margin-top: 20px; color: #94a3b8; font-family: 'Poppins', sans-serif; font-size: 0.9rem;">Loading OOPM
+            Portfolio...</p>
+        <style>
+            @keyframes spin {
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+    </div>
+
     <div class="main-container">
 
         <!-- Hero Section -->

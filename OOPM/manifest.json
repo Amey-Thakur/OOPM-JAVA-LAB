@@ -1,21 +1,99 @@
 {
     "name": "Amey | OOPM Lab Portfolio",
     "short_name": "OOPM Portfolio",
-    "description": "Scholarly portfolio for Java experiments and projects.",
-    "start_url": "index.html",
+    "description": "Scholarly portfolio for Object-Oriented Programming Laboratory featuring Java experiments and Hangman Mini Project by Amey Thakur.",
+    "start_url": "./index.html",
+    "scope": "./",
     "display": "standalone",
+    "orientation": "portrait-primary",
     "background_color": "#0f172a",
     "theme_color": "#dc2626",
+    "categories": [
+        "education",
+        "development"
+    ],
+    "lang": "en",
+    "dir": "ltr",
     "icons": [
+        {
+            "src": "assets/icon-72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "assets/icon-96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "assets/icon-128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "assets/icon-144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "assets/icon-152.png",
+            "sizes": "152x152",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
         {
             "src": "assets/icon-192.png",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "assets/icon-384.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "maskable any"
         },
         {
             "src": "assets/icon-512.png",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "maskable any"
         }
-    ]
+    ],
+    "screenshots": [
+        {
+            "src": "assets/screenshot-wide.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "OOPM Lab Portfolio - Desktop View"
+        },
+        {
+            "src": "assets/screenshot-narrow.png",
+            "sizes": "540x720",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "OOPM Lab Portfolio - Mobile View"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "View Hangman Project",
+            "short_name": "Hangman",
+            "description": "Jump to the Hangman Word Game mini project",
+            "url": "./index.html#mini-project",
+            "icons": [
+                {
+                    "src": "assets/icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ],
+    "related_applications": [],
+    "prefer_related_applications": false
 }

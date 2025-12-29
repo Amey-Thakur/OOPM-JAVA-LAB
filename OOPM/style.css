@@ -951,6 +951,19 @@ h5 {
     text-align: center;
 }
 
+.hangman-terminal {
+    background: #1e1e1e;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.hangman-terminal .terminal-body {
+    padding: 15px 20px;
+    text-align: left;
+}
+
 .hangman-word {
     font-family: 'Courier New', monospace;
     font-size: 2rem;

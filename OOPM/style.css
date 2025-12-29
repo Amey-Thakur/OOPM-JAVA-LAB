@@ -1351,12 +1351,15 @@ body {
     height: 264px;
     /* Fixed height to prevent layout shift */
     overflow-y: auto;
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
 .terminal-body pre {
     margin: 0;
     background: transparent;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
 .terminal-body code {

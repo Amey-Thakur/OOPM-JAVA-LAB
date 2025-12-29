@@ -381,8 +381,9 @@ h5 {
 }
 
 .featured-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.15);
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    border-color: var(--accent-color) !important;
 }
 
 [data-theme="light"] .featured-card {

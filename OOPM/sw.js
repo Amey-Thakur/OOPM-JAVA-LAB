@@ -97,7 +97,7 @@ self.addEventListener('fetch', (event) => {
                     }
                     // If no cache and it's a navigation request, show offline page
                     if (event.request.mode === 'navigate') {
-                        return caches.match('404.html');
+                        return caches.match(OFFLINE_URL);
                     }
                     return new Response('Offline', { status: 503, statusText: 'Service Unavailable' });
                 });

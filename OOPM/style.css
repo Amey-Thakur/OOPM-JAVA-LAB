@@ -1216,3 +1216,116 @@ font-size: 0.9rem;
         opacity: 0;
     }
 }
+
+/* =========================================
+   LOGIC VISUALIZATION (LEFT CARD)
+   ========================================= */
+
+.logic-visualization {
+    background: #282c34;
+    border-radius: 12px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    border: 1px solid #3e4451;
+}
+
+/* Pseudocode Block */
+.pseudocode-block {
+    background: #282c34;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.8rem;
+    color: #abb2bf;
+    line-height: 1.5;
+}
+
+.pseudocode-block .kwd {
+    color: #c678dd;
+    font-weight: bold;
+}
+
+/* Keywords (purple) */
+.pseudocode-block .func {
+    color: #61afef;
+}
+
+/* Functions (blue) */
+.pseudocode-block .var {
+    color: #98c379;
+}
+
+/* Variables/Methods (green) */
+.pseudocode-block .err {
+    color: #e06c75;
+}
+
+/* Failure/Lives (red) */
+
+/* Animated SVG Container */
+.hangman-anim-box {
+    background: #21252b;
+    border-left: 1px solid #3e4451;
+    min-width: 100px;
+}
+
+/* SVG Line Drawing Animation */
+.hangman-draw-anim .draw-path {
+    fill: none;
+    stroke: var(--accent-color);
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    animation: drawLine 6s infinite ease-in-out;
+}
+
+.hangman-draw-anim .base {
+    animation-delay: 0s;
+}
+
+.hangman-draw-anim .pole {
+    animation-delay: 1s;
+}
+
+.hangman-draw-anim .head {
+    animation-delay: 2s;
+    stroke-dasharray: 65;
+    stroke-dashoffset: 65;
+}
+
+.hangman-draw-anim .body {
+    animation-delay: 3s;
+}
+
+.hangman-draw-anim .arms {
+    animation-delay: 4s;
+}
+
+.hangman-draw-anim .legs {
+    animation-delay: 5s;
+}
+
+@keyframes drawLine {
+    0% {
+        stroke-dashoffset: 100;
+        opacity: 0;
+    }
+
+    10% {
+        stroke-dashoffset: 0;
+        opacity: 1;
+    }
+
+    80% {
+        stroke-dashoffset: 0;
+        opacity: 1;
+    }
+
+    /* Hold */
+    100% {
+        stroke-dashoffset: 0;
+        opacity: 0;
+    }
+
+    /* Fade out for loop */
+}

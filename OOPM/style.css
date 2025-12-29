@@ -395,7 +395,7 @@ h5 {
 
 
 .laptop-column {
-    width: 150%;
+    width: 125%;
     max-width: none;
     margin: 0 auto 40px auto;
     /* Centering via transform for breakout */

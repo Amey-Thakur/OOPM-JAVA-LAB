@@ -117,11 +117,12 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
   [![Total Source Codes](https://img.shields.io/badge/Total%20Source%20Codes-35-yellowgreen.svg)](OOPM%20Lab/)
   [![Language](https://img.shields.io/badge/Language-Java-red.svg)](OOPM%20Lab/)
+  [![Live Demo](https://img.shields.io/badge/Live%20Demo-OOPM%20Lab%20Portfolio-007bff?style=flat&logo=github)](https://amey-thakur.github.io/OOPM-JAVA-LAB/OOPM/)
 
 </div>
 
 > [!TIP]
-> **Logic Before Code**: Before diving into Java syntax, always finalize your logic using flowcharts or pseudo-code. Understanding how objects interact and how data flows through your methods is key to mastering Object-Oriented Programming.
+> **Live Implementation**: For a comprehensive visual showcase, visit the [OOPM Lab Portfolio Dashboard](https://amey-thakur.github.io/OOPM-JAVA-LAB/OOPM/). For the complete source code and detailed documentation, visit the [OOPM Lab](OOPM%20Lab/) directory. Visualization is key. Always draw the state of your objects and class hierarchies on paper before and during code implementation.
 
 ### Laboratory Experiments
 

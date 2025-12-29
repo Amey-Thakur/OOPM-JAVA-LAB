@@ -1222,16 +1222,16 @@ font-size: 0.9rem;
    ========================================= */
 
 .logic-visualization {
-    background: #282c34;
+    background: #1e1e1e;
     border-radius: 12px;
-    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     overflow: hidden;
-    border: 1px solid #3e4451;
+    border: none;
 }
 
 /* Pseudocode Block */
 .pseudocode-block {
-    background: #282c34;
+    background: #1e1e1e;
     font-family: 'Fira Code', monospace;
     font-size: 0.8rem;
     color: #abb2bf;

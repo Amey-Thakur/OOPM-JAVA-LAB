@@ -25,7 +25,8 @@ const CORE_ASSETS = [
     'style.css',
     'script.js',
     'manifest.json',
-    '404.html'
+    '404.html',
+    OFFLINE_URL
 ];
 
 // External resources to cache

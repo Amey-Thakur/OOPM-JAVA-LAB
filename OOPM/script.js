@@ -275,8 +275,37 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // 11. Interactive Hangman Game
-    const hangmanWords = ['JAVA', 'CLASS', 'OBJECT', 'METHOD', 'SWING', 'THREAD', 'ARRAY', 'STRING', 'INTERFACE', 'ABSTRACT', 'POLYMORPHISM', 'INHERITANCE'];
+    const hangmanWords = [
+        // Java OOP Concepts
+        { word: 'JAVA', hint: 'Write once, run anywhere' },
+        { word: 'CLASS', hint: 'Blueprint for objects' },
+        { word: 'OBJECT', hint: 'Instance of a class' },
+        { word: 'METHOD', hint: 'Function inside a class' },
+        { word: 'SWING', hint: 'Java GUI toolkit' },
+        { word: 'THREAD', hint: 'Unit of execution' },
+        { word: 'ARRAY', hint: 'Collection of elements' },
+        { word: 'STRING', hint: 'Sequence of characters' },
+        { word: 'INTERFACE', hint: 'Contract for classes' },
+        { word: 'ABSTRACT', hint: 'Cannot be instantiated' },
+        { word: 'POLYMORPHISM', hint: 'Many forms' },
+        { word: 'INHERITANCE', hint: 'Child extends parent' },
+        // Programming Languages
+        { word: 'PYTHON', hint: 'Snake-named language' },
+        { word: 'JAVASCRIPT', hint: 'Language of the web' },
+        { word: 'CPLUSPLUS', hint: 'C with classes' },
+        { word: 'RUBY', hint: 'Gem of a language' },
+        { word: 'KOTLIN', hint: 'Modern Android language' },
+        { word: 'SWIFT', hint: 'Apple\'s language' },
+        { word: 'RUST', hint: 'Memory-safe systems language' },
+        { word: 'GOLANG', hint: 'Google\'s language' },
+        // Authors
+        { word: 'AMEY', hint: 'Project author' },
+        { word: 'THAKUR', hint: 'Amey\'s surname' },
+        { word: 'MEGA', hint: 'Project co-author' },
+        { word: 'SATISH', hint: 'Mega\'s surname' }
+    ];
     let currentWord = '';
+    let currentHint = '';
     let guessedLetters = [];
     let lives = 6;
     let gameOver = false;
@@ -357,7 +386,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         function newGame() {
-            currentWord = hangmanWords[Math.floor(Math.random() * hangmanWords.length)];
+            const selected = hangmanWords[Math.floor(Math.random() * hangmanWords.length)];
+            currentWord = selected.word;
+            currentHint = selected.hint;
             guessedLetters = [];
             lives = 6;
             gameOver = false;
@@ -370,6 +401,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         function renderWord() {
+            const hintEl = document.getElementById('hangman-hint');
+            if (hintEl) hintEl.textContent = '💡 Hint: ' + currentHint;
             wordContainer.innerHTML = currentWord
                 .split('')
                 .map(letter => guessedLetters.includes(letter) ? letter : '_')

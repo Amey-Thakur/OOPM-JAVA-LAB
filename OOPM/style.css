@@ -964,6 +964,14 @@ h5 {
     text-align: left;
 }
 
+.hangman-hint {
+    font-size: 0.95rem;
+    color: var(--accent-color);
+    margin-bottom: 15px;
+    font-style: italic;
+    min-height: 24px;
+}
+
 .hangman-word {
     font-family: 'Courier New', monospace;
     font-size: 2rem;

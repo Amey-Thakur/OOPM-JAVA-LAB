@@ -14,10 +14,6 @@
   [![Source Code](https://img.shields.io/badge/Source%20Code-35-yellowgreen.svg)](#quick-navigation)
   [![Language](https://img.shields.io/badge/Language-Java-red.svg)](./)
 
-  <br>
-
-  [![Live Demo](https://img.shields.io/badge/Live%20Demo-OOPM%20Lab%20Portfolio-007bff?style=flat&logo=github)](https://amey-thakur.github.io/OOPM-JAVA-LAB/OOPM/)
-
   <!-- Short Description -->
   **A comprehensive collection of 35 Java programs covering fundamental object-oriented programming concepts with detailed comments, proper documentation, and industry-standard coding practices.**
 
@@ -29,6 +25,12 @@
 </div>
 
 ---
+
+<div align="center">
+
+  [![Live Demo](https://img.shields.io/badge/Live%20Demo-OOPM%20Lab%20Portfolio-007bff?style=flat&logo=github)](https://amey-thakur.github.io/OOPM-JAVA-LAB/OOPM/)
+
+</div>
 
 > [!TIP]
 > **Live Implementation**: For a comprehensive visual showcase, visit the [OOPM Lab Portfolio Dashboard](https://amey-thakur.github.io/OOPM-JAVA-LAB/OOPM/). For the complete source code and detailed documentation, visit the [OOPM Lab](../OOPM%20Lab/) directory. Visualization is key. Always draw the state of your objects and class hierarchies on paper before and during code implementation.

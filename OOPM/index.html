@@ -141,6 +141,10 @@
         <!-- Hero Section -->
         <div class="hero">
             <div class="top-controls">
+                <button class="control-btn" id="pwa-install-btn" title="Install App" aria-label="Install App"
+                    style="display: none;">
+                    <i class="fas fa-download"></i>
+                </button>
                 <button class="control-btn" id="share-btn" title="Share Portfolio" aria-label="Share Portfolio">
                     <i class="fas fa-share-nodes"></i>
                 </button>
@@ -418,7 +422,7 @@
 
                     <!-- Interactive Hangman Game -->
                     <div class="hangman-game-container mb-4 flex-grow-1">
-                        <p class="text-center text-muted mb-2" style="font-size: 0.85rem;">
+                        <p class="text-center mb-2" style="font-size: 0.85rem; color: var(--text-secondary);">
                             Designed and Developed by <span style="color: var(--accent-color); font-weight: 500;">Amey
                                 Thakur</span> & <span style="color: var(--accent-color); font-weight: 500;">Mega
                                 Satish</span>
@@ -443,9 +447,32 @@
                             <div id="hangman-hint" class="hangman-hint"></div>
                             <div class="hangman-word" id="hangman-word"></div>
                             <div class="hangman-keyboard" id="hangman-keyboard"></div>
-                            <div class="hangman-status">
-                                <span id="hangman-lives"><i class="fas fa-heart"></i> Lives: <span
-                                        id="lives-count">6</span></span>
+
+                            <!-- Game Controls & Status -->
+                            <div class="hangman-status-bar d-flex justify-content-between align-items-center mb-3 px-2">
+                                <div class="streaks text-start">
+                                    <div class="streak-item" style="font-size: 0.85rem; color: var(--text-secondary);">
+                                        <i class="fas fa-fire" style="color: #f59e0b;"></i> Streak: <span
+                                            id="current-streak"
+                                            style="font-weight: bold; color: var(--text-primary);">0</span>
+                                    </div>
+                                    <div class="streak-item"
+                                        style="font-size: 0.75rem; color: var(--text-secondary); opacity: 0.8;">
+                                        <i class="fas fa-trophy" style="color: #fbbf24;"></i> Best: <span
+                                            id="best-streak">0</span>
+                                    </div>
+                                </div>
+                                <div class="controls d-flex gap-2">
+                                    <button id="sound-toggle" class="btn btn-sm btn-icon-only" title="Toggle Sound"
+                                        style="color: var(--text-secondary); border: 1px solid var(--border-color); background: var(--card-bg);">
+                                        <i class="fas fa-volume-up"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="hangman-status justify-content-between">
+                                <span id="hangman-lives"><i class="fas fa-heart" style="color: #ef4444;"></i> Lives:
+                                    <span id="lives-count">6</span></span>
                                 <button class="btn btn-sm btn-outline-custom" id="hangman-reset"
                                     style="padding: 5px 15px; font-size: 0.8rem;"><i class="fas fa-redo me-1"></i>New
                                     Word</button>

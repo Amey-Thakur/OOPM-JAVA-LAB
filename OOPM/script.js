@@ -677,6 +677,5 @@ document.addEventListener('DOMContentLoaded', () => {
     initCodeTyping();
 });
 
-initCodeTyping();
-});
+
 

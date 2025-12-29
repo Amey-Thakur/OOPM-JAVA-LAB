@@ -377,6 +377,12 @@ h5 {
     gap: 0 !important;
     /* Managed by margins */
     animation: heroEntrance 1.2s cubic-bezier(0.23, 1, 0.32, 1) both, gradientBG 15s ease infinite;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featured-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.15);
 }
 
 [data-theme="light"] .featured-card {

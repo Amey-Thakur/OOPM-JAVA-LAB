@@ -1240,15 +1240,23 @@ font-size: 0.9rem;
 }
 
 /* Variable Monitor */
+/* Sidebar Container (Fixed Width) */
+.logic-sidebar {
+    flex: 0 0 160px;
+    /* Rigid constraint */
+    width: 160px;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Variable Monitor */
 .variable-monitor {
     white-space: nowrap;
     /* Prevent wrapping */
-    /* Width & Borders handled by HTML structure */
 }
 
 /* Hangman Animation */
 .hangman-anim-box {
-    /* Dimensions handled by HTML structure */
+    /* Dimensions handled by parent */
 }
 
 .code-line {

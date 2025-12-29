@@ -655,15 +655,22 @@ document.addEventListener('DOMContentLoaded', () => {
 }`;
 
         function highlightJava(code) {
-            // Apply highlighting to text content
-            return code
-                .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
-                .replace(/\b(public|class|extends|private|int|void|char|if|else|new|return|import|package)\b/g, '<span style="color: #c678dd;">$1</span>')
-                .replace(/\b(String|JFrame|HangmanGame|Math|System)\b/g, '<span style="color: #e5c07b;">$1</span>')
-                .replace(/\b(lives|word|letter|words)\b/g, '<span style="color: #e06c75;">$1</span>')
-                .replace(/(".*?")/g, '<span style="color: #98c379;">$1</span>')
-                .replace(/\b(\d+)\b/g, '<span style="color: #d19a66;">$1</span>')
-                .replace(/({|}|\[|\]|\(|\))/g, '<span style="color: #abb2bf;">$1</span>');
+            // Escape HTML first to prevent XSS and rendering issues
+            code = code.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+            // Single-pass regex to avoid replacing inside already-generated HTML tags
+            const tokenRegex = /(\/\/.*)|(".*?")|\b(public|class|extends|private|int|void|char|if|else|new|return|import|package)\b|\b(String|JFrame|HangmanGame|Math|System)\b|\b(lives|word|letter|words)\b|\b(\d+)\b|({|}|\[|\]|\(|\))/g;
+
+            return code.replace(tokenRegex, function (match, comment, string, keyword, type, varName, number, bracket) {
+                if (comment) return '<span style="color: #5c6370; font-style: italic;">' + comment + '</span>';
+                if (string) return '<span style="color: #98c379;">' + string + '</span>';
+                if (keyword) return '<span style="color: #c678dd;">' + keyword + '</span>';
+                if (type) return '<span style="color: #e5c07b;">' + type + '</span>';
+                if (varName) return '<span style="color: #e06c75;">' + varName + '</span>';
+                if (number) return '<span style="color: #d19a66;">' + number + '</span>';
+                if (bracket) return '<span style="color: #abb2bf;">' + bracket + '</span>';
+                return match;
+            });
         }
 
         let charIndex = 0;

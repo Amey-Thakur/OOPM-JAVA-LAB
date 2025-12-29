@@ -735,10 +735,11 @@ function initLogicAnimation() {
         lines.forEach(l => l.classList.remove('active'));
 
         // Highlight active line
+        // Highlight active line
         const activeEl = document.querySelector(`.code-line[data-line="${currentLine}"]`);
         if (activeEl) {
             activeEl.classList.add('active');
-            activeEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            // Removed scrollIntoView to prevent page jumping
         }
 
         // Logic branching

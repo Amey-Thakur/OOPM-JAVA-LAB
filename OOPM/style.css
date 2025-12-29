@@ -1238,6 +1238,15 @@ font-size: 0.9rem;
     line-height: 1.5;
 }
 
+.pseudocode-block pre,
+.pseudocode-block code {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+}
+
 .pseudocode-block .kwd {
     color: #c678dd;
     font-weight: bold;

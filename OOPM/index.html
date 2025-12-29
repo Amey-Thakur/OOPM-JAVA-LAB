@@ -414,10 +414,26 @@
                         </div>
 
                         <!-- Logic Visualization (New) -->
-                        <div class="logic-visualization mt-4 d-flex gap-3 align-items-stretch text-start">
-                            <!-- Pseudocode Block -->
-                            <div class="pseudocode-block p-3 flex-grow-1">
-                                <pre><code class="language-java" style="background:transparent; padding:0;">while (lives > 0) {
+                        <div class="logic-visualization mt-4 text-start">
+                            <!-- Terminal Header -->
+                            <div class="logic-header d-flex align-items-center px-3 py-2"
+                                style="background: rgba(0,0,0,0.3); border-bottom: 1px solid rgba(255,255,255,0.05);">
+                                <div class="window-dots d-flex gap-2 me-3">
+                                    <span
+                                        style="width:10px; height:10px; background:#ff5f56; border-radius:50%;"></span>
+                                    <span
+                                        style="width:10px; height:10px; background:#ffbd2e; border-radius:50%;"></span>
+                                    <span
+                                        style="width:10px; height:10px; background:#27c93f; border-radius:50%;"></span>
+                                </div>
+                                <span class="text-muted small font-monospace">GameLogic.java</span>
+                            </div>
+
+                            <!-- Terminal Body -->
+                            <div class="logic-body d-flex gap-3 align-items-stretch">
+                                <!-- Pseudocode Block -->
+                                <div class="pseudocode-block p-3 flex-grow-1">
+                                    <pre><code class="language-java" style="background:transparent; padding:0;">while (lives > 0) {
   input = getUserGuess();
   if (word.has(input)) {
     <span class="var">revealChar</span>(input);
@@ -427,24 +443,25 @@
   }
   <span class="kwd">checkWinCondition</span>();
 }</code></pre>
-                            </div>
+                                </div>
 
-                            <!-- Animated Hangman SVG -->
-                            <div class="hangman-anim-box p-2 d-flex align-items-center justify-content-center">
-                                <svg width="80" height="100" viewBox="0 0 100 120" class="hangman-draw-anim">
-                                    <!-- Base -->
-                                    <path class="draw-path base" d="M10,110 L90,110" />
-                                    <!-- Pole -->
-                                    <path class="draw-path pole" d="M30,110 L30,10 L70,10 L70,30" />
-                                    <!-- Head -->
-                                    <circle class="draw-path head" cx="70" cy="40" r="10" />
-                                    <!-- Body -->
-                                    <path class="draw-path body" d="M70,50 L70,90" />
-                                    <!-- Arms -->
-                                    <path class="draw-path arms" d="M70,60 L50,80 M70,60 L90,80" />
-                                    <!-- Legs -->
-                                    <path class="draw-path legs" d="M70,90 L50,110 M70,90 L90,110" />
-                                </svg>
+                                <!-- Animated Hangman SVG -->
+                                <div class="hangman-anim-box p-2 d-flex align-items-center justify-content-center">
+                                    <svg width="80" height="100" viewBox="0 0 100 120" class="hangman-draw-anim">
+                                        <!-- Base -->
+                                        <path class="draw-path base" d="M10,110 L90,110" />
+                                        <!-- Pole -->
+                                        <path class="draw-path pole" d="M30,110 L30,10 L70,10 L70,30" />
+                                        <!-- Head -->
+                                        <circle class="draw-path head" cx="70" cy="40" r="10" />
+                                        <!-- Body -->
+                                        <path class="draw-path body" d="M70,50 L70,90" />
+                                        <!-- Arms -->
+                                        <path class="draw-path arms" d="M70,60 L50,80 M70,60 L90,80" />
+                                        <!-- Legs -->
+                                        <path class="draw-path legs" d="M70,90 L50,110 M70,90 L90,110" />
+                                    </svg>
+                                </div>
                             </div>
                         </div>
                     </div>

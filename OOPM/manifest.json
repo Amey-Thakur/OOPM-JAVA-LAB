@@ -1,7 +1,7 @@
 {
     "name": "Amey | OOPM Lab Portfolio",
     "short_name": "OOPM Portfolio",
-    "description": "Scholarly portfolio for Object-Oriented Programming Laboratory by Amey Thakur, featuring Java implementations and Hangman.",
+    "description": "Scholarly portfolio for Object-Oriented Programming Laboratory by Amey Thakur & Mega Satish, featuring Java implementations and Hangman.",
     "start_url": "./index.html",
     "scope": "./",
     "display": "standalone",

@@ -264,65 +264,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // 8. Keyboard Navigation
-    const sections = ['mini-project', 'foundations', 'oop', 'advanced', 'footer'];
-    let currentSectionIndex = -1;
 
-    document.addEventListener('keydown', (e) => {
-        // Skip if user is in an input field
-        if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
-
-        // T key - Toggle theme
-        if (e.key === 't' || e.key === 'T') {
-            if (!e.ctrlKey && !e.shiftKey && !e.altKey) {
-                themeToggle.click();
-            }
-        }
-
-        // Arrow Down / J - Next section
-        if (e.key === 'ArrowDown' || e.key === 'j') {
-            e.preventDefault();
-            currentSectionIndex = Math.min(currentSectionIndex + 1, sections.length - 1);
-            scrollToSection(sections[currentSectionIndex]);
-        }
-
-        // Arrow Up / K - Previous section
-        if (e.key === 'ArrowUp' || e.key === 'k') {
-            e.preventDefault();
-            currentSectionIndex = Math.max(currentSectionIndex - 1, 0);
-            scrollToSection(sections[currentSectionIndex]);
-        }
-
-        // Home - Go to top
-        if (e.key === 'Home') {
-            e.preventDefault();
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-            currentSectionIndex = -1;
-        }
-
-        // End - Go to bottom
-        if (e.key === 'End') {
-            e.preventDefault();
-            window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-            currentSectionIndex = sections.length - 1;
-        }
-
-        // Security measures - Disable dev tools shortcuts
-        if (
-            e.key === 'F12' ||
-            (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'J')) ||
-            (e.ctrlKey && e.key === 'u')
-        ) {
-            e.preventDefault();
-        }
-    });
-
-    function scrollToSection(sectionId) {
-        const section = document.getElementById(sectionId);
-        if (section) {
-            section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-    }
+    // NOTE: Keyboard shortcuts (T for theme, H for Hangman) are handled
+    // by the Command Palette logic at the end of this file.
 
     // 9. Remove Skeleton Loader
     const skeleton = document.getElementById('skeleton-loader');
@@ -906,6 +850,12 @@ function initCommandPalette() {
     const input = document.getElementById('cmd-input');
     const list = document.getElementById('cmd-list');
 
+    // Guard: Exit if elements don't exist
+    if (!overlay || !input || !list) {
+        console.warn('Command Palette elements not found. Skipping initialization.');
+        return;
+    }
+
     // Commands & Shortcuts
     const commands = [
         { type: 'Command', name: 'Toggle Theme', icon: 'fa-moon', action: () => document.getElementById('theme-toggle').click() },
@@ -938,6 +888,10 @@ function initCommandPalette() {
     let filteredItems = [];
     let selectedIndex = 0;
 
+    function isPaletteVisible() {
+        return overlay.classList.contains('active');
+    }
+
     function openPalette() {
         overlay.style.display = 'flex';
         // Force reflow
@@ -945,11 +899,13 @@ function initCommandPalette() {
         overlay.classList.add('active');
         input.value = '';
         input.focus();
+        selectedIndex = 0;
         filterResults('');
     }
 
     function closePalette() {
         overlay.classList.remove('active');
+        input.blur();
         setTimeout(() => {
             overlay.style.display = 'none';
         }, 200);
@@ -958,6 +914,7 @@ function initCommandPalette() {
     function filterResults(query) {
         const q = query.toLowerCase();
         filteredItems = allItems.filter(item => item.name.toLowerCase().includes(q));
+        selectedIndex = 0; // Reset selection on filter
         renderResults();
     }
 
@@ -969,7 +926,8 @@ function initCommandPalette() {
         }
 
         // Limit to 10 results for performance
-        filteredItems.slice(0, 10).forEach((item, index) => {
+        const displayItems = filteredItems.slice(0, 10);
+        displayItems.forEach((item, index) => {
             const div = document.createElement('div');
             div.className = `cmd-item ${index === selectedIndex ? 'selected' : ''}`;
             div.innerHTML = `
@@ -991,44 +949,81 @@ function initCommandPalette() {
         }
     }
 
-    // Event Listeners
+    // Single, unified keydown handler
     document.addEventListener('keydown', (e) => {
-        if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+        // --- CTRL+K: Toggle Command Palette ---
+        if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
             e.preventDefault();
-            openPalette();
+            e.stopPropagation();
+            if (isPaletteVisible()) closePalette();
+            else openPalette();
+            return; // CRITICAL: Exit here to prevent global shortcuts from firing
         }
-        if (e.key === 'Escape') closePalette();
 
-        // Global Shortcuts (only if not typing in input)
-        if (document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
-            if (e.key.toLowerCase() === 't') document.getElementById('theme-toggle').click();
-            if (e.key.toLowerCase() === 'h') document.getElementById('mini-project').scrollIntoView({ behavior: 'smooth' });
-        }
-    });
-
-    input.addEventListener('input', (e) => {
-        selectedIndex = 0;
-        filterResults(e.target.value);
-    });
-
-    input.addEventListener('keydown', (e) => {
-        if (e.key === 'ArrowDown') {
-            e.preventDefault();
-            selectedIndex = (selectedIndex + 1) % Math.min(filteredItems.length, 10);
-            renderResults();
-        }
-        if (e.key === 'ArrowUp') {
-            e.preventDefault();
-            selectedIndex = (selectedIndex - 1 + Math.min(filteredItems.length, 10)) % Math.min(filteredItems.length, 10);
-            renderResults();
-        }
-        if (e.key === 'Enter') {
-            e.preventDefault();
-            if (filteredItems[selectedIndex]) {
+        // --- Palette-Specific Navigation (only when visible) ---
+        if (isPaletteVisible()) {
+            if (e.key === 'Escape') {
+                e.preventDefault();
                 closePalette();
-                filteredItems[selectedIndex].action();
+                return;
             }
+            if (e.key === 'ArrowDown') {
+                e.preventDefault();
+                selectedIndex = (selectedIndex + 1) % Math.min(filteredItems.length, 10);
+                renderResults();
+                return;
+            }
+            if (e.key === 'ArrowUp') {
+                e.preventDefault();
+                const max = Math.min(filteredItems.length, 10);
+                selectedIndex = (selectedIndex - 1 + max) % max;
+                renderResults();
+                return;
+            }
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                if (filteredItems[selectedIndex]) {
+                    closePalette();
+                    filteredItems[selectedIndex].action();
+                }
+                return;
+            }
+            // Allow typing in the input (handled by input event listener)
+            return; // Don't process global shortcuts while palette is open
         }
+
+        // --- Global Shortcuts (only when palette is CLOSED and no modifier keys) ---
+        // Skip if any modifier key is pressed (to avoid Ctrl+T, Ctrl+H conflicts)
+        if (e.ctrlKey || e.metaKey || e.altKey) {
+            return;
+        }
+
+        // Skip if typing in an input field
+        const activeTag = document.activeElement ? document.activeElement.tagName : '';
+        if (activeTag === 'INPUT' || activeTag === 'TEXTAREA') {
+            return;
+        }
+
+        // T = Toggle Theme
+        if (e.key.toLowerCase() === 't') {
+            e.preventDefault();
+            const toggle = document.getElementById('theme-toggle');
+            if (toggle) toggle.click();
+            return;
+        }
+
+        // H = Go to Hangman
+        if (e.key.toLowerCase() === 'h') {
+            e.preventDefault();
+            const hangman = document.getElementById('mini-project');
+            if (hangman) hangman.scrollIntoView({ behavior: 'smooth' });
+            return;
+        }
+    });
+
+    // Input change handler for filtering
+    input.addEventListener('input', (e) => {
+        filterResults(e.target.value);
     });
 
     // Close on backdrop click
@@ -1037,5 +1032,5 @@ function initCommandPalette() {
     });
 }
 
-// Initialize
+// Initialize Command Palette
 initCommandPalette();

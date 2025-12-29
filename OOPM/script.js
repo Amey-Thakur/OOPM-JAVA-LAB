@@ -304,11 +304,19 @@ document.addEventListener('DOMContentLoaded', () => {
         { word: 'MEGA', hint: 'Project co-author' },
         { word: 'SATISH', hint: 'Mega\'s surname' }
     ];
+    // Author words for higher frequency
+    const authorWords = [
+        { word: 'AMEY', hint: 'Project author' },
+        { word: 'THAKUR', hint: 'Amey\'s surname' },
+        { word: 'MEGA', hint: 'Project co-author' },
+        { word: 'SATISH', hint: 'Mega\'s surname' }
+    ];
     let currentWord = '';
     let currentHint = '';
     let guessedLetters = [];
     let lives = 6;
     let gameOver = false;
+    let gameCount = 0;
 
     function initHangman() {
         const wordContainer = document.getElementById('hangman-word');
@@ -386,7 +394,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         function newGame() {
-            const selected = hangmanWords[Math.floor(Math.random() * hangmanWords.length)];
+            gameCount++;
+            let selected;
+            // Every 3rd game, show author name
+            if (gameCount % 3 === 0) {
+                selected = authorWords[Math.floor(Math.random() * authorWords.length)];
+            } else {
+                selected = hangmanWords[Math.floor(Math.random() * hangmanWords.length)];
+            }
             currentWord = selected.word;
             currentHint = selected.hint;
             guessedLetters = [];

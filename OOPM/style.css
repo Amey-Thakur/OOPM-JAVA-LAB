@@ -1158,7 +1158,7 @@ font-size: 0.9rem;
     font-size: 0.85rem;
     line-height: 1.6;
     color: #d4d4d4;
-    height: 280px;
+    height: 264px;
     /* Fixed height to prevent layout shift */
     overflow-y: auto;
     scroll-behavior: smooth;
@@ -1227,6 +1227,8 @@ font-size: 0.9rem;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     overflow: hidden;
     border: none;
+    margin-top: 58px;
+    /* Aligns with right terminal */
 }
 
 /* Pseudocode Block (Flexible) */

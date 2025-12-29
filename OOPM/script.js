@@ -123,8 +123,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // 6. Footer Year Update
-    document.getElementById('current-year').textContent = new Date().getFullYear();
+    // 6. Footer Year Update (with null check)
+    const yearEl = document.getElementById('current-year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
 
     // 7. Confetti Animation on GitHub Button Click
     function createConfetti(x, y) {

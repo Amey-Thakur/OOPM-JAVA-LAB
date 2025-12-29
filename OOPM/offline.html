@@ -1,0 +1,265 @@
+<!--
+    ================================================================
+    Object-Oriented Programming (OOPM) Lab - Offline Page
+    ================================================================
+    Author: Amey Thakur
+    GitHub: https://github.com/Amey-Thakur
+    Course: Object-Oriented Programming (OOPM) Lab
+    Roll No: 50
+    Batch: B3
+    Repository: https://github.com/Amey-Thakur/OOPM-JAVA-LAB
+    Date: January 17, 2020
+    ================================================================
+-->
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline | No Internet Connection</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Offline | No Internet Connection">
+    <meta name="description"
+        content="ConnectionLostException: The network is unreachable. Please check your internet connection and try again.">
+    <meta name="robots" content="noindex, follow">
+    <meta name="theme-color" content="#dc2626">
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        :root {
+            /* Light Mode Variables matching style.css */
+            --bg-color: #f4f6f9;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --card-bg: #ffffff;
+            --accent-color: #dc2626;
+            --accent-hover: #b91c1c;
+            --border-color: #e2e8f0;
+            --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            --header-gradient: linear-gradient(135deg, #ffffff 0%, #fef2f2 100%);
+        }
+
+        [data-theme="dark"] {
+            /* Dark Mode Variables matching style.css */
+            --bg-color: #0f172a;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --card-bg: #1e293b;
+            --accent-color: #ef4444;
+            --accent-hover: #fca5a5;
+            --border-color: #334155;
+            --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+            --header-gradient: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: 'Poppins', sans-serif;
+            transition: background-color 0.8s ease, color 0.8s ease;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .error-container {
+            max-width: 800px;
+            padding: 40px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .error-code {
+            font-size: 8rem;
+            font-weight: 900;
+            line-height: 1;
+            margin-bottom: 20px;
+            background: linear-gradient(120deg, var(--accent-color), #f97316);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-family: 'Playfair Display', serif;
+            animation: pulse 3s infinite ease-in-out;
+        }
+
+        .error-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .error-message {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .btn-home {
+            background: var(--accent-color);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s;
+            box-shadow: var(--shadow-md);
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-home:hover {
+            transform: translateY(-3px);
+            background: var(--accent-hover);
+            box-shadow: 0 15px 30px rgba(220, 38, 38, 0.3);
+            color: white;
+        }
+
+        /* Abstract Node Background Animation */
+        .bg-shape {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(60px);
+            opacity: 0.4;
+            z-index: 1;
+            animation: float 20s infinite alternate;
+        }
+
+        .shape-1 {
+            width: 300px;
+            height: 300px;
+            background: var(--accent-color);
+            top: -50px;
+            left: -50px;
+        }
+
+        .shape-2 {
+            width: 250px;
+            height: 250px;
+            background: #f97316;
+            bottom: -20px;
+            right: -20px;
+            animation-delay: -5s;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translate(0, 0) scale(1);
+            }
+
+            100% {
+                transform: translate(30px, 50px) scale(1.1);
+            }
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 0.9;
+                transform: scale(0.98);
+            }
+        }
+
+        /* Footer for Offline Page */
+        .footer-simple {
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .footer-simple .highlight {
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+
+    <div class="error-container">
+        <!-- Using a WiFi icon here instead of text code -->
+        <div class="error-code"><i class="fas fa-wifi"></i></div>
+        <div class="error-title">No Internet Connection</div>
+        <p class="error-message">
+            <strong>java.net.ConnectException</strong>: The network is unreachable.
+            <br>
+            It seems your device is offline. Check your connection or the router configuration.
+            <br><br>
+            Please check your connection and hit <span style="color: var(--accent-color);">Retry</span>.
+        </p>
+        <button onclick="window.location.reload()" class="btn-home">
+            <i class="fas fa-redo"></i> Retry Connection
+        </button>
+
+        <div class="footer-simple">
+            <p>2018 - 2022 &copy; All Rights Reserved | Designed and Developed by <a
+                    href="https://github.com/Amey-Thakur" target="_blank" class="highlight"
+                    rel="noopener noreferrer">Amey Thakur</a> & <a href="https://github.com/msatmod" target="_blank"
+                    class="highlight" rel="noopener noreferrer">Mega Satish</a></p>
+        </div>
+    </div>
+
+    <script>
+        /**
+         * =========================================
+         *   PAGE LOGIC
+         * =========================================
+         */
+
+        // Theme Persistence Logic
+        const htmlElement = document.documentElement;
+        try {
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            htmlElement.setAttribute('data-theme', savedTheme);
+        } catch (e) {
+            console.log('Access to LocalStorage denied');
+        }
+
+        // Auto-refresh when back online
+        window.addEventListener('online', () => {
+            window.location.reload();
+        });
+    </script>
+</body>
+
+</html>

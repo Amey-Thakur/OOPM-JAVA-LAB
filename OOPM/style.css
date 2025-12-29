@@ -213,10 +213,10 @@ h5 {
 }
 
 .btn-primary-custom:hover {
-    background: var(--accent-hover);
+    background: #b91c1c;
     transform: translateY(-2px);
     color: #fff;
-    box-shadow: 0 10px 20px -5px rgba(220, 38, 38, 0.4);
+    box-shadow: 0 10px 20px -5px rgba(220, 38, 38, 0.5);
 }
 
 .btn-secondary-custom {

@@ -462,6 +462,31 @@ document.addEventListener('DOMContentLoaded', () => {
                 resultEl.textContent = '🎉 You Won! Great job!';
                 resultEl.className = 'hangman-result win';
                 gameOver = true;
+
+                // Trigger confetti
+                const duration = 3000;
+                const end = Date.now() + duration;
+
+                (function frame() {
+                    confetti({
+                        particleCount: 5,
+                        angle: 60,
+                        spread: 55,
+                        origin: { x: 0 },
+                        colors: ['#dc2626', '#1e293b', '#ffffff'] // Theme colors
+                    });
+                    confetti({
+                        particleCount: 5,
+                        angle: 120,
+                        spread: 55,
+                        origin: { x: 1 },
+                        colors: ['#dc2626', '#1e293b', '#ffffff']
+                    });
+
+                    if (Date.now() < end) {
+                        requestAnimationFrame(frame);
+                    }
+                }());
             } else if (lives <= 0) {
                 resultEl.textContent = `💀 Game Over! The word was: ${currentWord}`;
                 resultEl.className = 'hangman-result lose';

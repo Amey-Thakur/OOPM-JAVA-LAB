@@ -365,7 +365,6 @@ h5 {
 .featured-card {
     background: linear-gradient(-45deg, #ffffff, #fff1f1, #fee2e2, #f8fafc) !important;
     background-size: 400% 400% !important;
-    backdrop-filter: blur(30px) saturate(180%);
     border: 1px solid rgba(255, 255, 255, 0.15) !important;
     padding: 60px 40px !important;
     border-radius: 32px !important;
@@ -407,7 +406,7 @@ h5 {
 
 .laptop-column {
     width: 100%;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto 40px auto;
     perspective: 1000px;
     display: flex;

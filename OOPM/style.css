@@ -1235,7 +1235,20 @@ font-size: 0.9rem;
     font-family: 'Fira Code', monospace;
     font-size: 0.8rem;
     color: #abb2bf;
+    color: #abb2bf;
     line-height: 1.5;
+}
+
+.code-line {
+    padding: 2px 5px;
+    border-radius: 4px;
+    transition: background 0.2s ease;
+}
+
+.code-line.active {
+    background: rgba(198, 120, 221, 0.15);
+    /* Purple tint */
+    border-left: 2px solid #c678dd;
 }
 
 .pseudocode-block pre,

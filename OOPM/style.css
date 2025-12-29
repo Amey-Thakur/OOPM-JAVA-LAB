@@ -623,6 +623,18 @@ h5 {
     box-shadow: 0 4px 10px rgba(220, 38, 38, 0.2);
 }
 
+.card-custom:hover .badge-tech {
+    background: var(--badge-bg);
+    color: var(--badge-text);
+    border-color: var(--badge-bg);
+}
+
+.card-custom:hover .badge-tech:hover {
+    background: var(--accent-color);
+    color: white;
+    border-color: var(--accent-color);
+}
+
 .laptop-frame {
     transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }

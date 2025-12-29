@@ -998,8 +998,61 @@ h5 {
     border-radius: 8px;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.2s ease;
-    font-size: 0.9rem;
+}
+
+.hangman-key:hover:not(:disabled) {
+    background: var(--accent-color);
+    color: white;
+}
+
+.hangman-key:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    border-color: var(--text-secondary);
+    color: var(--text-secondary);
+}
+
+.hangman-key.correct {
+    background-color: #22c55e !important;
+    border-color: #22c55e !important;
+    color: white !important;
+}
+
+.hangman-key.wrong {
+    background-color: var(--text-secondary) !important;
+    border-color: var(--text-secondary) !important;
+    color: white !important;
+}
+
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-5px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(5px);
+    }
+}
+
+.shake-anim {
+    animation: shake 0.5s cubic-bezier(.36, .07, .19, .97) both;
+}
+
+transition: all 0.2s ease;
+font-size: 0.9rem;
 }
 
 .hangman-key:hover:not(:disabled) {

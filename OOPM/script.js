@@ -272,5 +272,140 @@ document.addEventListener('DOMContentLoaded', () => {
             e.preventDefault();
         }
     });
+
+    // 11. Interactive Hangman Game
+    const hangmanWords = ['JAVA', 'CLASS', 'OBJECT', 'METHOD', 'SWING', 'THREAD', 'ARRAY', 'STRING', 'INTERFACE', 'ABSTRACT', 'POLYMORPHISM', 'INHERITANCE'];
+    let currentWord = '';
+    let guessedLetters = [];
+    let lives = 6;
+    let gameOver = false;
+
+    function initHangman() {
+        const wordContainer = document.getElementById('hangman-word');
+        const keyboardContainer = document.getElementById('hangman-keyboard');
+        const resetBtn = document.getElementById('hangman-reset');
+
+        if (!wordContainer || !keyboardContainer) return;
+
+        function newGame() {
+            currentWord = hangmanWords[Math.floor(Math.random() * hangmanWords.length)];
+            guessedLetters = [];
+            lives = 6;
+            gameOver = false;
+            document.getElementById('lives-count').textContent = lives;
+            document.getElementById('hangman-result').textContent = '';
+            document.getElementById('hangman-result').className = 'hangman-result';
+            renderWord();
+            renderKeyboard();
+        }
+
+        function renderWord() {
+            wordContainer.innerHTML = currentWord
+                .split('')
+                .map(letter => guessedLetters.includes(letter) ? letter : '_')
+                .join(' ');
+        }
+
+        function renderKeyboard() {
+            keyboardContainer.innerHTML = '';
+            'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').forEach(letter => {
+                const btn = document.createElement('button');
+                btn.className = 'hangman-key';
+                btn.textContent = letter;
+                btn.disabled = guessedLetters.includes(letter);
+                if (guessedLetters.includes(letter)) {
+                    btn.classList.add(currentWord.includes(letter) ? 'correct' : 'wrong');
+                }
+                btn.addEventListener('click', () => guessLetter(letter));
+                keyboardContainer.appendChild(btn);
+            });
+        }
+
+        function guessLetter(letter) {
+            if (gameOver || guessedLetters.includes(letter)) return;
+            guessedLetters.push(letter);
+
+            if (!currentWord.includes(letter)) {
+                lives--;
+                document.getElementById('lives-count').textContent = lives;
+            }
+
+            renderWord();
+            renderKeyboard();
+            checkGameEnd();
+        }
+
+        function checkGameEnd() {
+            const resultEl = document.getElementById('hangman-result');
+            const won = currentWord.split('').every(l => guessedLetters.includes(l));
+
+            if (won) {
+                resultEl.textContent = '🎉 You Won! Great job!';
+                resultEl.className = 'hangman-result win';
+                gameOver = true;
+            } else if (lives <= 0) {
+                resultEl.textContent = `💀 Game Over! The word was: ${currentWord}`;
+                resultEl.className = 'hangman-result lose';
+                gameOver = true;
+            }
+        }
+
+        resetBtn.addEventListener('click', newGame);
+        newGame();
+    }
+
+    initHangman();
+
+    // 12. Code Typing Animation
+    function initCodeTyping() {
+        const codeEl = document.getElementById('typing-code');
+        if (!codeEl) return;
+
+        const codeSnippet = `<span class="comment">// Hangman Word Game</span>
+<span class="keyword">public class</span> <span class="type">HangmanGame</span> {
+    <span class="keyword">private</span> <span class="type">String</span> secretWord;
+    <span class="keyword">private int</span> lives = <span class="string">6</span>;
+
+    <span class="keyword">public void</span> <span class="function">guess</span>(<span class="type">char</span> letter) {
+        <span class="keyword">if</span> (secretWord.contains(letter)) {
+            revealLetter(letter);
+        } <span class="keyword">else</span> {
+            lives--;
+        }
+    }
+}`;
+
+        let index = 0;
+        const cursor = '<span class="typing-cursor"></span>';
+
+        function type() {
+            if (index < codeSnippet.length) {
+                // Handle HTML tags - don't type them character by character
+                if (codeSnippet[index] === '<') {
+                    const closeIndex = codeSnippet.indexOf('>', index);
+                    index = closeIndex + 1;
+                }
+                codeEl.innerHTML = codeSnippet.substring(0, index) + cursor;
+                index++;
+                setTimeout(type, 30 + Math.random() * 50);
+            } else {
+                codeEl.innerHTML = codeSnippet;
+            }
+        }
+
+        // Start typing when element comes into view
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    type();
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        observer.observe(codeEl);
+    }
+
+    initCodeTyping();
 });
 

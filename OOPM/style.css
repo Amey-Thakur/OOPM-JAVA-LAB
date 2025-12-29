@@ -934,3 +934,209 @@ h5 {
     color: #fff !important;
     border-color: var(--accent-color) !important;
 }
+
+/* =========================================
+   HANGMAN GAME STYLES
+   ========================================= */
+.hangman-game-container {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    padding: 25px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.hangman-game {
+    text-align: center;
+}
+
+.hangman-word {
+    font-family: 'Courier New', monospace;
+    font-size: 2rem;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+    color: var(--text-primary);
+    min-height: 50px;
+}
+
+.hangman-keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 15px;
+}
+
+.hangman-key {
+    width: 36px;
+    height: 36px;
+    border: 2px solid var(--accent-color);
+    background: transparent;
+    color: var(--accent-color);
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 0.9rem;
+}
+
+.hangman-key:hover:not(:disabled) {
+    background: var(--accent-color);
+    color: white;
+    transform: scale(1.1);
+}
+
+.hangman-key:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.hangman-key.correct {
+    background: #22c55e;
+    border-color: #22c55e;
+    color: white;
+}
+
+.hangman-key.wrong {
+    background: #ef4444;
+    border-color: #ef4444;
+    color: white;
+}
+
+.hangman-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    color: var(--text-secondary);
+}
+
+#hangman-lives {
+    color: #ef4444;
+    font-weight: 600;
+}
+
+.hangman-result {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    min-height: 30px;
+}
+
+.hangman-result.win {
+    color: #22c55e;
+}
+
+.hangman-result.lose {
+    color: #ef4444;
+}
+
+/* =========================================
+   CODE TERMINAL STYLES
+   ========================================= */
+.code-terminal {
+    background: #1e1e1e;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.terminal-header {
+    background: #323232;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.terminal-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.terminal-dot.red {
+    background: #ff5f56;
+}
+
+.terminal-dot.yellow {
+    background: #ffbd2e;
+}
+
+.terminal-dot.green {
+    background: #27ca3f;
+}
+
+.terminal-title {
+    margin-left: auto;
+    font-size: 0.75rem;
+    color: #888;
+    font-family: 'Courier New', monospace;
+}
+
+.terminal-body {
+    padding: 20px;
+    font-family: 'Fira Code', 'Courier New', monospace;
+    font-size: 0.85rem;
+    line-height: 1.6;
+    color: #d4d4d4;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.terminal-body pre {
+    margin: 0;
+    background: transparent;
+}
+
+.terminal-body code {
+    background: transparent;
+    color: inherit;
+}
+
+#typing-code .keyword {
+    color: #c586c0;
+}
+
+#typing-code .type {
+    color: #4ec9b0;
+}
+
+#typing-code .string {
+    color: #ce9178;
+}
+
+#typing-code .comment {
+    color: #6a9955;
+}
+
+#typing-code .function {
+    color: #dcdcaa;
+}
+
+.typing-cursor {
+    display: inline-block;
+    width: 8px;
+    height: 16px;
+    background: var(--accent-color);
+    animation: blink 1s infinite;
+    vertical-align: middle;
+    margin-left: 2px;
+}
+
+@keyframes blink {
+
+    0%,
+    50% {
+        opacity: 1;
+    }
+
+    51%,
+    100% {
+        opacity: 0;
+    }
+}

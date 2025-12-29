@@ -382,7 +382,7 @@
                     </div>
 
                     <!-- Description -->
-                    <div class="text-center mt-auto">
+                    <div class="text-center"> <!-- Removed mt-auto to fix gap -->
                         <p class="project-description">
                             A graphical Java application with reactive UI elements, published in research journals.
                             Features intelligent word selection logic, automated state management, and event-driven
@@ -411,6 +411,41 @@
                                 target="_blank" rel="noopener noreferrer">
                                 <i class="fas fa-code me-2"></i>DOI
                             </a>
+                        </div>
+
+                        <!-- Logic Visualization (New) -->
+                        <div class="logic-visualization mt-4 d-flex gap-3 align-items-stretch text-start">
+                            <!-- Pseudocode Block -->
+                            <div class="pseudocode-block p-3 flex-grow-1">
+                                <pre><code class="language-java" style="background:transparent; padding:0;">while (lives > 0) {
+  input = getUserGuess();
+  if (word.has(input)) {
+    <span class="var">revealChar</span>(input);
+  } else {
+    <span class="err">lives--</span>;
+    <span class="func">drawNextPart</span>();
+  }
+  <span class="kwd">checkWinCondition</span>();
+}</code></pre>
+                            </div>
+
+                            <!-- Animated Hangman SVG -->
+                            <div class="hangman-anim-box p-2 d-flex align-items-center justify-content-center">
+                                <svg width="80" height="100" viewBox="0 0 100 120" class="hangman-draw-anim">
+                                    <!-- Base -->
+                                    <path class="draw-path base" d="M10,110 L90,110" />
+                                    <!-- Pole -->
+                                    <path class="draw-path pole" d="M30,110 L30,10 L70,10 L70,30" />
+                                    <!-- Head -->
+                                    <circle class="draw-path head" cx="70" cy="40" r="10" />
+                                    <!-- Body -->
+                                    <path class="draw-path body" d="M70,50 L70,90" />
+                                    <!-- Arms -->
+                                    <path class="draw-path arms" d="M70,60 L50,80 M70,60 L90,80" />
+                                    <!-- Legs -->
+                                    <path class="draw-path legs" d="M70,90 L50,110 M70,90 L90,110" />
+                                </svg>
+                            </div>
                         </div>
                     </div>
                 </div>

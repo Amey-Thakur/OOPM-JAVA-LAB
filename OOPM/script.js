@@ -1,18 +1,89 @@
 /**
- * ================================================================
- *   Object-Oriented Programming (OOPM) Lab Portfolio - Interactive Logic
- * ================================================================
- *   Author: Amey Thakur
- *   GitHub: https://github.com/Amey-Thakur
- *   Course: Object-Oriented Programming (OOPM) Lab
- *   Roll No: 50
- *   Batch: B3
- *   Repository: https://github.com/Amey-Thakur/OOPM-JAVA-LAB
- *   Date: January 17, 2020
- *   
- *   Description: Logic for theme toggling, stats validation, and UI interactivity.
- * ================================================================
+ * =========================================
+ *   CORE INTERACTIVE LOGIC
+ * =========================================
  */
+
+// PWA Install Logic
+let deferredPrompt;
+const pwaInstallBtn = document.getElementById('pwa-install-btn');
+
+window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+    if (pwaInstallBtn) pwaInstallBtn.style.display = 'flex';
+});
+
+if (pwaInstallBtn) {
+    pwaInstallBtn.addEventListener('click', async () => {
+        if (deferredPrompt) {
+            deferredPrompt.prompt();
+            const { outcome } = await deferredPrompt.userChoice;
+            if (outcome === 'accepted') {
+                pwaInstallBtn.style.display = 'none';
+            }
+            deferredPrompt = null;
+        }
+    });
+}
+
+// Share Functionality
+const shareBtn = document.getElementById('share-btn');
+if (shareBtn) {
+    shareBtn.addEventListener('click', async () => {
+        const shareData = {
+            title: 'OOPM Lab Portfolio — Amey Thakur & Mega Satish',
+            text: 'OOPM Lab Portfolio — Amey Thakur & Mega Satish',
+            url: window.location.href
+        };
+
+        try {
+            await navigator.share(shareData);
+        } catch (err) {
+            // Fallback: Copy to clipboard
+            const dummy = document.createElement('input');
+            document.body.appendChild(dummy);
+            dummy.value = window.location.href;
+            dummy.select();
+            document.execCommand('copy');
+            document.body.removeChild(dummy);
+            alert('Portfolio link copied to clipboard!');
+        }
+    });
+}
+
+// Security Measures (Standardized)
+function initSecurity() {
+    // Disable Right Click
+    document.addEventListener('contextmenu', (e) => {
+        e.preventDefault();
+    });
+
+    // Disable Dragging images
+    document.addEventListener('dragstart', (e) => {
+        e.preventDefault();
+    });
+
+    // Disable DevTools Shortcuts
+    document.addEventListener('keydown', (e) => {
+        if (
+            e.key === 'F12' ||
+            (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'J' || e.key === 'C')) ||
+            (e.ctrlKey && e.key === 'u')
+        ) {
+            e.preventDefault();
+        }
+    });
+
+    // Disable Selection specifically for older browsers through JS
+    document.addEventListener('selectstart', (e) => {
+        if (e.target.tagName !== 'INPUT' && e.target.tagName !== 'TEXTAREA') {
+            e.preventDefault();
+        }
+    });
+}
+
+initSecurity();
 
 document.addEventListener('DOMContentLoaded', () => {
     // 1. Theme Toggling Logic

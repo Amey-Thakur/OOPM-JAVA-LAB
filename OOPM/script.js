@@ -431,14 +431,28 @@ document.addEventListener('DOMContentLoaded', () => {
                 osc.start(now);
                 osc.stop(now + 0.1);
             } else if (type === 'win') {
-                osc.type = 'triangle';
-                osc.frequency.setValueAtTime(400, now);
-                osc.frequency.linearRampToValueAtTime(600, now + 0.1);
-                osc.frequency.linearRampToValueAtTime(1000, now + 0.3);
-                gainNode.gain.setValueAtTime(0.1, now);
-                gainNode.gain.linearRampToValueAtTime(0, now + 0.5);
-                osc.start(now);
-                osc.stop(now + 0.5);
+                // Play a Major triad arpeggio (C-E-G-C)
+                const notes = [523.25, 659.25, 783.99, 1046.50]; // C5, E5, G5, C6
+                notes.forEach((freq, i) => {
+                    const osc2 = audioCtx.createOscillator();
+                    const gain2 = audioCtx.createGain();
+                    osc2.connect(gain2);
+                    gain2.connect(audioCtx.destination);
+
+                    osc2.type = 'triangle';
+                    osc2.frequency.value = freq;
+
+                    const startTime = now + (i * 0.1);
+                    const duration = 0.2;
+
+                    gain2.gain.setValueAtTime(0, startTime);
+                    gain2.gain.linearRampToValueAtTime(0.1, startTime + 0.05);
+                    gain2.gain.exponentialRampToValueAtTime(0.001, startTime + duration);
+
+                    osc2.start(startTime);
+                    osc2.stop(startTime + duration);
+                });
+                return; // Exit early as we handled notes manually
             } else if (type === 'lose') {
                 osc.type = 'sawtooth';
                 osc.frequency.setValueAtTime(200, now);

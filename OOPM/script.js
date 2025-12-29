@@ -1,7 +1,14 @@
 /**
- * =========================================
- *   CORE INTERACTIVE LOGIC
- * =========================================
+ * ================================================================
+ *   Object-Oriented Programming (OOPM) Lab - Interactive Logic
+ * ================================================================
+ *   Author: Amey Thakur
+ *   GitHub: https://github.com/Amey-Thakur
+ *   Course: Object-Oriented Programming (OOPM) Lab
+ *   Roll No: 50
+ *   Batch: B3
+ *   Date: January 17, 2020
+ * ================================================================
  */
 
 // PWA Install Logic

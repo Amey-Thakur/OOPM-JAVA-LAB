@@ -21,14 +21,19 @@ $RECYCLE.BIN/
 .idea/
 *.iml
 
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
 # Eclipse
 .metadata
 bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
 local.properties
 .settings/
 .loadorder
@@ -48,16 +53,6 @@ nbdist/
 *.ctxt
 *.pkg
 
-# Java Build Artifacts
-*.class
-*.jar
-*.war
-*.ear
-*.nar
-*.zip
-*.tar.gz
-*.rar
-
 # Maven
 target/
 pom.xml.tag
@@ -72,7 +67,6 @@ buildNumber.properties
 
 # Gradle
 .gradle/
-build/
 
 # Virtual Machine Crash Logs
 hs_err_pid*

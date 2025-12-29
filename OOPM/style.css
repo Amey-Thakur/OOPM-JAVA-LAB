@@ -538,12 +538,20 @@ h5 {
     border-radius: 50px;
     font-size: 0.85rem;
     font-weight: 500;
+    transition: all 0.3s ease;
 }
 
 [data-theme="light"] .badge-custom {
     background: rgba(255, 255, 255, 0.8);
     color: #1e293b;
     border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Light up badges on card hover */
+.featured-card:hover .badge-custom {
+    background: var(--accent-color);
+    color: white;
+    border-color: var(--accent-color);
 }
 
 /* Action Grid Buttons */

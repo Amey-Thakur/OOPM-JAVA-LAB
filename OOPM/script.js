@@ -491,6 +491,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 resultEl.textContent = `💀 Game Over! The word was: ${currentWord}`;
                 resultEl.className = 'hangman-result lose';
                 gameOver = true;
+
+                // Trigger shake animation
+                const gameContainer = document.querySelector('.hangman-game');
+                gameContainer.classList.add('shake-anim');
+                setTimeout(() => {
+                    gameContainer.classList.remove('shake-anim');
+                }, 500);
             }
         }
 

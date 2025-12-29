@@ -636,6 +636,47 @@ h5 {
     box-shadow: 0 4px 10px rgba(220, 38, 38, 0.2);
 }
 
+/* Print Styles */
+@media print {
+
+    .hero-buttons,
+    .control-btn,
+    #btn-back-to-top,
+    .launch-link,
+    .footer a {
+        display: none !important;
+    }
+
+    body,
+    .main-container,
+    .card-custom,
+    .featured-card {
+        background: white !important;
+        color: black !important;
+        box-shadow: none !important;
+        border: 1px solid #ddd !important;
+    }
+
+    .badge-tech,
+    .badge-custom {
+        border: 1px solid #000 !important;
+        color: #000 !important;
+    }
+
+    .laptop-frame {
+        box-shadow: none !important;
+        border-color: #333 !important;
+    }
+
+    .project-title,
+    h1,
+    h2,
+    h3,
+    h5 {
+        color: #000 !important;
+    }
+}
+
 .card-custom:hover .badge-tech {
     background: var(--badge-bg);
     color: var(--badge-text);

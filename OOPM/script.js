@@ -693,6 +693,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 setTimeout(type, typeSpeed);
             } else {
                 codeElement.innerHTML += '<span class="typing-cursor">|</span>';
+
+                // Auto-scroll to top after delay
+                setTimeout(() => {
+                    const terminalBody = codeElement.closest('.terminal-body');
+                    if (terminalBody) {
+                        terminalBody.scrollTo({ top: 0, behavior: 'smooth' });
+                    }
+                }, 2000);
             }
         }
 

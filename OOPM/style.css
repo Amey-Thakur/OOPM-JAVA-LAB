@@ -363,7 +363,8 @@ h5 {
 
 /* High-Fidelity Featured Card Revamp: Hero Centerpiece */
 .featured-card {
-    background: rgba(15, 23, 42, 0.5) !important;
+    background: linear-gradient(-45deg, #ffffff, #fff1f1, #fee2e2, #f8fafc) !important;
+    background-size: 400% 400% !important;
     backdrop-filter: blur(30px) saturate(180%);
     border: 1px solid rgba(255, 255, 255, 0.15) !important;
     padding: 60px 40px !important;
@@ -376,13 +377,20 @@ h5 {
     overflow: hidden;
     gap: 0 !important;
     /* Managed by margins */
-    animation: heroEntrance 1.2s cubic-bezier(0.23, 1, 0.32, 1) both;
+    animation: heroEntrance 1.2s cubic-bezier(0.23, 1, 0.32, 1) both, gradientBG 15s ease infinite;
 }
 
 [data-theme="light"] .featured-card {
-    background: rgba(255, 255, 255, 0.6) !important;
+    background: linear-gradient(-45deg, #ffffff, #fff1f1, #fee2e2, #f8fafc) !important;
+    background-size: 400% 400% !important;
     border: 1px solid rgba(0, 0, 0, 0.1) !important;
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="dark"] .featured-card {
+    background: linear-gradient(-45deg, #0f172a, #1e293b, #0f172a, #450a0a) !important;
+    background-size: 400% 400% !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
 .featured-card::before {

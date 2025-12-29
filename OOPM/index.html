@@ -443,139 +443,167 @@
                                     <div class="code-line" data-line="9"> <span class="func">checkWinCondition</span>();
                                     </div>
                                     <div class="code-line" data-line="10">}</div>
+                                    <!-- Pseudocode Block -->
+                                    <div class="pseudocode-block p-3 flex-grow-1" id="anim-code-block">
+                                        <div class="code-line" data-line="1"><span class="kwd">while</span> (<span
+                                                class="var">lives</span> > 0) {</div>
+                                        <div class="code-line" data-line="2"> <span class="var">input</span> = <span
+                                                class="func">getUserGuess</span>();</div>
+                                        <div class="code-line" data-line="3"> <span class="kwd">if</span> (word.<span
+                                                class="func">has</span>(<span class="var">input</span>)) {</div>
+                                        <div class="code-line" data-line="4"> <span class="func">revealChar</span>(<span
+                                                class="var">input</span>);</div>
+                                        <div class="code-line" data-line="5"> } <span class="kwd">else</span> {</div>
+                                        <div class="code-line" data-line="6"> <span class="err">lives--</span>;</div>
+                                        <div class="code-line" data-line="7"> <span class="func">drawNextPart</span>();
+                                        </div>
+                                        <div class="code-line" data-line="8"> }</div>
+                                        <div class="code-line" data-line="9"> <span
+                                                class="func">checkWinCondition</span>();</div>
+                                        <div class="code-line" data-line="10">}</div>
+                                    </div>
+
+                                    <!-- Right Column: Variables & Animation -->
+                                    <div class="d-flex flex-column"
+                                        style="min-width: 140px; border-left: 1px solid rgba(255,255,255,0.1);">
+                                        <!-- Variable Monitor -->
+                                        <div class="variable-monitor p-3 flex-grow-1 d-flex flex-column justify-content-center"
+                                            style="border-bottom: 1px solid rgba(255,255,255,0.1);">
+                                            <div class="var-row mb-2"><span class="text-muted small">lives:</span> <span
+                                                    id="var-lives" class="var-val text-danger fw-bold">6</span></div>
+                                            <div class="var-row mb-2"><span class="text-muted small">input:</span> <span
+                                                    id="var-input" class="var-val text-warning">null</span></div>
+                                            <div class="var-row"><span class="text-muted small">status:</span> <span
+                                                    id="var-status" class="var-val text-success small">IDLE</span></div>
+                                        </div>
+
+                                        <!-- Animated Hangman SVG -->
+                                        <div
+                                            class="hangman-anim-box p-2 flex-grow-1 d-flex align-items-center justify-content-center">
+                                            <svg width="80" height="100" viewBox="0 0 100 120"
+                                                class="hangman-draw-anim">
+                                                <!-- Base -->
+                                                <path class="draw-path base" d="M10,110 L90,110" />
+                                                <!-- Pole -->
+                                                <path class="draw-path pole" d="M30,110 L30,10 L70,10 L70,30" />
+                                                <!-- Head -->
+                                                <circle class="draw-path head" cx="70" cy="40" r="10" />
+                                                <!-- Body -->
+                                                <path class="draw-path body" d="M70,50 L70,90" />
+                                                <!-- Arms -->
+                                                <path class="draw-path arms" d="M70,60 L50,80 M70,60 L90,80" />
+                                                <!-- Legs -->
+                                                <path class="draw-path legs" d="M70,90 L50,110 M70,90 L90,110" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Interactive Game & Code -->
+                <div class="col-lg-6 col-md-12 mb-4 reveal" style="transition-delay: 0.2s;">
+                    <div class="card-custom featured-card h-100 p-4 d-flex flex-column">
+
+                        <!-- Interactive Hangman Game -->
+                        <div class="hangman-game-container mb-4 flex-grow-1">
+                            <p class="text-center mb-2" style="font-size: 0.85rem; color: var(--text-secondary);">
+                                Designed and Developed by <span
+                                    style="color: var(--accent-color); font-weight: 500;">Amey
+                                    Thakur</span> & <span style="color: var(--accent-color); font-weight: 500;">Mega
+                                    Satish</span>
+                            </p>
+                            <h5 style="color: var(--accent-color); margin-bottom: 15px; text-align: center;">
+                                <i class="fas fa-play-circle me-2"></i>Try It Now!
+                            </h5>
+                            <div class="hangman-game">
+                                <!-- ASCII Hangman Terminal -->
+                                <div class="hangman-terminal">
+                                    <div class="terminal-header">
+                                        <span class="terminal-dot red"></span>
+                                        <span class="terminal-dot yellow"></span>
+                                        <span class="terminal-dot green"></span>
+                                        <span class="terminal-title">hangman.exe</span>
+                                    </div>
+                                    <div class="terminal-body">
+                                        <pre id="hangman-ascii"
+                                            style="font-family: 'Courier New', monospace; font-size: 1rem; line-height: 1.2; color: #22c55e; margin: 0;"></pre>
+                                    </div>
+                                </div>
+                                <div id="hangman-hint" class="hangman-hint"></div>
+                                <div class="hangman-word" id="hangman-word"></div>
+                                <div class="hangman-keyboard" id="hangman-keyboard"></div>
+
+                                <!-- Game Controls & Status -->
+                                <div
+                                    class="hangman-status-bar d-flex justify-content-between align-items-center mb-3 px-2">
+                                    <div class="streaks text-start">
+                                        <div class="streak-item"
+                                            style="font-size: 0.85rem; color: var(--text-secondary);">
+                                            <i class="fas fa-fire" style="color: #f59e0b;"></i> Streak: <span
+                                                id="current-streak"
+                                                style="font-weight: bold; color: var(--text-primary);">0</span>
+                                        </div>
+                                        <div class="streak-item"
+                                            style="font-size: 0.75rem; color: var(--text-secondary); opacity: 0.8;">
+                                            <i class="fas fa-trophy" style="color: #fbbf24;"></i> Best: <span
+                                                id="best-streak">0</span>
+                                        </div>
+                                    </div>
+                                    <div class="controls d-flex gap-2">
+                                        <button id="sound-toggle" class="btn btn-sm btn-icon-only" title="Toggle Sound"
+                                            style="color: var(--text-secondary); border: 1px solid var(--border-color); background: var(--card-bg);">
+                                            <i class="fas fa-volume-up"></i>
+                                        </button>
+                                    </div>
                                 </div>
 
-                                <!-- Variable Monitor (New) -->
-                                <div class="variable-monitor p-3 d-flex flex-column justify-content-center"
-                                    style="min-width: 120px; border-left: 1px solid rgba(255,255,255,0.1);">
-                                    <div class="var-row mb-2"><span class="text-muted small">lives:</span> <span
-                                            id="var-lives" class="var-val text-danger fw-bold">6</span></div>
-                                    <div class="var-row mb-2"><span class="text-muted small">input:</span> <span
-                                            id="var-input" class="var-val text-warning">null</span></div>
-                                    <div class="var-row"><span class="text-muted small">status:</span> <span
-                                            id="var-status" class="var-val text-success small">IDLE</span></div>
+                                <div class="hangman-status justify-content-between">
+                                    <span id="hangman-lives"><i class="fas fa-heart" style="color: #ef4444;"></i> Lives:
+                                        <span id="lives-count">6</span></span>
+                                    <button class="btn btn-sm btn-outline-custom" id="hangman-reset"
+                                        style="padding: 5px 15px; font-size: 0.8rem;"><i
+                                            class="fas fa-redo me-1"></i>New
+                                        Word</button>
                                 </div>
+                                <div id="hangman-result" class="hangman-result"></div>
+                            </div>
+                        </div>
 
-                                <!-- Animated Hangman SVG -->
-                                <div class="hangman-anim-box p-2 d-flex align-items-center justify-content-center">
-                                    <svg width="80" height="100" viewBox="0 0 100 120" class="hangman-draw-anim">
-                                        <!-- Base -->
-                                        <path class="draw-path base" d="M10,110 L90,110" />
-                                        <!-- Pole -->
-                                        <path class="draw-path pole" d="M30,110 L30,10 L70,10 L70,30" />
-                                        <!-- Head -->
-                                        <circle class="draw-path head" cx="70" cy="40" r="10" />
-                                        <!-- Body -->
-                                        <path class="draw-path body" d="M70,50 L70,90" />
-                                        <!-- Arms -->
-                                        <path class="draw-path arms" d="M70,60 L50,80 M70,60 L90,80" />
-                                        <!-- Legs -->
-                                        <path class="draw-path legs" d="M70,90 L50,110 M70,90 L90,110" />
-                                    </svg>
-                                </div>
+                        <!-- Code Preview Terminal -->
+                        <div class="code-terminal mt-auto">
+                            <div class="terminal-header">
+                                <span class="terminal-dot red"></span>
+                                <span class="terminal-dot yellow"></span>
+                                <span class="terminal-dot green"></span>
+                                <span class="terminal-title">HangmanGame.java</span>
+                            </div>
+                            <div class="terminal-body">
+                                <pre><code id="typing-code" class="language-java"></code></pre>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Right Column: Interactive Game & Code -->
-            <div class="col-lg-6 col-md-12 mb-4 reveal" style="transition-delay: 0.2s;">
-                <div class="card-custom featured-card h-100 p-4 d-flex flex-column">
-
-                    <!-- Interactive Hangman Game -->
-                    <div class="hangman-game-container mb-4 flex-grow-1">
-                        <p class="text-center mb-2" style="font-size: 0.85rem; color: var(--text-secondary);">
-                            Designed and Developed by <span style="color: var(--accent-color); font-weight: 500;">Amey
-                                Thakur</span> & <span style="color: var(--accent-color); font-weight: 500;">Mega
-                                Satish</span>
-                        </p>
-                        <h5 style="color: var(--accent-color); margin-bottom: 15px; text-align: center;">
-                            <i class="fas fa-play-circle me-2"></i>Try It Now!
-                        </h5>
-                        <div class="hangman-game">
-                            <!-- ASCII Hangman Terminal -->
-                            <div class="hangman-terminal">
-                                <div class="terminal-header">
-                                    <span class="terminal-dot red"></span>
-                                    <span class="terminal-dot yellow"></span>
-                                    <span class="terminal-dot green"></span>
-                                    <span class="terminal-title">hangman.exe</span>
-                                </div>
-                                <div class="terminal-body">
-                                    <pre id="hangman-ascii"
-                                        style="font-family: 'Courier New', monospace; font-size: 1rem; line-height: 1.2; color: #22c55e; margin: 0;"></pre>
-                                </div>
-                            </div>
-                            <div id="hangman-hint" class="hangman-hint"></div>
-                            <div class="hangman-word" id="hangman-word"></div>
-                            <div class="hangman-keyboard" id="hangman-keyboard"></div>
-
-                            <!-- Game Controls & Status -->
-                            <div class="hangman-status-bar d-flex justify-content-between align-items-center mb-3 px-2">
-                                <div class="streaks text-start">
-                                    <div class="streak-item" style="font-size: 0.85rem; color: var(--text-secondary);">
-                                        <i class="fas fa-fire" style="color: #f59e0b;"></i> Streak: <span
-                                            id="current-streak"
-                                            style="font-weight: bold; color: var(--text-primary);">0</span>
-                                    </div>
-                                    <div class="streak-item"
-                                        style="font-size: 0.75rem; color: var(--text-secondary); opacity: 0.8;">
-                                        <i class="fas fa-trophy" style="color: #fbbf24;"></i> Best: <span
-                                            id="best-streak">0</span>
-                                    </div>
-                                </div>
-                                <div class="controls d-flex gap-2">
-                                    <button id="sound-toggle" class="btn btn-sm btn-icon-only" title="Toggle Sound"
-                                        style="color: var(--text-secondary); border: 1px solid var(--border-color); background: var(--card-bg);">
-                                        <i class="fas fa-volume-up"></i>
-                                    </button>
-                                </div>
-                            </div>
-
-                            <div class="hangman-status justify-content-between">
-                                <span id="hangman-lives"><i class="fas fa-heart" style="color: #ef4444;"></i> Lives:
-                                    <span id="lives-count">6</span></span>
-                                <button class="btn btn-sm btn-outline-custom" id="hangman-reset"
-                                    style="padding: 5px 15px; font-size: 0.8rem;"><i class="fas fa-redo me-1"></i>New
-                                    Word</button>
-                            </div>
-                            <div id="hangman-result" class="hangman-result"></div>
-                        </div>
-                    </div>
-
-                    <!-- Code Preview Terminal -->
-                    <div class="code-terminal mt-auto">
-                        <div class="terminal-header">
-                            <span class="terminal-dot red"></span>
-                            <span class="terminal-dot yellow"></span>
-                            <span class="terminal-dot green"></span>
-                            <span class="terminal-title">HangmanGame.java</span>
-                        </div>
-                        <div class="terminal-body">
-                            <pre><code id="typing-code" class="language-java"></code></pre>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
 
-    </div>
+        <footer class="footer">
+            <p>2018 - 2022 &copy; All Rights Reserved | Designed and Developed by <a
+                    href="https://github.com/Amey-Thakur" rel="noopener noreferrer">Amey Thakur</a> & <a
+                    href="https://github.com/msatmod" rel="noopener noreferrer">Mega Satish</a></p>
+        </footer>
 
-    <footer class="footer">
-        <p>2018 - 2022 &copy; All Rights Reserved | Designed and Developed by <a href="https://github.com/Amey-Thakur"
-                rel="noopener noreferrer">Amey Thakur</a> & <a href="https://github.com/msatmod"
-                rel="noopener noreferrer">Mega Satish</a></p>
-    </footer>
+        <!-- Back to Top Button -->
+        <button type="button" class="btn" id="btn-back-to-top" aria-label="Back to Top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
 
-    <!-- Back to Top Button -->
-    <button type="button" class="btn" id="btn-back-to-top" aria-label="Back to Top">
-        <i class="fas fa-arrow-up"></i>
-    </button>
-
-    <!-- Canvas Confetti -->
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
-    <script src="script.js"></script>
+        <!-- Canvas Confetti -->
+        <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 {
     "name": "Amey | OOPM Lab Portfolio",
     "short_name": "OOPM Portfolio",
-    "description": "Scholarly portfolio for Object-Oriented Programming Laboratory featuring Java experiments and Hangman Mini Project by Amey Thakur.",
+    "description": "Scholarly portfolio for Object-Oriented Programming Laboratory by Amey Thakur, featuring Java implementations and Hangman.",
     "start_url": "./index.html",
     "scope": "./",
     "display": "standalone",

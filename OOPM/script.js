@@ -1,6 +1,17 @@
 /**
- * Object-Oriented Programming (OOPM) Lab Portfolio
- * Interactive Script
+ * ================================================================
+ *   Object-Oriented Programming (OOPM) Lab Portfolio - Interactive Logic
+ * ================================================================
+ *   Author: Amey Thakur
+ *   GitHub: https://github.com/Amey-Thakur
+ *   Course: Object-Oriented Programming (OOPM) Lab
+ *   Roll No: 50
+ *   Batch: B3
+ *   Repository: https://github.com/Amey-Thakur/OOPM-JAVA-LAB
+ *   Date: January 17, 2020
+ *   
+ *   Description: Logic for theme toggling, stats validation, and UI interactivity.
+ * ================================================================
  */
 
 document.addEventListener('DOMContentLoaded', () => {

@@ -113,6 +113,35 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-java.min.js"></script>
     <!-- Canvas Confetti - must load before script.js -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script>
+        // Test if confetti loaded properly
+        if (typeof confetti === 'function') {
+            console.log('✅ Confetti library loaded successfully');
+            // Expose a global function to trigger confetti (for game win)
+            window.fireConfetti = function () {
+                const duration = 3000;
+                const animationEnd = Date.now() + duration;
+                const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 9999 };
+
+                const interval = setInterval(function () {
+                    const timeLeft = animationEnd - Date.now();
+                    if (timeLeft <= 0) return clearInterval(interval);
+
+                    const particleCount = 50 * (timeLeft / duration);
+                    confetti(Object.assign({}, defaults, {
+                        particleCount,
+                        origin: { x: Math.random() * 0.4, y: Math.random() - 0.2 }
+                    }));
+                    confetti(Object.assign({}, defaults, {
+                        particleCount,
+                        origin: { x: 0.6 + Math.random() * 0.4, y: Math.random() - 0.2 }
+                    }));
+                }, 100);
+            };
+        } else {
+            console.error('❌ Confetti library failed to load!');
+        }
+    </script>
 </head>
 
 <body>

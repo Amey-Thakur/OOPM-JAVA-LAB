@@ -903,6 +903,9 @@ function initCommandPalette() {
         input.focus();
         selectedIndex = 0;
         filterResults('');
+        // Hide keyboard hint permanently
+        const kbdHint = document.getElementById('kbd-hint');
+        if (kbdHint) kbdHint.classList.add('hidden');
     }
 
     function closePalette() {
@@ -1036,3 +1039,11 @@ function initCommandPalette() {
 
 // Initialize Command Palette
 initCommandPalette();
+
+// Auto-hide keyboard hint after 8 seconds
+document.addEventListener('DOMContentLoaded', () => {
+    const kbdHint = document.getElementById('kbd-hint');
+    if (kbdHint) {
+        setTimeout(() => kbdHint.classList.add('hidden'), 8000);
+    }
+});

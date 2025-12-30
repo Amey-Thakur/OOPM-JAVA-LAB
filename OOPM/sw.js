@@ -15,7 +15,7 @@
  * ================================================================
  */
 
-const CACHE_NAME = 'oopm-portfolio-v2';
+const CACHE_NAME = 'oopm-portfolio-v3';
 const OFFLINE_URL = 'offline.html';
 
 // Core assets to cache immediately
@@ -26,7 +26,10 @@ const CORE_ASSETS = [
     'script.js',
     'manifest.json',
     '404.html',
-    OFFLINE_URL
+    OFFLINE_URL,
+    'assets/icon-192.png',
+    'assets/icon-512.png',
+    'assets/og-image.png'
 ];
 
 // External resources to cache

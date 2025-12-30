@@ -11,6 +11,26 @@
  * ================================================================
  */
 
+// =========================================
+//   CONSOLE EASTER EGG 🥚
+// =========================================
+console.log(
+    "%c☕ OOPM Java Lab Portfolio",
+    "font-size: 28px; font-weight: bold; color: #f97316; text-shadow: 2px 2px 0 #0f172a;"
+);
+console.log(
+    "%c👋 Hey developer! Curious about the code?",
+    "font-size: 14px; color: #64748b;"
+);
+console.log(
+    "%c🔗 https://github.com/Amey-Thakur/OOPM-JAVA-LAB",
+    "font-size: 12px; color: #2563eb;"
+);
+console.log(
+    "%c⚠️ This portfolio is protected. Please respect the author's work!",
+    "font-size: 12px; color: #f59e0b; font-weight: bold;"
+);
+
 // PWA Install Logic
 let deferredPrompt;
 const pwaInstallBtn = document.getElementById('pwa-install-btn');

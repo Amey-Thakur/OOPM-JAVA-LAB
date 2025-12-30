@@ -112,6 +112,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-java.min.js"></script>
     <!-- Canvas Confetti - must load before script.js -->
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
     <script>
         // Test if confetti loaded properly
@@ -637,6 +638,11 @@
                                         style="color: var(--text-secondary); border: 1px solid var(--border-color); background: var(--card-bg);">
                                         <i class="fas fa-volume-up"></i>
                                     </button>
+                                    <button onclick="shareResult()"
+                                        class="btn btn-sm btn-icon-only text-secondary border bg-card"
+                                        title="Share Result">
+                                        <i class="fas fa-share-alt"></i>
+                                    </button>
                                 </div>
                             </div>
 
@@ -712,6 +718,42 @@
                     <span class="k-group"><span class="k-small">T</span> Theme</span>
                     <span class="k-group"><span class="k-small">H</span> Hangman</span>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Share Result Modal -->
+    <div id="share-modal" class="share-modal-overlay">
+        <div class="share-modal">
+            <div class="share-modal-header">
+                <h5><i class="fas fa-share-alt me-2"></i>Share Result</h5>
+                <button class="share-modal-close" onclick="closeShareModal()">&times;</button>
+            </div>
+            <div class="share-modal-body">
+                <div id="share-preview" class="share-preview">
+                    <!-- Preview will be rendered here -->
+                </div>
+                <div class="share-author-badge">
+                    <i class="fas fa-code me-2"></i>
+                    Created by
+                    <a href="https://github.com/Amey-Thakur" target="_blank" class="ms-1">Amey Thakur</a>
+                    <span class="mx-1">&</span>
+                    <a href="https://github.com/msatmod" target="_blank">Mega Satish</a>
+                    <span class="share-badge-separator ms-2">|</span>
+                    <a href="https://github.com/Amey-Thakur/OOPM-JAVA-LAB" target="_blank" class="ms-2">OOPM Lab
+                        Portfolio</a>
+                </div>
+            </div>
+            <div class="share-modal-footer">
+                <button class="btn btn-sm btn-primary-custom" onclick="downloadShareImage()">
+                    <i class="fas fa-download me-2"></i>Download Image
+                </button>
+                <button class="btn btn-sm btn-primary-custom btn-secondary-custom" onclick="copyShareLink()">
+                    <i class="fas fa-link me-2"></i>Copy Link
+                </button>
+                <button class="btn btn-sm btn-primary-custom btn-secondary-custom" onclick="shareNative()">
+                    <i class="fas fa-share me-2"></i>Share
+                </button>
             </div>
         </div>
     </div>

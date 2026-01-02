@@ -1,75 +1,56 @@
-# ALL REPOSITORIES
-# ----------------
-# General
+# OOPM-JAVA-LAB - Academic Repository
+# Specialized .gitignore for Java and scholarly archiving
+
+# OS-generated files
+[Tt]humbs.db
+[Dd]esktop.ini
 .DS_Store
-Thumbs.db
-*.swp
-*.log
-*.tmp
-*.bak
-*~
+.AppleDouble
+.LSOverride
 
-# Windows
-desktop.ini
-$RECYCLE.BIN/
-
-# VS Code
+# Editor and IDE configuration
 .vscode/
-*.code-workspace
-
-# JetBrains
 .idea/
+*.swp
+*.swo
+*~
 *.iml
-
-# Java
-*.class
-*.jar
-*.war
-*.ear
-*.nar
-*.zip
-*.tar.gz
-*.rar
-
-# Eclipse
-.metadata
-bin/
-local.properties
+*.code-workspace
+.metadata/
 .settings/
 .loadorder
 .factorypath
 .project
 .classpath
-
-# NetBeans
 nbproject/private/
+.nb-gradle/
+
+# Java Build Artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+bin/
 build/
 nbbuild/
 dist/
 nbdist/
-.nb-gradle/
+target/
 
-# BlueJ
+# BlueJ and specific tools
 *.ctxt
 *.pkg
 
-# Maven
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-.mvn/wrapper/maven-wrapper.properties
-
-# Gradle
-.gradle/
-
-# Virtual Machine Crash Logs
+# Temporary and Cache files
+*.tmp
+*.log
+.cache/
+node_modules/
 hs_err_pid*
 
-# Git
+# Academic build/output artifacts
+*.bak
+*.sav
+*.old
 *.orig

@@ -338,7 +338,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
   <!-- Authors Table -->
   ### 👥 Authors
-| <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"><br>[**Amey Thakur**](https://github.com/Amey-Thakur) | <img src="OOPM%20Mini%20Project/Mega/Mega.png" width="150" alt="Mega Satish"><br>[**Mega Satish**](https://github.com/msatmod) | <img src="OOPM%20Mini%20Project/Mega/Saakshi.png" width="150" alt="Saakshi Deokar"><br>[**Saakshi Deokar**](https://www.linkedin.com/in/saakshideokar/) |
+| <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-A6CE39.svg)](https://orcid.org/0000-0001-5644-1575) | <img src="OOPM%20Mini%20Project/Mega/Mega.png" width="150" alt="Mega Satish"><br>[**Mega Satish**](https://github.com/msatmod)<br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-A6CE39.svg)](https://orcid.org/0000-0002-1844-9557) | <img src="OOPM%20Mini%20Project/Mega/Saakshi.png" width="150" alt="Saakshi Deokar"><br>[**Saakshi Deokar**](https://www.linkedin.com/in/saakshideokar/)<br>[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5.svg)](https://www.linkedin.com/in/saakshideokar/) |
 | :---: | :---: | :---: |
 </div>
 
@@ -426,7 +426,7 @@ This repository and all linked academic content are made available under the **C
 
 This repository represents a comprehensive collection of study materials, reference books, practice quizzes, and laboratory programs curated during my academic journey. All content has been carefully organized and documented to serve as a valuable resource for students pursuing Object-Oriented Programming Methodology (OOPM) Lab.
 
-**Connect**: [GitHub](https://github.com/Amey-Thakur) · [LinkedIn](https://www.linkedin.com/in/amey-thakur)
+**Connect**: [GitHub](https://github.com/Amey-Thakur) · [LinkedIn](https://www.linkedin.com/in/amey-thakur) · [ORCID](https://orcid.org/0000-0001-5644-1575)
 
 ### Acknowledgments
 
@@ -434,7 +434,7 @@ Grateful acknowledgment to **[Mega Satish](https://github.com/msatmod)** and **[
 
 Special thanks to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance in Object-Oriented Programming Methodology. Their teaching helped establish a strong foundation in OOP principles and Java programming.
 
-Special thanks to **Mega Satish** and **Saakshi Deokar** for their meaningful contributions, guidance, and support that helped shape this work.
+Special thanks to the mentors and peers whose collaboration, feedback, and support were instrumental during the development of these projects.
 
 ---
 

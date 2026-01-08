@@ -291,7 +291,7 @@ appletviewer Fill_Color_Applet.html
 
   <br>
 
-  🏠 **[Back to Main Repository](../)**
+  🏠 **[Back to Main Repository](../)** &nbsp;·&nbsp; **[Mini-Project](../OOPM%20Mini-Project/)**
 
   ---
 

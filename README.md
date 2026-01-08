@@ -24,7 +24,7 @@
   ---
 
   <!-- Navigation Links -->
-  [Overview](#overview) &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [Reference Books](#reference-books) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Laboratory](#oopm-laboratory) &nbsp;·&nbsp; [Mini Project](#oopm-mini-project) &nbsp;·&nbsp; [Authors](#-authors) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
+  [Overview](#overview) &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [Reference Books](#reference-books) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Laboratory](#oopm-laboratory) &nbsp;·&nbsp; [Mini-Project](#oopm-mini-project) &nbsp;·&nbsp; [Authors](#-authors) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
 </div>
 
@@ -312,9 +312,9 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 ---
 
 <!-- =========================================================================================
-                                     MINI PROJECT SECTION
+                                     MINI-PROJECT SECTION
      ========================================================================================= -->
-## OOPM Mini Project
+## OOPM Mini-Project
 
 <div align="center">
 
@@ -338,7 +338,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
   <!-- Authors Table -->
   ### Authors
-| <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-A6CE39.svg)](https://orcid.org/0000-0001-5644-1575) | <img src="OOPM%20Mini%20Project/Mega/Mega.png" width="150" alt="Mega Satish"><br>[**Mega Satish**](https://github.com/msatmod)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-A6CE39.svg)](https://orcid.org/0000-0002-1844-9557) | <img src="OOPM%20Mini%20Project/Mega/Saakshi.png" width="150" alt="Saakshi Deokar"><br>[**Saakshi Deokar**](https://www.linkedin.com/in/saakshideokar/)<br><br>[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5.svg)](https://www.linkedin.com/in/saakshideokar/) |
+| <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-A6CE39.svg)](https://orcid.org/0000-0001-5644-1575) | <img src="OOPM%20Mini-Project/Mega/Mega.png" width="150" alt="Mega Satish"><br>[**Mega Satish**](https://github.com/msatmod)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-A6CE39.svg)](https://orcid.org/0000-0002-1844-9557) | <img src="OOPM%20Mini-Project/Mega/Saakshi.png" width="150" alt="Saakshi Deokar"><br>[**Saakshi Deokar**](https://www.linkedin.com/in/saakshideokar/)<br><br>[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5.svg)](https://www.linkedin.com/in/saakshideokar/) |
 | :---: | :---: | :---: |
 </div>
 
@@ -349,7 +349,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 ### Project Overview
 
-A classic Hangman Word Game developed as a mini project for the Object-Oriented Programming Methodology (Java) Lab. The application challenges users to guess hidden words character by character within a limited number of attempts. It leverages **Java** for robust backend logic, utilizing fundamental **Object-Oriented Programming** principles like inheritance and encapsulation to structure the game's components effectively. This project showcases the practical application of Java syntax and logic to build an interactive and entertaining desktop application.
+A classic Hangman Word Game developed as a mini-project for the Object-Oriented Programming Methodology (Java) Lab. The application challenges users to guess hidden words character by character within a limited number of attempts. It leverages **Java** for robust backend logic, utilizing fundamental **Object-Oriented Programming** principles like inheritance and encapsulation to structure the game's components effectively. This project showcases the practical application of Java syntax and logic to build an interactive and entertaining desktop application.
 
 > [!NOTE]
 > **Research Impact:** The source code, presentation, and project report are published on **ResearchGate**.
@@ -367,7 +367,7 @@ A classic Hangman Word Game developed as a mini project for the Object-Oriented 
 | 1 | Presentation | Research paper presentation and visuals | [ResearchGate DOI](http://dx.doi.org/10.13140/RG.2.2.26806.22082) |
 | 2 | Source Code | Original source code publication | [ResearchGate DOI](http://dx.doi.org/10.13140/RG.2.2.20095.33446) |
 | 3 | Game Repository | Standalone repository for the game | [Hangman Word Game](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME) |
-| 4 | Project README | Internal documentation for the mini project | [Detailed Documentation](OOPM%20Mini%20Project/) |
+| 4 | Project README | Internal documentation for the mini-project | [Detailed Documentation](OOPM%20Mini-Project/) |
 
 ---
 
@@ -430,7 +430,7 @@ This repository represents a comprehensive collection of study materials, refere
 
 ### Acknowledgments
 
-Grateful acknowledgment to **[Mega Satish](https://github.com/msatmod)** and **[Saakshi Deokar](https://www.linkedin.com/in/saakshideokar/)** for their collaboration on the Mini Project. Their valuable insights and teamwork played a significant role in the successful completion of the game development, and their contributions were instrumental throughout the course.
+Grateful acknowledgment to **[Mega Satish](https://github.com/msatmod)** and **[Saakshi Deokar](https://www.linkedin.com/in/saakshideokar/)** for their collaboration on the Mini-Project. Their valuable insights and teamwork played a significant role in the successful completion of the game development, and their contributions were instrumental throughout the course.
 
 Grateful acknowledgment to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance and instruction in Object-Oriented Programming Methodology. Their clear teaching and continued support helped me develop a strong understanding of object-oriented principles and Java programming.
 
@@ -445,11 +445,11 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
 
   [↑ Back to Top](#object-oriented-programming-methodology-oopm-lab)
 
-  [Overview](#overview) &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [Reference Books](#reference-books) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Laboratory](#oopm-laboratory) &nbsp;·&nbsp; [Mini Project](#oopm-mini-project) &nbsp;·&nbsp; [Authors](#-authors) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
+  [Overview](#overview) &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [Reference Books](#reference-books) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Laboratory](#oopm-laboratory) &nbsp;·&nbsp; [Mini-Project](#oopm-mini-project) &nbsp;·&nbsp; [Authors](#-authors) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
   <br>
 
-  🔬 **[OOPM Laboratory](OOPM%20Lab/)** &nbsp;·&nbsp; **[Mini-Project](OOPM%20Mini%20Project/)** &nbsp;·&nbsp; 🎮 **[Hangman Word Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
+  🔬 **[OOPM Laboratory](OOPM%20Lab/)** &nbsp;·&nbsp; **[Mini-Project](OOPM%20Mini-Project/)** &nbsp;·&nbsp; 🎮 **[Hangman Word Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
 
   ---
 
@@ -460,5 +460,6 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
   *Semester-wise curriculum, laboratories, projects, and academic notes.*
 
 </div>
+
 
 

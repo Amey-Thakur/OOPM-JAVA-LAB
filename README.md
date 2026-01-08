@@ -338,7 +338,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
   <!-- Authors Table -->
   ### 👥 Authors
-| <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-A6CE39.svg)](https://orcid.org/0000-0001-5644-1575) | <img src="OOPM%20Mini%20Project/Mega/Mega.png" width="150" alt="Mega Satish"><br>[**Mega Satish**](https://github.com/msatmod)<br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-A6CE39.svg)](https://orcid.org/0000-0002-1844-9557) | <img src="OOPM%20Mini%20Project/Mega/Saakshi.png" width="150" alt="Saakshi Deokar"><br>[**Saakshi Deokar**](https://www.linkedin.com/in/saakshideokar/)<br>[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5.svg)](https://www.linkedin.com/in/saakshideokar/) |
+| <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-A6CE39.svg)](https://orcid.org/0000-0001-5644-1575) | <img src="OOPM%20Mini%20Project/Mega/Mega.png" width="150" alt="Mega Satish"><br>[**Mega Satish**](https://github.com/msatmod)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-A6CE39.svg)](https://orcid.org/0000-0002-1844-9557) | <img src="OOPM%20Mini%20Project/Mega/Saakshi.png" width="150" alt="Saakshi Deokar"><br>[**Saakshi Deokar**](https://www.linkedin.com/in/saakshideokar/)<br><br>[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5.svg)](https://www.linkedin.com/in/saakshideokar/) |
 | :---: | :---: | :---: |
 </div>
 

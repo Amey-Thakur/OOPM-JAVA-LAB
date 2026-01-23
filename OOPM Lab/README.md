@@ -28,12 +28,12 @@
 
 <div align="center">
 
-  [![Live Demo](https://img.shields.io/badge/Live%20Demo-OOPM%20Lab%20Portfolio-007bff?style=flat&logo=github)](https://amey-thakur.github.io/OOPM-JAVA-LAB/OOPM/)
+  [![Live Demo](https://img.shields.io/badge/Live%20Demo-OOPM%20Lab%20Portfolio-007bff?style=flat&logo=github)](https://amey-thakur.github.io/OOPM-JAVA-LAB/)
 
 </div>
 
 > [!TIP]
-> **Live Implementation**: For a comprehensive visual showcase, visit the [OOPM Lab Portfolio Dashboard](https://amey-thakur.github.io/OOPM-JAVA-LAB/OOPM/). For the complete source code and detailed documentation, visit the [OOPM Lab](../OOPM%20Lab/) directory. Visualization is key. Always draw the state of your objects and class hierarchies on paper before and during code implementation.
+> **Live Implementation**: For a comprehensive visual showcase, visit the [OOPM Lab Portfolio Dashboard](https://amey-thakur.github.io/OOPM-JAVA-LAB/). For the complete source code and detailed documentation, visit the [OOPM Lab](../OOPM%20Lab/) directory. Visualization is key. Always draw the state of your objects and class hierarchies on paper before and during code implementation.
 
 > [!WARNING]
 > **Java Runtime & Naming**: Java is strictly **case-sensitive**. Ensure your **filename** matches the **public class name** exactly (including capitalization) to avoid compilation errors. Additionally, always initialize your objects before use to prevent the common `NullPointerException` during runtime.

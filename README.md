@@ -118,12 +118,12 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
   [![Total Source Codes](https://img.shields.io/badge/Total%20Source%20Codes-35-yellowgreen.svg)](OOPM%20Lab/)
   [![Language](https://img.shields.io/badge/Language-Java-red.svg)](OOPM%20Lab/)
 
-  [![Live Demo](https://img.shields.io/badge/Live%20Demo-OOPM%20Lab%20Portfolio-007bff?style=flat&logo=github)](https://amey-thakur.github.io/OOPM-JAVA-LAB/OOPM/)
+  [![Live Demo](https://img.shields.io/badge/Live%20Demo-OOPM%20Lab%20Portfolio-007bff?style=flat&logo=github)](https://amey-thakur.github.io/OOPM-JAVA-LAB/)
 
 </div>
 
 > [!TIP]
-> **Live Implementation**: For a comprehensive visual showcase, visit the [OOPM Lab Portfolio Dashboard](https://amey-thakur.github.io/OOPM-JAVA-LAB/OOPM/). For the complete source code and detailed documentation, visit the [OOPM Lab](OOPM%20Lab/) directory. Visualization is key. Always draw the state of your objects and class hierarchies on paper before and during code implementation.
+> **Live Implementation**: For a comprehensive visual showcase, visit the [OOPM Lab Portfolio Dashboard](https://amey-thakur.github.io/OOPM-JAVA-LAB/). For the complete source code and detailed documentation, visit the [OOPM Lab](OOPM%20Lab/) directory. Visualization is key. Always draw the state of your objects and class hierarchies on paper before and during code implementation.
 
 ### Laboratory Experiments
 
@@ -306,7 +306,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 | # | Resource | Description |
 |:-:|:---|:---|
-| 1 | [Interactive Lab Portfolio](https://amey-thakur.github.io/OOPM-JAVA-LAB/OOPM/) | Interactive dashboard with source code descriptions and visualizations |
+| 1 | [Interactive Lab Portfolio](https://amey-thakur.github.io/OOPM-JAVA-LAB/) | Interactive dashboard with source code descriptions and visualizations |
 | 2 | [Lab README](OOPM%20Lab/) | Detailed navigation guide with source code descriptions |
 
 ---
@@ -449,7 +449,7 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
 
   <br>
 
-  🔬 **[OOPM Laboratory](OOPM%20Lab/)** &nbsp;·&nbsp; **[Mini-Project](OOPM%20Mini-Project/)** &nbsp;·&nbsp; 🎮 **[Hangman Word Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
+  🔬 **[OOPM Laboratory](https://amey-thakur.github.io/OOPM-JAVA-LAB/)** &nbsp;·&nbsp; **[Mini-Project](OOPM%20Mini-Project/)** &nbsp;·&nbsp; 🎮 **[Hangman Word Game Repository](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)**
 
   ---
 
@@ -460,6 +460,3 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
   *Semester-wise curriculum, laboratories, projects, and academic notes.*
 
 </div>
-
-
-

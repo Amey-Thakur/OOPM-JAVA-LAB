@@ -13,13 +13,13 @@
   ### CSL304 · Semester III · Computer Engineering
 
   <!-- Badges -->
-  [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
-  [![University](https://img.shields.io/badge/University-Mumbai-%23A6192E.svg)](https://mu.ac.in/)
-  [![Institution](https://img.shields.io/badge/Institution-Terna%20Engineering%20College-orange.svg)](https://ternaengg.ac.in/)
-  [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
+  [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-9E9E9E.svg)](LICENSE)
+  [![University](https://img.shields.io/badge/University-Mumbai-A6192E.svg)](https://mu.ac.in/)
+  [![Institution](https://img.shields.io/badge/Institution-Terna%20Engineering%20College-E8710A.svg)](https://ternaengg.ac.in/)
+  [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-0969DA.svg)](https://github.com/Amey-Thakur)
 
   <!-- Short Description -->
-  **A comprehensive academic resource for Object-Oriented Programming Methodology (OOPM) Lab, covering Java fundamentals, object-oriented concepts, inheritance, polymorphism, exception handling, multithreading, and GUI development essential for computer engineering foundations.**
+  **A complete academic archive for Object-Oriented Programming Methodology (OOPM) Lab, covering Java fundamentals, object-oriented concepts, inheritance, polymorphism, exception handling, multithreading, and GUI development essential for computer engineering foundations.**
 
   ---
 
@@ -35,11 +35,11 @@
      ========================================================================================= -->
 ## Overview
 
-Object-Oriented Programming Methodology (OOPM) Lab (CSL304) is a core subject in the Second Year (Semester III) of the Computer Engineering curriculum at the University of Mumbai. This course establishes the foundational understanding of object-oriented programming principles using Java, which is crucial for developing robust, maintainable, and scalable software systems.
+Object-Oriented Programming Methodology (OOPM) Lab (CSL304) is a core subject in the Second Year (Semester III) of the Computer Engineering curriculum at the University of Mumbai. This course establishes the foundational understanding of object-oriented programming principles using Java, which is essential to developing robust, maintainable, and scalable software systems.
 
 ### Course Topics
 
-The curriculum encompasses several key domains in object-oriented programming theory and application:
+The curriculum comprises several key domains in object-oriented programming theory and application:
 
 - **Introduction to Java**: History, features, JVM architecture, compilation process, and program structure.
 - **Data Types and Operators**: Primitive types, variables, type casting, and operator precedence.
@@ -57,13 +57,13 @@ The curriculum encompasses several key domains in object-oriented programming th
 
 ### Repository Purpose
 
-This repository represents a curated collection of study materials, reference books, practice quizzes, and laboratory programs compiled during my academic journey. The primary motivation for creating and maintaining this archive is simple yet profound: **to preserve knowledge for continuous learning and future reference**.
+This repository is a curated collection of study materials, reference books, practice quizzes, and laboratory programs compiled during my academic journey. The primary motivation for creating and maintaining this archive is straightforward: **to preserve knowledge for continuous learning and future reference**.
 
-As I progress in my career, I recognize that object-oriented programming fundamentals remain essential for software engineering, system design, and technical interviews. This repository serves as my intellectual reference point: a resource I can return to for relearning concepts, reviewing methodologies, and strengthening understanding when needed.
+As I progress in my career, I recognize that object-oriented programming fundamentals remain essential for software engineering, system design, and technical interviews. This repository remains my principal reference: a resource I can return to for relearning concepts, reviewing methodologies, and strengthening understanding when needed.
 
 **Why this repository exists:**
 
-- **Knowledge Preservation**: To maintain organized access to comprehensive study materials beyond the classroom.
+- **Knowledge Preservation**: To maintain organized access to complete study materials beyond the classroom.
 - **Continuous Learning**: To support lifelong learning by enabling easy revisitation of fundamental OOP concepts.
 - **Academic Documentation**: To authentically document my learning journey through OOPM and OOPM Lab.
 - **Community Contribution**: To share these resources with students and learners who may benefit from them.
@@ -80,7 +80,7 @@ As I progress in my career, I recognize that object-oriented programming fundame
 
 ### Reference Books
 
-This collection includes **comprehensive reference materials** covering all major topics:
+This collection includes **authoritative reference materials** covering all major topics:
 
 | # | Resource | Focus Area |
 |:-:|:---|:---|
@@ -116,15 +116,15 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 <div align="center">
 
-  [![Total Source Codes](https://img.shields.io/badge/Total%20Source%20Codes-35-yellowgreen.svg)](OOPM%20Lab/)
-  [![Language](https://img.shields.io/badge/Language-Java-red.svg)](OOPM%20Lab/)
+  [![Total Source Codes](https://img.shields.io/badge/Total%20Source%20Codes-35-827717.svg)](OOPM%20Lab/)
+  [![Language](https://img.shields.io/badge/Language-Java-8250DF.svg)](OOPM%20Lab/)
 
-  [![Live Demo](https://img.shields.io/badge/Live%20Demo-OOPM%20Lab%20Portfolio-007bff?style=flat&logo=github)](https://amey-thakur.github.io/OOPM-JAVA-LAB/)
+  [![Live Demo](https://img.shields.io/badge/Live%20Demo-OOPM%20Lab%20Portfolio-00B8D9?style=flat&logo=github)](https://amey-thakur.github.io/OOPM-JAVA-LAB/)
 
 </div>
 
 > [!TIP]
-> **Live Implementation**: For a comprehensive visual showcase, visit the [OOPM Lab Portfolio Dashboard](https://amey-thakur.github.io/OOPM-JAVA-LAB/). For the complete source code and detailed documentation, visit the [OOPM Lab](OOPM%20Lab/) directory. Visualization is key. Always draw the state of your objects and class hierarchies on paper before and during code implementation.
+> **Live Implementation**: For a complete visual present, visit the [OOPM Lab Portfolio Dashboard](https://amey-thakur.github.io/OOPM-JAVA-LAB/). For the complete source code and detailed documentation, visit the [OOPM Lab](OOPM%20Lab/) directory. Visualization is key. Always draw the state of your objects and class hierarchies on paper before and during code implementation.
 
 ### Laboratory Experiments
 
@@ -350,7 +350,7 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 ### Project Overview
 
-A classic Hangman Word Game developed as a mini-project for the Object-Oriented Programming Methodology (Java) Lab. The application challenges users to guess hidden words character by character within a limited number of attempts. It leverages **Java** for robust backend logic, utilizing fundamental **Object-Oriented Programming** principles like inheritance and encapsulation to structure the game's components effectively. This project showcases the practical application of Java syntax and logic to build an interactive and entertaining desktop application.
+A classic Hangman Word Game developed as a mini-project for the Object-Oriented Programming Methodology (Java) Lab. The application challenges users to guess hidden words character by character within a limited number of attempts. It leverages **Java** for robust backend logic, using fundamental **Object-Oriented Programming** principles like inheritance and encapsulation to structure the game's components effectively. This project presents the practical application of Java syntax and logic to build an interactive and entertaining desktop application.
 
 > [!NOTE]
 > **Research Impact:** The source code, presentation, and project report are published on **ResearchGate**.
@@ -396,7 +396,7 @@ This repository is openly shared to support learning and knowledge exchange acro
 Use these resources as reference materials for understanding concepts, reviewing problem-solving techniques, and preparing for examinations. All content is organized for self-paced learning.
 
 **For Educators**  
-These materials may serve as curriculum references, assignment examples, or supplementary teaching resources. Attribution is appreciated when utilizing content.
+These materials may serve as curriculum references, assignment examples, or supplementary teaching resources. Attribution is appreciated when using content.
 
 **For Researchers**  
 The documentation and organization may provide insights into academic resource curation and educational content structuring.
@@ -425,7 +425,7 @@ This repository and all linked academic content are made available under the **C
 **Institution**: [Terna Engineering College](https://ternaengg.ac.in/), Navi Mumbai  
 **University**: [University of Mumbai](https://mu.ac.in/)
 
-This repository represents a comprehensive collection of study materials, reference books, practice quizzes, and laboratory programs curated during my academic journey. All content has been carefully organized and documented to serve as a valuable resource for students pursuing Object-Oriented Programming Methodology (OOPM) Lab.
+This repository is a complete collection of study materials, reference books, practice quizzes, and laboratory programs curated during my academic journey. All content has been carefully organized and documented to remain a dependable reference for students pursuing Object-Oriented Programming Methodology (OOPM) Lab.
 
 **Connect**: [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/amey-thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
 

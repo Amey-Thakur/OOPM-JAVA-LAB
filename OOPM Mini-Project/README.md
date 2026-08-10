@@ -5,9 +5,9 @@
 
   ### CSL304 · Semester III · Computer Engineering
 
-  [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
-  [![Language](https://img.shields.io/badge/Language-Java%20Applet-red.svg)](Mega.java)
-  [![Status](https://img.shields.io/badge/Status-Completed-green.svg)](./)
+  [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-0969DA.svg)](https://github.com/Amey-Thakur)
+  [![Language](https://img.shields.io/badge/Language-Java%20Applet-8250DF.svg)](Mega.java)
+  [![Status](https://img.shields.io/badge/Status-Completed-2EA043.svg)](./)
   [![Game Repository](https://img.shields.io/badge/🎮-Game%20Repository-orange.svg)](https://github.com/Amey-Thakur/HANGMAN-WORD-GAME)
 
   **A classic graphical Hangman game implemented using Java Applets and AWT/Swing components.**

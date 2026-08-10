@@ -10,12 +10,12 @@
   ### CSL304 · Semester III · Computer Engineering
 
   <!-- Badges -->
-  [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
+  [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-0969DA.svg)](https://github.com/Amey-Thakur)
   [![Source Code](https://img.shields.io/badge/Source%20Code-35-yellowgreen.svg)](#quick-navigation)
-  [![Language](https://img.shields.io/badge/Language-Java-red.svg)](./)
+  [![Language](https://img.shields.io/badge/Language-Java-8250DF.svg)](./)
 
   <!-- Short Description -->
-  **A comprehensive collection of 35 Java programs covering fundamental object-oriented programming concepts with detailed comments, proper documentation, and industry-standard coding practices.**
+  **A complete collection of 35 Java programs covering fundamental object-oriented programming concepts with detailed comments, proper documentation, and industry-standard coding practices.**
 
   ---
 
@@ -28,12 +28,12 @@
 
 <div align="center">
 
-  [![Live Demo](https://img.shields.io/badge/Live%20Demo-OOPM%20Lab%20Portfolio-007bff?style=flat&logo=github)](https://amey-thakur.github.io/OOPM-JAVA-LAB/)
+  [![Live Demo](https://img.shields.io/badge/Live%20Demo-OOPM%20Lab%20Portfolio-00B8D9?style=flat&logo=github)](https://amey-thakur.github.io/OOPM-JAVA-LAB/)
 
 </div>
 
 > [!TIP]
-> **Live Implementation**: For a comprehensive visual showcase, visit the [OOPM Lab Portfolio Dashboard](https://amey-thakur.github.io/OOPM-JAVA-LAB/). For the complete source code and detailed documentation, visit the [OOPM Lab](../OOPM%20Lab/) directory. Visualization is key. Always draw the state of your objects and class hierarchies on paper before and during code implementation.
+> **Live Implementation**: For a complete visual present, visit the [OOPM Lab Portfolio Dashboard](https://amey-thakur.github.io/OOPM-JAVA-LAB/). For the complete source code and detailed documentation, visit the [OOPM Lab](../OOPM%20Lab/) directory. Visualization is key. Always draw the state of your objects and class hierarchies on paper before and during code implementation.
 
 > [!WARNING]
 > **Java Runtime & Naming**: Java is strictly **case-sensitive**. Ensure your **filename** matches the **public class name** exactly (including capitalization) to avoid compilation errors. Additionally, always initialize your objects before use to prevent the common `NullPointerException` during runtime.

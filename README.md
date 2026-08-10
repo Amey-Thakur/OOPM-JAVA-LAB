@@ -13,7 +13,7 @@
   ### CSL304 · Semester III · Computer Engineering
 
   <!-- Badges -->
-  [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-6E7681.svg)](LICENSE)
+  [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
   [![University](https://img.shields.io/badge/University-Mumbai-A6192E.svg)](https://mu.ac.in/)
   [![Institution](https://img.shields.io/badge/Institution-Terna%20Engineering%20College-E8710A.svg)](https://ternaengg.ac.in/)
   [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-0969DA.svg)](https://github.com/Amey-Thakur)
@@ -116,8 +116,8 @@ The laboratory component (CSL304) focuses on hands-on implementation of object-o
 
 <div align="center">
 
-  [![Total Source Codes](https://img.shields.io/badge/Total%20Source%20Codes-35-795548.svg)](OOPM%20Lab/)
-  [![Language](https://img.shields.io/badge/Language-Java-8250DF.svg)](OOPM%20Lab/)
+  [![Total Source Codes](https://img.shields.io/badge/Total%20Source%20Codes-35-3949AB.svg)](OOPM%20Lab/)
+  [![Language](https://img.shields.io/badge/Language-Java-ED8B00.svg)](OOPM%20Lab/)
 
   [![Live Demo](https://img.shields.io/badge/Live%20Demo-OOPM%20Lab%20Portfolio-00B8D9?style=flat&logo=github)](https://amey-thakur.github.io/OOPM-JAVA-LAB/)
 

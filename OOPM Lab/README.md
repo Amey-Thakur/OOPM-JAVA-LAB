@@ -12,7 +12,7 @@
   <!-- Badges -->
   [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-0969DA.svg)](https://github.com/Amey-Thakur)
   [![Source Code](https://img.shields.io/badge/Source%20Code-35-yellowgreen.svg)](#quick-navigation)
-  [![Language](https://img.shields.io/badge/Language-Java-8250DF.svg)](./)
+  [![Language](https://img.shields.io/badge/Language-Java-ED8B00.svg)](./)
 
   <!-- Short Description -->
   **A complete collection of 35 Java programs covering fundamental object-oriented programming concepts with detailed comments, proper documentation, and industry-standard coding practices.**

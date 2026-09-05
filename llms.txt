@@ -1,0 +1,37 @@
+# Object-Oriented Programming Methodology (OOPM) Lab
+
+> CSL304: OOPM (Java) Lab [OOPM Lab] | SE Semester III | Computer
+> Engineering
+
+Author: Amey Thakur, ORCID 0000-0001-5644-1575
+Co-author: Mega Satish, ORCID 0000-0002-1844-9557
+Institution: Terna Engineering College, University of Mumbai
+Programme: B.E. Computer Engineering, Second Year, Semester III
+Course code: CSL304
+Licence: CC BY 4.0, attribution required
+Repository created: 8 February 2022
+Work dated: 17 January 2020
+
+## What is in this repository
+
+- OOPM, 12 files
+- OOPM Lab, 35 files
+- OOPM Mini-Project, 31 files
+- Quizzes, 4 files
+- Reference Books, 7 files
+- SE-Comps_CBCGS_Syllabus.pdf
+
+## Subject terms
+
+computer-engineering, computer-science, engineering, exception-handling,
+inheritance, java, java-collections, java-programming, java-projects,
+multithreading, object-oriented-programming, oopm, polymorphism,
+textbooks, university-of-mumbai
+
+## Where this sits
+
+- This repository: https://github.com/Amey-Thakur/OOPM-JAVA-LAB
+- Degree index, every subject and project: https://github.com/Amey-Thakur/COMPUTER-ENGINEERING
+- Project page: https://amey-thakur.github.io/OOPM-JAVA-LAB/
+- Author: https://github.com/Amey-Thakur
+- Research notes and reflections: https://amey-thakur.github.io/
